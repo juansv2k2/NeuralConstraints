@@ -820,7 +820,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"classic_curve" : 1,
-					"domain" : 20.0,
+					"domain" : 200.0,
 					"grid" : 3,
 					"gridstep_x" : 1000.0,
 					"id" : "obj-434",
