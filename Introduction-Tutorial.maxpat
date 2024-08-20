@@ -355,12 +355,11 @@
 					"bubblepoint" : 0.72,
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 355.0, 183.0, 33.0 ],
-					"text" : "1. choose domain. For now, just try pitches or intervals"
+					"patching_rect" : [ 224.0, 355.0, 115.0, 22.0 ],
+					"text" : "1. choose domain. "
 				}
 
 			}
