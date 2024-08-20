@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 298.0, 152.0, 1028.0, 843.0 ],
+		"rect" : [ 298.0, 90.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -230,14 +230,15 @@
 					"bgfillcolor_type" : "gradient",
 					"gradient" : 1,
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 736.0, 428.777130484580994, 55.0, 22.0 ],
+					"patching_rect" : [ 736.0, 428.777130484580994, 55.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 40.632436563372494, 101.0, 22.0 ],
-					"text" : "42 43 44",
+					"presentation_rect" : [ 8.0, 40.632436563372494, 110.866383224725723, 22.0 ],
+					"text" : "insert prompt",
 					"textjustification" : 1
 				}
 
@@ -613,7 +614,7 @@
 , 			{
 				"name" : "bach.replace.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
