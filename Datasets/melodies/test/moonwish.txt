@@ -1,0 +1,359 @@
+321
+Note: 2 0 2675 79 100 0 majora 0
+Note: 0 0 498 72 127 0 majora 0
+Note: 2 0 2675 76 100 0 majora 0
+Note: 2 0 2675 84 100 0 majora 0
+Note: 0 674 330 72 122 0 majora 0
+Note: 0 1011 330 69 110 0 majora 0
+Note: 0 1348 498 67 122 0 majora 0
+Note: 0 2022 330 69 122 0 majora 0
+Note: 0 2359 330 72 127 0 majora 0
+Note: 2 2696 2675 81 100 0 majora 0
+Note: 0 2696 2352 72 127 0 majora 0
+Note: 2 2696 2675 88 100 0 majora 0
+Note: 2 2696 2675 84 100 0 majora 0
+Note: 2 5393 2675 84 100 0 majora 0
+Note: 0 5393 667 72 127 0 majora 0
+Note: 2 5393 2675 77 100 0 majora 0
+Note: 2 5393 2675 81 100 0 majora 0
+Note: 0 6067 330 72 108 0 majora 0
+Note: 0 6404 330 69 104 0 majora 0
+Note: 0 6741 667 67 127 0 majora 0
+Note: 0 7415 330 69 110 0 majora 0
+Note: 0 7752 330 74 117 0 majora 0
+Note: 2 8089 2675 79 100 0 majora 0
+Note: 0 8089 2689 74 110 0 majora 0
+Note: 2 8089 2675 83 100 0 majora 0
+Note: 2 8089 2675 86 100 0 majora 0
+Note: 2 10786 2675 84 100 0 majora 0
+Note: 2 10786 2675 88 100 0 majora 0
+Note: 0 10786 667 76 110 0 majora 0
+Note: 2 10786 2675 81 100 0 majora 0
+Note: 0 11460 330 72 122 0 majora 0
+Note: 0 11797 330 69 110 0 majora 0
+Note: 0 12134 667 76 110 0 majora 0
+Note: 0 12808 330 72 122 0 majora 0
+Note: 0 13146 330 69 127 0 majora 0
+Note: 0 13483 1004 74 104 0 majora 0
+Note: 2 13483 2675 86 100 0 majora 0
+Note: 2 13483 2675 81 100 0 majora 0
+Note: 2 13483 2675 77 100 0 majora 0
+Note: 0 14494 330 72 113 0 majora 0
+Note: 0 14831 1341 69 100 0 majora 0
+Note: 2 16179 1327 84 100 0 majora 0
+Note: 0 16179 498 77 127 0 majora 0
+Note: 2 16179 1327 81 100 0 majora 0
+Note: 2 16179 1327 88 100 0 majora 0
+Note: 0 16853 667 77 113 0 majora 0
+Note: 2 17528 1327 77 100 0 majora 0
+Note: 2 17528 1327 84 100 0 majora 0
+Note: 0 17528 330 69 110 0 majora 0
+Note: 2 17528 1327 81 100 0 majora 0
+Note: 0 17865 330 72 94 0 majora 0
+Note: 0 18202 330 69 94 0 majora 0
+Note: 0 18539 2689 74 110 0 majora 0
+Note: 2 18876 2675 83 100 0 majora 0
+Note: 2 18876 2675 79 100 0 majora 0
+Note: 2 18876 2675 86 100 0 majora 0
+Note: 2 21573 2675 79 100 0 majora 0
+Note: 0 21573 498 72 127 0 majora 0
+Note: 1 21573 2015 36 127 0 majora 0
+Note: 2 21573 2675 76 100 0 majora 0
+Note: 2 21573 2675 84 100 0 majora 0
+Note: 0 22247 330 72 122 0 majora 0
+Note: 0 22584 330 69 110 0 majora 0
+Note: 0 22921 498 67 122 0 majora 0
+Note: 1 23595 667 35 127 0 majora 0
+Note: 0 23595 330 69 122 0 majora 0
+Note: 0 23932 330 72 127 0 majora 0
+Note: 2 24269 2675 81 100 0 majora 0
+Note: 2 24269 2675 84 100 0 majora 0
+Note: 1 24269 2015 33 127 0 majora 0
+Note: 0 24269 2521 72 127 0 majora 0
+Note: 2 24269 2675 88 100 0 majora 0
+Note: 1 26292 667 31 127 0 majora 0
+Note: 2 26966 2675 77 100 0 majora 0
+Note: 0 26966 667 72 127 0 majora 0
+Note: 2 26966 2675 84 100 0 majora 0
+Note: 1 26966 835 29 127 0 majora 0
+Note: 2 26966 2675 81 100 0 majora 0
+Note: 0 27640 330 72 108 0 majora 0
+Note: 0 27977 330 69 104 0 majora 0
+Note: 1 27977 330 29 122 0 majora 0
+Note: 0 28314 667 67 127 0 majora 0
+Note: 1 28314 835 28 127 0 majora 0
+Note: 0 28988 330 69 110 0 majora 0
+Note: 1 29325 330 28 127 0 majora 0
+Note: 0 29325 330 74 117 0 majora 0
+Note: 0 29662 2689 74 110 0 majora 0
+Note: 2 29662 2675 79 100 0 majora 0
+Note: 1 29662 1172 26 127 0 majora 0
+Note: 2 29662 2675 83 100 0 majora 0
+Note: 2 29662 2675 86 100 0 majora 0
+Note: 1 31011 667 31 79 0 majora 0
+Note: 1 31685 330 33 83 0 majora 0
+Note: 1 32022 330 35 82 0 majora 0
+Note: 1 32359 1460 33 122 0 majora 0
+Note: 2 32359 2675 81 100 0 majora 0
+Note: 2 32359 2675 88 100 0 majora 0
+Note: 0 32359 667 76 110 0 majora 0
+Note: 2 32359 2675 84 100 0 majora 0
+Note: 0 33033 330 72 122 0 majora 0
+Note: 0 33370 330 69 110 0 majora 0
+Note: 0 33707 667 76 110 0 majora 0
+Note: 1 34044 330 33 109 0 majora 0
+Note: 1 34382 330 40 121 0 majora 0
+Note: 0 34382 330 72 122 0 majora 0
+Note: 0 34719 330 69 127 0 majora 0
+Note: 1 34719 330 33 116 0 majora 0
+Note: 1 35056 1846 38 127 0 majora 0
+Note: 2 35056 2675 81 100 0 majora 0
+Note: 2 35056 2675 86 100 0 majora 0
+Note: 0 35056 1004 74 104 0 majora 0
+Note: 2 35056 2675 77 100 0 majora 0
+Note: 0 36067 330 72 113 0 majora 0
+Note: 0 36404 1341 69 100 0 majora 0
+Note: 1 37064 330 38 127 0 majora 0
+Note: 1 37415 330 40 110 0 majora 0
+Note: 2 37752 1327 88 100 0 majora 0
+Note: 1 37752 2521 41 127 0 majora 0
+Note: 0 37752 498 77 127 0 majora 0
+Note: 2 37752 1327 81 100 0 majora 0
+Note: 2 37752 1327 84 100 0 majora 0
+Note: 0 38426 667 77 113 0 majora 0
+Note: 2 39101 1327 77 100 0 majora 0
+Note: 2 39101 1327 84 100 0 majora 0
+Note: 2 39101 1327 81 100 0 majora 0
+Note: 0 39101 330 69 110 0 majora 0
+Note: 0 39438 667 72 94 0 majora 0
+Note: 0 40112 2689 74 110 0 majora 0
+Note: 2 40449 2675 83 100 0 majora 0
+Note: 2 40449 2675 86 100 0 majora 0
+Note: 1 40449 2219 31 127 0 majora 0
+Note: 2 40449 2675 79 100 0 majora 0
+Note: 1 42808 161 43 113 0 majora 0
+Note: 2 43146 1327 77 100 0 majora 0
+Note: 2 43146 1327 86 100 0 majora 0
+Note: 0 43146 667 74 110 0 majora 0
+Note: 1 43146 2183 31 127 0 majora 0
+Note: 2 43146 1327 81 100 0 majora 0
+Note: 0 43820 667 67 122 0 majora 0
+Note: 2 44494 1327 79 100 0 majora 0
+Note: 2 44494 1327 83 100 0 majora 0
+Note: 0 44494 667 71 109 0 majora 0
+Note: 2 44494 1327 86 100 0 majora 0
+Note: 0 45168 667 69 104 0 majora 0
+Note: 1 45505 161 31 127 0 majora 0
+Note: 1 45505 330 43 80 0 majora 0
+Note: 0 45842 2352 72 127 0 majora 0
+Note: 2 45842 2675 76 100 0 majora 0
+Note: 2 45842 2675 79 100 0 majora 0
+Note: 2 45842 2675 84 100 0 majora 0
+Note: 1 45842 2521 36 127 0 majora 0
+Note: 2 48539 2675 76 100 0 majora 0
+Note: 2 48539 2675 79 100 0 majora 0
+Note: 2 48539 2675 84 100 0 majora 0
+Note: 1 48539 835 36 100 0 majora 0
+Note: 0 48539 498 76 109 0 majora 0
+Note: 0 49213 330 76 127 0 majora 0
+Note: 1 49550 330 36 100 0 majora 0
+Note: 0 49550 330 74 127 0 majora 0
+Note: 0 49887 667 76 110 0 majora 0
+Note: 1 49887 835 35 90 0 majora 0
+Note: 0 50561 667 72 127 0 majora 0
+Note: 1 50898 330 35 90 0 majora 0
+Note: 2 51235 2675 81 100 0 majora 0
+Note: 2 51235 2675 84 100 0 majora 0
+Note: 0 51235 667 77 127 0 majora 0
+Note: 1 51235 1509 33 90 0 majora 0
+Note: 2 51235 2675 77 100 0 majora 0
+Note: 0 51910 330 79 113 0 majora 0
+Note: 0 52247 330 77 122 0 majora 0
+Note: 0 52584 667 76 95 0 majora 0
+Note: 1 52921 330 33 90 0 majora 0
+Note: 0 53258 330 74 110 0 majora 0
+Note: 1 53258 330 40 90 0 majora 0
+Note: 0 53595 330 72 117 0 majora 0
+Note: 1 53595 330 33 90 0 majora 0
+Note: 2 53932 2675 77 100 0 majora 0
+Note: 2 53932 2675 86 100 0 majora 0
+Note: 0 53932 1678 74 127 0 majora 0
+Note: 1 53932 835 41 90 0 majora 0
+Note: 2 53932 2675 81 100 0 majora 0
+Note: 1 54943 330 41 90 0 majora 0
+Note: 1 55280 667 40 90 0 majora 0
+Note: 0 55617 330 79 127 0 majora 0
+Note: 0 55955 330 81 110 0 majora 0
+Note: 1 55955 330 38 90 0 majora 0
+Note: 0 56292 330 79 122 0 majora 0
+Note: 1 56292 330 36 90 0 majora 0
+Note: 2 56629 2675 79 100 0 majora 0
+Note: 2 56629 2675 83 100 0 majora 0
+Note: 2 56629 2675 86 100 0 majora 0
+Note: 0 56629 2352 74 127 0 majora 0
+Note: 1 56629 2183 38 99 0 majora 0
+Note: 1 58988 330 33 90 0 majora 0
+Note: 2 59325 2675 76 100 0 majora 0
+Note: 2 59325 2675 79 100 0 majora 0
+Note: 2 59325 2675 84 100 0 majora 0
+Note: 1 59325 2521 38 90 0 majora 0
+Note: 0 59325 498 76 109 0 majora 0
+Note: 0 59999 330 76 127 0 majora 0
+Note: 0 60337 330 74 127 0 majora 0
+Note: 0 60674 667 76 110 0 majora 0
+Note: 0 61348 667 72 127 0 majora 0
+Note: 2 62022 2675 77 100 0 majora 0
+Note: 2 62022 2675 81 100 0 majora 0
+Note: 2 62022 2675 84 100 0 majora 0
+Note: 1 62022 1509 33 90 0 majora 0
+Note: 0 62022 667 77 127 0 majora 0
+Note: 0 62696 330 79 113 0 majora 0
+Note: 0 63033 330 77 122 0 majora 0
+Note: 0 63370 667 76 95 0 majora 0
+Note: 1 63707 330 33 90 0 majora 0
+Note: 0 64044 330 74 110 0 majora 0
+Note: 1 64044 330 40 90 0 majora 0
+Note: 1 64381 330 33 90 0 majora 0
+Note: 0 64381 330 72 117 0 majora 0
+Note: 2 64719 2675 81 100 0 majora 0
+Note: 2 64719 2675 86 100 0 majora 0
+Note: 1 64719 835 41 90 0 majora 0
+Note: 2 64719 2675 77 100 0 majora 0
+Note: 0 64719 1678 74 127 0 majora 0
+Note: 1 65730 330 41 90 0 majora 0
+Note: 1 66067 667 40 90 0 majora 0
+Note: 0 66404 330 79 127 0 majora 0
+Note: 1 66741 330 38 90 0 majora 0
+Note: 0 66741 330 81 110 0 majora 0
+Note: 1 67078 330 36 90 0 majora 0
+Note: 0 67078 330 79 122 0 majora 0
+Note: 2 67415 2675 79 100 0 majora 0
+Note: 2 67415 2675 86 100 0 majora 0
+Note: 1 67415 2689 38 99 0 majora 0
+Note: 0 67415 2696 74 127 0 majora 0
+Note: 2 67415 2675 83 100 0 majora 0
+Note: 2 70112 2675 76 100 0 majora 0
+Note: 2 70112 2675 79 100 0 majora 0
+Note: 2 70112 2675 84 100 0 majora 0
+Note: 0 70112 498 72 127 0 majora 0
+Note: 0 70786 330 72 122 0 majora 0
+Note: 0 71123 330 69 110 0 majora 0
+Note: 0 71460 498 67 122 0 majora 0
+Note: 0 72134 330 69 122 0 majora 0
+Note: 0 72471 330 72 127 0 majora 0
+Note: 2 72808 2675 81 100 0 majora 0
+Note: 2 72808 2675 84 100 0 majora 0
+Note: 2 72808 2675 88 100 0 majora 0
+Note: 1 72808 1341 36 100 0 majora 0
+Note: 0 72808 2521 72 127 0 majora 0
+Note: 1 74157 667 36 64 0 majora 0
+Note: 1 74831 667 35 67 0 majora 0
+Note: 2 75505 2675 77 100 0 majora 0
+Note: 2 75505 2675 81 100 0 majora 0
+Note: 2 75505 2675 84 100 0 majora 0
+Note: 1 75505 2352 33 99 0 majora 0
+Note: 0 75505 667 72 127 0 majora 0
+Note: 0 76179 330 72 108 0 majora 0
+Note: 0 76516 330 69 104 0 majora 0
+Note: 0 76853 667 67 127 0 majora 0
+Note: 0 77528 330 69 110 0 majora 0
+Note: 1 77865 330 31 100 0 majora 0
+Note: 0 77865 330 74 117 0 majora 0
+Note: 2 78202 2675 83 100 0 majora 0
+Note: 2 78202 2675 79 100 0 majora 0
+Note: 2 78202 2675 86 100 0 majora 0
+Note: 1 78202 2521 29 99 0 majora 0
+Note: 0 78202 2689 74 110 0 majora 0
+Note: 2 80898 2675 81 100 0 majora 0
+Note: 2 80898 2675 84 100 0 majora 0
+Note: 1 80898 2352 31 104 0 majora 0
+Note: 2 80898 2675 88 100 0 majora 0
+Note: 0 80898 667 76 110 0 majora 0
+Note: 0 81572 330 72 122 0 majora 0
+Note: 0 81910 330 69 110 0 majora 0
+Note: 0 82247 667 76 110 0 majora 0
+Note: 0 82921 330 72 122 0 majora 0
+Note: 0 83258 330 69 127 0 majora 0
+Note: 2 83595 2675 77 100 0 majora 0
+Note: 2 83595 2675 81 100 0 majora 0
+Note: 2 83595 2675 86 100 0 majora 0
+Note: 1 83595 1509 33 104 0 majora 0
+Note: 0 83595 1004 74 104 0 majora 0
+Note: 0 84606 330 72 113 0 majora 0
+Note: 0 84943 1341 69 100 0 majora 0
+Note: 1 85280 330 33 104 0 majora 0
+Note: 1 85617 330 40 110 0 majora 0
+Note: 1 85955 330 33 104 0 majora 0
+Note: 2 86292 1327 84 100 0 majora 0
+Note: 2 86292 1327 88 100 0 majora 0
+Note: 1 86292 1846 38 110 0 majora 0
+Note: 2 86292 1327 81 100 0 majora 0
+Note: 0 86292 498 77 127 0 majora 0
+Note: 0 86966 667 77 113 0 majora 0
+Note: 2 87640 1327 77 100 0 majora 0
+Note: 2 87640 1327 81 100 0 majora 0
+Note: 2 87640 1327 84 100 0 majora 0
+Note: 0 87640 330 69 110 0 majora 0
+Note: 0 87977 667 72 94 0 majora 0
+Note: 1 88314 330 38 100 0 majora 0
+Note: 0 88651 2689 74 110 0 majora 0
+Note: 1 88651 330 40 100 0 majora 0
+Note: 2 88988 2675 83 100 0 majora 0
+Note: 2 88988 2675 79 100 0 majora 0
+Note: 2 88988 2675 86 100 0 majora 0
+Note: 1 88988 2183 41 108 0 majora 0
+Note: 1 91348 161 41 111 0 majora 0
+Note: 0 91685 667 74 110 0 majora 0
+Note: 2 91685 1327 77 100 0 majora 0
+Note: 2 91685 1327 81 100 0 majora 0
+Note: 2 91685 1327 86 100 0 majora 0
+Note: 1 91685 2352 31 127 0 majora 0
+Note: 0 92359 667 67 122 0 majora 0
+Note: 0 93033 667 71 91 0 majora 0
+Note: 2 93033 1327 79 100 0 majora 0
+Note: 2 93033 1327 83 100 0 majora 0
+Note: 2 93033 1327 86 100 0 majora 0
+Note: 0 93707 330 69 104 0 majora 0
+Note: 0 94044 330 71 104 0 majora 0
+Note: 1 94381 2352 36 127 0 majora 0
+Note: 2 94381 2675 76 100 0 majora 0
+Note: 2 94381 2675 79 100 0 majora 0
+Note: 0 94381 2352 72 127 0 majora 0
+Note: 2 94381 2675 84 100 0 majora 0
+36
+Measure: 0 0 4
+Measure: 1 2696 4
+Measure: 2 5393 4
+Measure: 3 8089 4
+Measure: 4 10786 4
+Measure: 5 13483 4
+Measure: 6 16179 4
+Measure: 7 18876 4
+Measure: 8 21573 4
+Measure: 9 24269 4
+Measure: 10 26966 4
+Measure: 11 29662 4
+Measure: 12 32359 4
+Measure: 13 35056 4
+Measure: 14 37752 4
+Measure: 15 40449 4
+Measure: 16 43146 4
+Measure: 17 45842 4
+Measure: 18 48539 4
+Measure: 19 51235 4
+Measure: 20 53932 4
+Measure: 21 56629 4
+Measure: 22 59325 4
+Measure: 23 62022 4
+Measure: 24 64719 4
+Measure: 25 67415 4
+Measure: 26 70112 4
+Measure: 27 72808 4
+Measure: 28 75505 4
+Measure: 29 78202 4
+Measure: 30 80898 4
+Measure: 31 83595 4
+Measure: 32 86292 4
+Measure: 33 88988 4
+Measure: 34 91685 4
+Measure: 35 94381 4

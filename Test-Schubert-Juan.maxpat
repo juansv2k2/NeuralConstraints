@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 90.0, 1034.0, 843.0 ],
+		"rect" : [ 34.0, 90.0, 1041.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 576.0, 736.0, 305.0, 79.0 ],
+					"patching_rect" : [ 615.0, 726.0, 305.0, 79.0 ],
 					"varname" : "pmc.rule[1]",
 					"viewvisibility" : 1
 				}
@@ -434,7 +434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 956.0, 1015.0, 122.0, 37.0 ],
+					"patching_rect" : [ 963.0, 870.0, 122.0, 37.0 ],
 					"text" : "10. Import your model file"
 				}
 
@@ -772,7 +772,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 574.0, 1077.0, 29.5, 22.0 ],
-					"text" : "77"
+					"text" : "89"
 				}
 
 			}
@@ -1907,7 +1907,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2112,13 +2112,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-65", 2 ],
 					"source" : [ "obj-73", 0 ]
 				}
@@ -2148,6 +2141,7 @@
 			"obj-1::obj-70" : [ "live.button[2]", "live.button[2]", 0 ],
 			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-94" : [ "live.button[4]", "live.button[2]", 0 ],
 			"parameterbanks" : 			{
