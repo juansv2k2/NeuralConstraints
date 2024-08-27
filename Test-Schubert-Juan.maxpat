@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1550.0, 1031.0 ],
+		"rect" : [ 35.0, 88.0, 1550.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 915.533968031406403, 938.834938585758209, 305.0, 79.0 ],
+					"patching_rect" : [ 932.038822174072266, 944.334938585758209, 305.0, 79.0 ],
 					"varname" : "pmc.rule[1]",
 					"viewvisibility" : 1
 				}
@@ -76,7 +76,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 617.475719690322876, 944.660181224346161, 273.0, 68.0 ],
+					"patching_rect" : [ 640.533968031406403, 949.834938585758209, 273.0, 68.0 ],
 					"varname" : "bp1117426444900",
 					"viewvisibility" : 1
 				}
@@ -461,8 +461,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 997.087364971637726, 744.660183966159821, 389.0, 22.0 ],
-					"text" : "[ lambda [ a b c d e f ] [ equal [ list a b c d e f ] ' [ 5 4 2 9 5 4 ] ] ]"
+					"patching_rect" : [ 997.087364971637726, 744.660183966159821, 419.41746997833252, 22.0 ],
+					"text" : "[ lambda [ a b c d e f g h ] [ equal [ list a b c d e f g h ] ' [ 5 4 2 9 5 4 5 4 ] ] ]"
 				}
 
 			}
@@ -629,18 +629,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 803.883484125137329, 1163.106780171394348, 24.0, 24.0 ]
+					"patching_rect" : [ 803.0, 1157.252411305904388, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 755.339795470237732, 765.048533201217651, 70.0, 22.0 ],
+					"patching_rect" : [ 754.975719690322876, 732.038824915885925, 70.0, 22.0 ],
 					"text" : "loadmess 2"
 				}
 
@@ -718,7 +719,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 1134.0, 295.0, 24.0 ],
+					"patching_rect" : [ 117.475726544857025, 1134.0, 295.0, 24.0 ],
 					"text" : "7. Send the prompt to \"NeuralConstraints-Prompt\"."
 				}
 
@@ -788,7 +789,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.5, 626.5, 121.0, 33.0 ],
+					"patching_rect" : [ 94.174755990505219, 654.5, 121.0, 33.0 ],
 					"text" : "4. choose LR and epochs. Then train"
 				}
 
@@ -873,7 +874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 997.087364971637726, 901.941735208034515, 117.0, 22.0 ],
+					"patching_rect" : [ 997.087364971637726, 914.834938585758209, 117.0, 22.0 ],
 					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "*", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "-", "[", "abs", "[", "-", "g", "[", "binary2inputs", "[", "denormalize2", "[", "snn:predict", "nn", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
@@ -893,7 +894,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1003.883481383323669, 1158.252411305904388, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "code_snippet", "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn", "[", "snn:restore", "/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Schubert modulo test 6 inputs", "]", "]", "[", "defun", "binary_to_integer_representation", "[", "binarylist", "]", "[", "unless", "[", "=", "[", "length", "binarylist", "]", 8, "]", "[", "error", "Input must be an 8-bit binary array", "]", "]", "[", "let", "[", "[", "sign", "[", "if", "[", "=", "[", "first", "binarylist", "]", 1, "]", -1, 1, "]", "]", "[", "magnitude", 0, "]", "]", "[", "dotimes", "[", "i", 7, "]", "[", "setf", "magnitude", "[", "+", "magnitude", "[", "*", "[", "nth", "[", "1+", "i", "]", "binarylist", "]", "[", "expt", 2, "[", "-", 6, "i", "]", "]", "]", "]", "]", "]", "[", "*", "sign", "magnitude", "]", "]", "]", "[", "defun", "integer_to_binary_representation", "[", "input", "]", "[", "let*", "[", "[", "abs-input", "[", "abs", "input", "]", "]", "[", "binary-list", "[", "make-list", 8, ":initial-element", 0, "]", "]", "]", "[", "dotimes", "[", "i", "[", "min", 8, "[", "integer-length", "abs-input", "]", "]", "]", "[", "setf", "[", "nth", "[", "-", 7, "i", "]", "binary-list", "]", "[", "logand", "abs-input", 1, "]", "]", "[", "setq", "abs-input", "[", "ash", "abs-input", -1, "]", "]", "]", "[", "if", "[", "minusp", "input", "]", "[", "progn", "[", "setf", "[", "first", "binary-list", "]", 1, "]", "]", "]", "binary-list", "]", "]", "[", "defun", "normalize1", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize2", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "inputs2binary", "[", "inputlist", "]", "[", "patch-work::flat", "[", "mapcar", "#'integer_to_binary_representation", "inputlist", "]", "]", "]", "[", "defun", "binary2inputs", "[", "binarylist", "]", "[", "binary_to_integer_representation", "binarylist", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "code_snippet", "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn", "[", "snn:restore", "/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Schubert modulo test 8 inputs", "]", "]", "[", "defun", "binary_to_integer_representation", "[", "binarylist", "]", "[", "unless", "[", "=", "[", "length", "binarylist", "]", 8, "]", "[", "error", "Input must be an 8-bit binary array", "]", "]", "[", "let", "[", "[", "sign", "[", "if", "[", "=", "[", "first", "binarylist", "]", 1, "]", -1, 1, "]", "]", "[", "magnitude", 0, "]", "]", "[", "dotimes", "[", "i", 7, "]", "[", "setf", "magnitude", "[", "+", "magnitude", "[", "*", "[", "nth", "[", "1+", "i", "]", "binarylist", "]", "[", "expt", 2, "[", "-", 6, "i", "]", "]", "]", "]", "]", "]", "[", "*", "sign", "magnitude", "]", "]", "]", "[", "defun", "integer_to_binary_representation", "[", "input", "]", "[", "let*", "[", "[", "abs-input", "[", "abs", "input", "]", "]", "[", "binary-list", "[", "make-list", 8, ":initial-element", 0, "]", "]", "]", "[", "dotimes", "[", "i", "[", "min", 8, "[", "integer-length", "abs-input", "]", "]", "]", "[", "setf", "[", "nth", "[", "-", 7, "i", "]", "binary-list", "]", "[", "logand", "abs-input", 1, "]", "]", "[", "setq", "abs-input", "[", "ash", "abs-input", -1, "]", "]", "]", "[", "if", "[", "minusp", "input", "]", "[", "progn", "[", "setf", "[", "first", "binary-list", "]", 1, "]", "]", "]", "binary-list", "]", "]", "[", "defun", "normalize1", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize2", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "inputs2binary", "[", "inputlist", "]", "[", "patch-work::flat", "[", "mapcar", "#'integer_to_binary_representation", "inputlist", "]", "]", "]", "[", "defun", "binary2inputs", "[", "binarylist", "]", "[", "binary_to_integer_representation", "binarylist", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1008,7 +1009,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 617.475719690322876, 1196.116488456726074, 205.0, 78.0 ],
+					"patching_rect" : [ 617.0, 1196.0, 205.0, 78.0 ],
 					"varname" : "bp287787304306",
 					"viewvisibility" : 1
 				}
@@ -1052,7 +1053,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 997.087364971637726, 799.029115259647369, 342.0, 87.0 ],
+					"patching_rect" : [ 997.087364971637726, 793.203872621059418, 342.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1291,8 +1292,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1135.0, 65.0, 22.0 ],
-					"text" : "5 4 2 9 5 4"
+					"patching_rect" : [ 18.0, 1135.0, 85.0, 22.0 ],
+					"text" : "5 4 2 9 5 4 5 4"
 				}
 
 			}
@@ -1640,7 +1641,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
-					"midpoints" : [ 27.5, 1110.0, 73.5, 1110.0 ],
+					"midpoints" : [ 27.5, 1110.0, 93.5, 1110.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1662,7 +1663,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 1013.383481383323669, 1191.053375005722046, 626.975719690322876, 1191.053375005722046 ],
+					"midpoints" : [ 1013.383481383323669, 1191.053375005722046, 626.5, 1191.053375005722046 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1701,16 +1702,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-65", 4 ],
-					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1866,6 +1858,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-65", 1 ]
 				}
@@ -1873,15 +1872,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-75", 1 ],
-					"midpoints" : [ 1088.140761911869049, 735.053375005722046, 1376.587364971637726, 735.053375005722046 ],
+					"midpoints" : [ 1088.140761911869049, 735.053375005722046, 1407.004834949970245, 735.053375005722046 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1889,6 +1881,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 2 ],
+					"hidden" : 1,
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -1971,13 +1964,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "live.button[3]", "live.button[2]", 0 ],
@@ -1991,6 +1977,7 @@
 			"obj-1::obj-316" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-1::obj-318" : [ "live.numbox[15]", "live.numbox", 0 ],
 			"obj-1::obj-338" : [ "live.button[1]", "live.button", 0 ],
+			"obj-1::obj-342" : [ "live.numbox[16]", "live.numbox[16]", 0 ],
 			"obj-1::obj-358" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-1::obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-1::obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
@@ -2015,6 +2002,14 @@
 				"obj-1::obj-304" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1
+				}
+,
+				"obj-1::obj-342" : 				{
+					"parameter_initial" : 1,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "live.numbox[16]",
+					"parameter_range" : [ 0.0, 8.0 ],
+					"parameter_shortname" : "live.numbox[16]"
 				}
 ,
 				"obj-1::obj-72" : 				{
@@ -2573,13 +2568,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lisp.code_accum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lisp.edit.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
@@ -2692,7 +2680,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pmcyes.png",
+				"name" : "pmcno.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",

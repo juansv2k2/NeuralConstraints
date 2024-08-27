@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2324.0, 178.0, 1028.0, 843.0 ],
+		"rect" : [ 2323.0, 178.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -462,7 +462,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 167.333333333333314, 533.0, 29.5, 22.0 ],
-					"text" : "g"
+					"text" : "i"
 				}
 
 			}
@@ -509,12 +509,13 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-55",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.0, 421.0, 61.0, 22.0 ],
-					"text" : "a b c d e f"
+					"patching_rect" : [ 167.0, 421.0, 61.0, 35.0 ],
+					"text" : "a b c d e f g h"
 				}
 
 			}
@@ -583,7 +584,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.0, 518.0, 104.0, 22.0 ],
-					"text" : "a b c d e f g"
+					"text" : "a b c d e f g h i"
 				}
 
 			}
@@ -596,7 +597,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 552.0, 626.0, 29.5, 22.0 ],
-					"text" : "g"
+					"text" : "i"
 				}
 
 			}
@@ -706,12 +707,13 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-27",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 626.0, 61.0, 22.0 ],
-					"text" : "a b c d e f"
+					"patching_rect" : [ 448.0, 626.0, 61.0, 35.0 ],
+					"text" : "a b c d e f g h"
 				}
 
 			}
@@ -763,7 +765,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 392.0, 29.5, 22.0 ],
-					"text" : "7"
+					"text" : "9"
 				}
 
 			}
@@ -818,7 +820,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 610.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "=", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "[", "-", "[", "abs", "[", "-", "g", "[", "binary2inputs", "[", "denormalize2", "[", "snn:predict", "nn", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "=", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "[", "-", "[", "abs", "[", "-", "i", "[", "binary2inputs", "[", "denormalize2", "[", "snn:predict", "nn", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -833,12 +835,13 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.0, 310.0, 85.0, 22.0 ],
-					"text" : "[ a b c d e f g ]"
+					"patching_rect" : [ 199.0, 310.0, 85.0, 35.0 ],
+					"text" : "[ a b c d e f g h i ]"
 				}
 
 			}
@@ -890,7 +893,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "heur", "[", "-", "[", "abs", "[", "-", "outputs", "[", "binary2inputs", "[", "denormalize2", "[", "snn:predict", "nn", "[", "normalize1", "[", "inputs2binary", "[", "list", "inputs", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "heur", "[", "print", "[", "-", "[", "abs", "[", "-", "outputs", "[", "binary2inputs", "[", "denormalize2", "[", "snn:predict", "nn", "[", "normalize1", "[", "inputs2binary", "[", "list", "inputs", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,

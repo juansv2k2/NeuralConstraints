@@ -1,5 +1,7 @@
 	( progn
-		( defvar nn
+		
+  		(setf lparallel:*kernel* (lparallel:make-kernel cores))
+  		( defvar nn
 			( snn:create-neural-network InOutHlayer )
 		)
 		( defvar inputs

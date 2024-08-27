@@ -1,6 +1,6 @@
 	( lambda lst
 		( heur
-			( -
+			( print ( -
 				( abs
 					( - outputs
 						( binary2inputs
@@ -16,6 +16,6 @@
 						)
 					)
 				)
-			)
+			))
 		)
 	)
