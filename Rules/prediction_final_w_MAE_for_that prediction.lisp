@@ -1,29 +1,82 @@
-
-
-(progn
-
-  (defvar nn
-    (snn:restore "/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/test 1 2 3"))
-
-  
-  (defun get-prediction-and-mae (input nn)
-    (let* ((normalized-input (normalize1 input))) 
-      (format t "Normalized Input: ~a~%" normalized-input)
-      (let* ((prediction (snn:predict nn normalized-input))
-       (denormalized-prediction (denormalize2 prediction))
-       (input-index (position normalized-input inputs :test 'equal))) 
-      (if input-index
-        (let* ((expected-target (nth input-index targets))  
-         (mae (snn:mean-absolute-error nn (list normalized-input) (list expected-target)))) 
-        (format t "Expected Target: ~a~%" expected-target)
-        (format t "Prediction: ~a~%" denormalized-prediction)
-        (format t "MAE: ~a~%" mae)
-        (list denormalized-prediction mae))
-        (format t "Input not found in dataset~%")))))
-
-
-  (get-prediction-and-mae (apply #'vector ( quote inputList )) nn)
-)
+    ( progn
+        ( defvar nn
+            ( snn:restore model )
+        )
+        ( defun convert-to-double-float-vector
+            ( input )
+            ( make-array
+                ( length input )
+            :element-type 'double-float :initial-contents
+                ( map 'list
+                    ( lambda
+                        ( x )
+                        ( coerce x 'double-float )
+                    )
+                input )
+            )
+        )
+        ( defun fuzzy-equal
+            ( vec1 vec2 &key
+                ( tolerance 0.000010 )
+            )
+            ( and
+                ( =
+                    ( length vec1 )
+                    ( length vec2 )
+                )
+                ( loop for v1 across vec1 for v2 across vec2 always
+                    ( <=
+                        ( abs
+                            ( - v1 v2 )
+                        )
+                    tolerance )
+                )
+            )
+        )
+        ( defun get-prediction-and-mae
+            ( input nn )
+            ( let*
+                (
+                    ( normalized-input
+                        ( normalize1
+                            ( convert-to-double-float-vector input )
+                        )
+                    )
+                    ( index
+                        ( position normalized-input inputs :test #'fuzzy-equal )
+                    )
+                    ( expected-target
+                        ( and index
+                            ( nth index targets )
+                        )
+                    )
+                    ( prediction
+                        ( snn:predict nn normalized-input )
+                    )
+                    ( denormalized-prediction
+                        ( denormalize2 prediction )
+                    )
+                    ( mae
+                        ( and expected-target
+                            ( snn:mean-absolute-error nn
+                                ( list normalized-input )
+                                ( list expected-target )
+                            )
+                        )
+                    )
+                )
+                ( when mae
+                    ( format t "MAE: ~a~%" mae )
+                )
+                ( list denormalized-prediction mae )
+            )
+        )
+        ( get-prediction-and-mae
+            ( apply #'vector
+                ( quote inputList )
+            )
+        nn )
+    )
 
 
 

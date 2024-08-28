@@ -15,9 +15,9 @@
 					( denormalized-prediction
 						( denormalize2 prediction )
 					)
-					( mae
-						( snn:mean-absolute-error nn inputs targets )
-					)
+					(mae 
+       					(snn:mean-absolute-error nn (list input) (list prediction))
+            		)
 				)
 				( format t "MAE: ~a~%" mae )
 				( list denormalized-prediction mae )
