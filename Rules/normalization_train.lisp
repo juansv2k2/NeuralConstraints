@@ -143,9 +143,7 @@
           )
         )
       )
-    ( when mae
-      ( format t "MAE: ~a~%" mae )
-      )
+    
     ( list denormalized-prediction mae )
     )
   )
