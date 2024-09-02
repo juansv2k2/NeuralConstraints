@@ -40,6 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"bubble" : 1,
+					"id" : "obj-50",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1775.5, 368.5, 196.0, 64.0 ],
+					"presentation_linecount" : 7,
+					"text" : "10. If you load a pre-trained model, you can use this abstraction to send prompts from your dataset. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-45",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1352.543670833110809, 813.0, 197.0, 64.0 ],
+					"presentation_linecount" : 8,
+					"text" : "9. Set your rule so it coincides with the inputs/outputs of your model. It is possible to use lower input values as well. "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 1,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -918,7 +947,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1352.543670833110809, 1271.5, 122.0, 37.0 ],
-					"text" : "9. Import your model file"
+					"text" : "8. Import your model file"
 				}
 
 			}
@@ -1030,7 +1059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 399.029120743274689, 107.0, 91.0 ],
+					"patching_rect" : [ 421.0, 389.029120743274689, 107.0, 91.0 ],
 					"text" : "2. confirm the attributes of the nn. For now, maybe just play with the hidden layers (nr and size)"
 				}
 
