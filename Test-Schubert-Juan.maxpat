@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1550.0, 1031.0 ],
+		"rect" : [ 34.0, 87.0, 1452.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,57 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 11.8125,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 710.0, 1476.171875, 63.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.flat 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 11.815384615384573,
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 710.0, 1503.703193317009891, 64.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.nth 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1004.5, 895.0, 55.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"bubble" : 1,
 					"id" : "obj-50",
@@ -48,7 +99,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1775.5, 368.5, 196.0, 64.0 ],
-					"presentation_linecount" : 7,
 					"text" : "10. If you load a pre-trained model, you can use this abstraction to send prompts from your dataset. "
 				}
 
@@ -62,7 +112,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1352.543670833110809, 813.0, 197.0, 64.0 ],
-					"presentation_linecount" : 8,
 					"text" : "9. Set your rule so it coincides with the inputs/outputs of your model. It is possible to use lower input values as well. "
 				}
 
@@ -232,7 +281,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 617.0, 948.666665971279144, 294.0, 97.0 ],
+					"patching_rect" : [ 617.0, 948.0, 294.0, 97.0 ],
 					"varname" : "bp1707953790852[1]",
 					"viewvisibility" : 1
 				}
@@ -374,20 +423,21 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1298.087360858917236, 1879.553375005722046, 98.0, 22.0 ],
+					"patching_rect" : [ 1374.0, 1838.553375005722046, 98.0, 22.0 ],
 					"text" : "bach.ezmidiplay"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 11.891891891891976,
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.097060918807983, 1574.728136479854584, 66.0, 22.0 ],
-					"text" : "bach.* 100"
+					"patching_rect" : [ 710.0, 1557.827235578953605, 110.0, 22.0 ],
+					"text" : "bach.* 100 @out m"
 				}
 
 			}
@@ -398,7 +448,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.097060918807983, 1602.88347589969635, 54.0, 22.0 ],
+					"patching_rect" : [ 710.0, 1584.88347589969635, 54.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -414,20 +464,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.097060918807983, 1545.601923286914825, 107.0, 22.0 ],
+					"patching_rect" : [ 710.0, 1529.601923286914825, 107.0, 22.0 ],
 					"text" : "bach.+ 60 @out m"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.097060918807983, 1514.533962547779083, 110.0, 22.0 ],
-					"text" : "bach./ 100 @out m"
 				}
 
 			}
@@ -447,25 +485,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 634.087360858917236, 1668.0, 683.0, 202.0 ],
+					"patching_rect" : [ 710.0, 1622.0, 683.0, 202.0 ],
 					"varname" : "bp129944438551[1]",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-89",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 618.563080549240112, 1482.495128035545349, 94.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.beatunbox"
 				}
 
 			}
@@ -870,7 +892,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 804.087360858917236, 1366.252411305904388, 24.0, 24.0 ]
+					"patching_rect" : [ 803.0, 1286.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -1211,7 +1233,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.087360858917236, 1395.0, 205.0, 78.0 ],
+					"patching_rect" : [ 617.0, 1342.0, 205.0, 125.0 ],
 					"varname" : "bp287787304306",
 					"viewvisibility" : 1
 				}
@@ -1880,15 +1902,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"source" : [ "obj-18", 0 ]
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 1014.0, 1334.480582743883133, 627.587360858917236, 1334.480582743883133 ],
+					"midpoints" : [ 1014.0, 1321.480582743883133, 626.5, 1321.480582743883133 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1941,6 +1963,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 4 ],
+					"order" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -2060,6 +2091,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"midpoints" : [ 624.5, 45.5, 577.5, 45.5 ],
 					"source" : [ "obj-52", 0 ]
@@ -2070,6 +2108,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -2191,13 +2236,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"source" : [ "obj-89", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -2207,13 +2245,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-91", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-92", 0 ]
 				}
 
 			}
@@ -2422,10 +2453,6 @@
 			}
 , 			{
 				"name" : "bach.beatbox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.beatunbox.mxo",
 				"type" : "iLaX"
 			}
 , 			{
