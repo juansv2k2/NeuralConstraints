@@ -49,12 +49,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "window_to_snippet.maxpat",
+					"name" : "ACCURACY_rule_to_snippet.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 0.0, 369.0, 338.0 ],
+					"patching_rect" : [ 8.0, 7.0, 343.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -62,13 +62,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-137" : [ "live.tab", "live.tab", 0 ],
+			"obj-1::obj-23" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-29" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-1::obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-1::obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
-			"obj-1::obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-1::obj-94" : [ "live.button[4]", "live.button[2]", 0 ],
+			"obj-1::obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-1::obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -82,26 +80,33 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "ACCURACY_rule_to_snippet.maxpat",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.collect.mxo",
+				"name" : "bach.arithmser.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.div.maxpat",
+				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.eval.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
+				"name" : "bach.find.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -109,49 +114,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.group.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.join.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lookup.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.p2mc.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.pick.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -159,11 +122,22 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.read.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.roll.mxo",
+				"name" : "bach.replace.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.rev.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -171,14 +145,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.trans.mxo",
+				"name" : "bach.subs.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -186,16 +153,65 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.x2dx.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"name" : "bach.write.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "erase.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "extended-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.edit.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "window_to_snippet.maxpat",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
+				"name" : "mac_or_win.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "open-doc-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "save-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sendback.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
