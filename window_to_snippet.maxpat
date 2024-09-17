@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2308.0, 156.0, 1487.0, 843.0 ],
+		"rect" : [ 34.0, 90.0, 1034.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -514,7 +514,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1093,7 +1093,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1787,6 +1787,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.button[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button[2]",
 							"parameter_type" : 2
 						}
@@ -1972,7 +1973,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_longname" : "live.numbox[5]",
-							"parameter_mmax" : 1000.0,
+							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2053,7 +2054,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2334,13 +2335,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-263",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.859867453575134, 1241.115456899006858, 52.0, 62.0 ],
-					"text" : "5900 5700 5900 5000"
+					"patching_rect" : [ 99.859867453575134, 1241.115456899006858, 52.0, 22.0 ]
 				}
 
 			}
@@ -2351,7 +2350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.778041541576385, 1317.262239535649314, 50.0, 22.0 ]
+					"patching_rect" : [ 359.165137767791748, 1346.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2469,7 +2468,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2933,7 +2932,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -3585,6 +3584,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.tab",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -3773,6 +3773,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[1]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3800,6 +3801,7 @@
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -4079,6 +4081,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-253", 3 ],
+					"midpoints" : [ 958.73853325843811, 1395.762239535649314, 368.665137767791748, 1395.762239535649314 ],
+					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-135", 0 ]
 				}
@@ -4209,6 +4219,14 @@
 					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 2 ],
+					"midpoints" : [ 454.73853325843811, 1323.762239535649314, 315.998471101125062, 1323.762239535649314 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
