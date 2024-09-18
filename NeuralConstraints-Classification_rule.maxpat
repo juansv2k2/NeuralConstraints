@@ -49,7 +49,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ACCURACY_rule_to_snippet.maxpat",
+					"name" : "classification_rule_to_snippet.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -62,11 +62,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-23" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-29" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-1::obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-1::obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -80,13 +77,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ACCURACY_rule_to_snippet.maxpat",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
@@ -155,6 +145,13 @@
 , 			{
 				"name" : "bach.write.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "classification_rule_to_snippet.maxpat",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "erase.png",
