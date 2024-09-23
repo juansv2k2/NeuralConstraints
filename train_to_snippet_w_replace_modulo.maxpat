@@ -698,7 +698,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.564517974853516, 1230.0, 107.0, 20.0 ],
-					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 2868466007, 1072417654 ],
+					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 3549286406, 1072483511 ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -782,7 +782,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 69.161292433738708, 1235.483879804611206, 99.0, 20.0 ],
-					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1077936128 ],
+					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076887552 ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1426,7 +1426,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.5, 151.30645340681076, 51.0, 18.0 ],
+					"patching_rect" : [ 719.166666666666515, 148.983872294425964, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 529.0, 394.0, 18.0 ],
 					"text" : "Pitches",
@@ -6865,7 +6865,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.790326774120331, 151.30645340681076, 67.0, 20.0 ],
+					"patching_rect" : [ 638.790326774120331, 148.983872294425964, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -11271,7 +11271,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-158", 0 ],
+					"destination" : [ "obj-164", 0 ],
 					"source" : [ "obj-155", 0 ]
 				}
 
@@ -11287,13 +11287,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-147", 2 ],
 					"source" : [ "obj-157", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-164", 0 ],
-					"source" : [ "obj-158", 0 ]
 				}
 
 			}
@@ -12515,7 +12508,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-158", 0 ],
+					"destination" : [ "obj-164", 0 ],
 					"midpoints" : [ 281.2638257912227, 112.104328424930543, 630.290326774120331, 112.104328424930543 ],
 					"source" : [ "obj-340", 0 ]
 				}
