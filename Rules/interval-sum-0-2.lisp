@@ -1,0 +1,16 @@
+(lambda (a)
+  (if (< (length a) 32)  
+      t  
+      (let ((chunk-size 32) 
+            (length-a (length a))) 
+        (loop for i from 0 below length-a by chunk-size  
+              do (let ((end (min (+ i chunk-size) length-a)))  
+                   (when (< i length-a)  
+                     (let* ((sublist (subseq a i end))  
+                            (half-length (/ (length sublist) 2)))  
+                       (when (>= (length sublist) 2)  
+                         (let ((sublist1 (subseq sublist 0 half-length)) 
+                               (sublist2 (subseq sublist half-length (length sublist)))  
+                               (sum1 (reduce #'+ sublist1 :initial-value 0)) 
+                               (sum2 (reduce #'+ sublist2 :initial-value 0)))  
+                           (print (format nil "Check from index ~A: ~A" i (= (+ sum1 sum2) 0))))))))))))

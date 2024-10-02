@@ -1,0 +1,11 @@
+(defun dx2x ( lst ) 
+   (let ((start 67))
+     (let ((diffs (mapcar (lambda (x)
+                            (let ((diff (- start x)))
+                              (setq start x)
+                              diff))
+                          lst )))
+       (print (format nil "Final list of differences: ~A" diffs))
+       diffs))
+)
+

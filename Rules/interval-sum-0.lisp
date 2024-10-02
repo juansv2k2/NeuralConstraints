@@ -1,5 +1,5 @@
 (lambda ( a )
-  (if (>= (length a ) 24 )
+  (if (>= (length a ) 32 )
     ( print (let* ((half-length (/ (length a ) 2))
            (sublist1 (subseq a 0 half-length))
            (sublist2 (subseq a half-length (length a)))
