@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1476.0, 1031.0 ],
+		"rect" : [ 34.0, 87.0, 1980.0, 1031.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -198,7 +198,7 @@
 					"hidevoices" : [ 0, 0, 0 ],
 					"id" : "obj-110",
 					"keys" : [ "GM", "GM", "GM" ],
-					"loop" : [ 0, 1000 ],
+					"loop" : [ 0.0, 1000.0 ],
 					"maxclass" : "bach.roll",
 					"midichannels" : [ 1, 2, 3 ],
 					"numinlets" : 6,
@@ -2792,7 +2792,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 617.0, 1677.907394687335, 205.0, 78.0 ],
+					"patching_rect" : [ 617.0, 1677.0, 205.0, 78.0 ],
 					"varname" : "bp287787304306",
 					"viewvisibility" : 1
 				}
@@ -3033,7 +3033,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1134.0, 45.0, 35.0 ],
+					"patching_rect" : [ 18.0, 1134.0, 49.0, 35.0 ],
 					"text" : "3 0 2 0 2 0 0 0"
 				}
 
@@ -3459,7 +3459,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
-					"midpoints" : [ 27.5, 1110.0, 53.5, 1110.0 ],
+					"midpoints" : [ 27.5, 1110.0, 57.5, 1110.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
