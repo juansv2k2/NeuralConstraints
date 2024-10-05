@@ -1214,7 +1214,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 997.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "rhythm-to-binary", "[", "print", "[", "list", "g", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "print", "[", "list", "g", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1286,7 +1286,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "list", "input", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "rhythm-to-binary", "[", "print", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "oper", "weight", "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "list", "input", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "rhythm-to-binary", "[", "print", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "oper", "weight", "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,

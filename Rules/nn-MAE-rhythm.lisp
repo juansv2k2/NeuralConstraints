@@ -15,9 +15,9 @@
 				( list
 					( normalize1
 						( apply #'vector
-							( print ( rhythm-to-binary
+							( rhythm-to-binary
 								( print ( list target ))
-							))
+							)
 						)
 					)
 				)

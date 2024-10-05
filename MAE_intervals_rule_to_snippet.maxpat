@@ -712,13 +712,14 @@
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-181",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.0, 338.5, 117.0, 20.0 ],
+					"patching_rect" : [ 882.0, 338.5, 117.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 224.299574837088585, 13.73856694996357, 117.0, 20.0 ],
-					"text" : "MAE_Modulo_Rule",
+					"presentation_rect" : [ 200.299574837088585, 13.73856694996357, 138.0, 20.0 ],
+					"text" : "MAE_Intervals_Rule",
 					"textjustification" : 2
 				}
 
@@ -1283,7 +1284,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "+", 60, "]", "]", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "+", 60, "]", "]", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
