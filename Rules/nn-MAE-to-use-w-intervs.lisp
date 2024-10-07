@@ -29,8 +29,8 @@
           )
         )
       )
-      ( print
+      
         ( oper weight mean-absolute-error )
-      )
+      
     )
   )

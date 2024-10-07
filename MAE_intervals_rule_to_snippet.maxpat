@@ -270,7 +270,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 963.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "print", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "]", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "print", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1272,7 +1272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "print", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "]", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "print", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1344,7 +1344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "print", "[", "calculate-intervals", "[", "list", "lst", "]", "]", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "print", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "oper", "weight", "[", "print", "mean-absolute-error", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
