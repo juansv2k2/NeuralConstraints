@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-127",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1053.0, 1682.0, 150.0, 52.0 ],
+					"text" : "test with model melodies interv 8 in 1 out "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 1,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -261,7 +275,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -2176,7 +2189,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 376.0, 112.0, 22.0 ],
-									"text" : "bach.prepend [ 60 ]"
+									"text" : "bach.prepend [ 67 ]"
 								}
 
 							}
