@@ -326,8 +326,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 603.5, 159.0, 22.0 ],
-					"text" : "s model_selection_functions"
+					"patching_rect" : [ 840.0, 603.5, 207.0, 22.0 ],
+					"text" : "s multiple_model_selection_functions"
 				}
 
 			}
@@ -338,8 +338,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 25.0, 157.0, 22.0 ],
-					"text" : "r model_selection_functions"
+					"patching_rect" : [ 110.0, 25.0, 205.0, 22.0 ],
+					"text" : "r multiple_model_selection_functions"
 				}
 
 			}
