@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 287.0, 129.0, 568.0, 639.0 ],
+		"rect" : [ 287.0, 129.0, 614.0, 926.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,12 +49,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "train_to_snippet_w_replace.maxpat",
-					"numinlets" : 2,
+					"name" : "train_to_snippet_w_replace_modulo.maxpat",
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 2.0, 420.0, 778.0 ],
+					"patching_rect" : [ 2.0, 2.0, 420.0, 823.0 ],
 					"varname" : "bp1483236017017",
 					"viewvisibility" : 1
 				}
@@ -69,12 +69,20 @@
 			"obj-1::obj-259" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-286" : [ "live.numbox[7]", "live.numbox[7]", 0 ],
 			"obj-1::obj-287" : [ "live.numbox[8]", "live.numbox[7]", 0 ],
+			"obj-1::obj-288" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-1::obj-304" : [ "live.numbox[9]", "live.numbox[9]", 0 ],
+			"obj-1::obj-316" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-1::obj-318" : [ "live.numbox[15]", "live.numbox", 0 ],
 			"obj-1::obj-338" : [ "live.button[1]", "live.button", 0 ],
+			"obj-1::obj-342" : [ "live.numbox[16]", "live.numbox[16]", 0 ],
 			"obj-1::obj-358" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-1::obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-1::obj-63" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-70" : [ "live.button[2]", "live.button[2]", 0 ],
-			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox[7]", 0 ],
+			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-1::obj-94" : [ "live.button[4]", "live.button[2]", 0 ],
 			"parameterbanks" : 			{
@@ -90,6 +98,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "10bitToTwoInt.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "14-bit_binary_to_frac-int.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.<=.mxo",
 				"type" : "iLaX"
 			}
@@ -133,6 +155,10 @@
 			}
 , 			{
 				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.eval.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -214,6 +240,13 @@
 			}
 , 			{
 				"name" : "bach.mean.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.mod.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
@@ -352,13 +385,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "binaryToList.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bpatcher-resize-gizmo.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
@@ -387,6 +413,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "frac_int_to_14-bit.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fractionTo16bitBinary.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
@@ -401,10 +434,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lisp.code_accum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
+				"name" : "from_frac_to_ints.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -516,14 +549,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "train_to_snippet_w_replace.maxpat",
+				"name" : "train_to_snippet_w_replace_modulo.maxpat",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "twoIntTo16bitBinary.js",
+				"name" : "twoIntTo10bit.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
