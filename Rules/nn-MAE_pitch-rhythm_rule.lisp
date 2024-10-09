@@ -6,25 +6,24 @@
 					( list
 						( normalize1
 							( apply #'vector
-								( combined-list-2-binary 
-									( print ( comb-pitch-2-mod ( list input ))
-									))
-								)
+								( print ( combined-list-2-binary 
+									( print ( list input ))
+         						))
 							)
 						)
+					)
 					( list
 						( normalize1
 							( apply #'vector
-								( combined-list-2-binary 
-									( comb-pitch-2-mod ( list target ))
-								)
+								( print( combined-list-2-binary 
+									( print ( list target ))
+								))
 							)
 						)
 					)
 				)
 			)
 		)
-		( print ( oper weight mean-absolute-error ))
+		( oper weight mean-absolute-error )
 	)
-	
 )

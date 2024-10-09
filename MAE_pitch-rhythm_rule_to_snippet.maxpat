@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -718,7 +718,7 @@
 					"patching_rect" : [ 827.0, 347.5, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 208.866383224725723, 14.73856694996357, 131.0, 20.0 ],
-					"text" : "MAE_Combined_Rule",
+					"text" : "MAE_pitch/rhythm",
 					"textjustification" : 2
 				}
 
@@ -1211,7 +1211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1283,7 +1283,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "input", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,

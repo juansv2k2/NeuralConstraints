@@ -49,12 +49,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "MAE_combined_rule_to_snippet.maxpat",
+					"name" : "MAE_pitch-rhythm_rule_to_snippet.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 62.0, 38.0, 343.0, 88.0 ],
+					"patching_rect" : [ 2.0, 1.0, 342.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -62,12 +62,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-23" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-1::obj-29" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-34" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-1::obj-23" : [ "live.numbox[20]", "live.numbox", 0 ],
+			"obj-1::obj-29" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-1::obj-34" : [ "live.numbox[17]", "live.numbox", 0 ],
 			"obj-1::obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
 			"obj-1::obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-1::obj-74" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-1::obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -81,7 +81,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "MAE_combined_rule_to_snippet.maxpat",
+				"name" : "MAE_pitch-rhythm_rule_to_snippet.maxpat",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

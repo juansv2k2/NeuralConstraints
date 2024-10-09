@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1550.0, 1031.0 ],
+		"rect" : [ 2432.0, 87.0, 1550.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -321,7 +321,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.857142999999951, 525.0, 46.0, 22.0 ],
+					"patching_rect" : [ 79.857142999999951, 511.0, 46.0, 22.0 ],
 					"text" : "s lRate"
 				}
 
@@ -353,7 +353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.357142999999951, 449.193551599979401, 58.0, 29.0 ],
+					"patching_rect" : [ 96.357142999999951, 449.193551599979401, 63.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 265.0, 87.0, 18.0 ],
 					"text" : "learning rate",
@@ -1831,7 +1831,6 @@
 				"box" : 				{
 					"id" : "obj-253",
 					"inputs" : 3,
-					"int" : 2,
 					"maxclass" : "gswitch",
 					"numinlets" : 4,
 					"numoutlets" : 1,
@@ -2494,9 +2493,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 0.0, 0.0, 0, 1.0, 0.0, 0, 1.0, 0.0, 0, 2.0, 0.0, 0, 2.0, 0.0, 0, 3.0, 0.0, 0, 3.0, 0.0, 0, 4.0, 0.0, 0, 4.0, 0.0, 0, 5.0, 0.0, 0, 5.0, 0.0, 0, 6.0, 0.0, 0, 6.0, 0.0, 0, 7.0, 0.0, 0, 7.0, 0.0, 0, 8.0, 0.0, 0, 8.0, 0.0, 0, 9.0, 0.0, 0, 9.0, 0.0, 0, 10.0, 0.0, 0, 10.0, 0.0, 0, 11.0, 0.0, 0, 11.0, 0.0, 0, 12.0, 0.0, 0, 12.0, 0.0, 0, 13.0, 0.0, 0, 13.0, 0.0, 0, 14.0, 0.0, 0, 14.0, 0.0, 0, 15.0, 0.0, 0, 15.0, 0.0, 0, 16.0, 0.0, 0, 16.0, 0.0, 0, 17.0, 0.0, 0, 17.0, 0.0, 0, 18.0, 0.0, 0, 18.0, 0.0, 0, 19.0, 0.0, 0, 19.0, 0.0, 0, 20.0, 0.0, 0, 20.0, 0.0, 0, 21.0, 0.0, 0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"domain" : 100.0,
+					"domain" : 20.0,
 					"grid" : 3,
 					"gridstep_x" : 1000.0,
 					"id" : "obj-434",
@@ -7163,7 +7161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 429.693551778793335, 152.983872294425964, 130.0, 33.0 ],
+					"patching_rect" : [ 429.693551778793335, 152.983872294425964, 133.0, 33.0 ],
 					"text" : "input / output encoding \n(nr of neurons)",
 					"textjustification" : 1
 				}
@@ -13521,7 +13519,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-199", 0 ],
-					"order" : 7,
+					"order" : 9,
 					"source" : [ "obj-360", 0 ]
 				}
 
@@ -13537,7 +13535,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-205", 0 ],
-					"order" : 9,
+					"order" : 7,
 					"source" : [ "obj-360", 0 ]
 				}
 
@@ -14928,6 +14926,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "binaryArrayToFloat.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "binaryToList.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bpatcher-resize-gizmo.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
@@ -14953,6 +14965,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "from8bitbinary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -15041,8 +15060,8 @@
 			}
 , 			{
 				"name" : "rhythm_viewer.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversityofBergen/UiB/PhD/Projects/JSVConstraints/NeuralConstraints",
-				"patcherrelativepath" : "../../Library/CloudStorage/OneDrive-UniversityofBergen/UiB/PhD/Projects/JSVConstraints/NeuralConstraints",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
