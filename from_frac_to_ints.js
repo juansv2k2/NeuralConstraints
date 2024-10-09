@@ -21,7 +21,7 @@ function list() {
         denominator = parseInt(fractionParts[1], 10);
     }
 
-    integer = parseInt(integer, 10);  // Ensure the integer is also parsed as an integer
+    // integer = parseInt(integer, 10);  // Ensure the integer is also parsed as an integer
 
     // Output the numerator, denominator, and integer as a list
     outlet(0, [numerator, denominator, integer]);

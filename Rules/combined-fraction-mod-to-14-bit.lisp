@@ -1,13 +1,16 @@
 ( progn 
 (defun combined-fraction-mod-to-14-bit (fraction-list)
+
   (let* (
 
-          (rational-part (first fraction-list)) 
+          (rational-part (first fraction-list))
           (rational-binary (rational-to-10bit-representation rational-part))
 
 
-          (integer-part (second fraction-list)) 
-          (integer-binary (int-to-4bit-binary-list integer-part))
+          (integer-part (second fraction-list))
+          (integer-binary (if (eq integer-part nil)
+                              '(1 1 1 1)  
+                              (int-to-4bit-binary-list integer-part)))
 
 
           (binary-representation (append rational-binary integer-binary))
@@ -60,5 +63,9 @@
       (error "Input must be an integer between 0 and 11")))
 
 
-(combined-fraction-mod-to-14-bit '(-1/2 9))
+( defun combined-list-2-binary (binary-list)
+  ( mapcar #'combined-fraction-mod-to-14-bit binary-list )
+)
+
+(combined-list-2-binary ( quote ((-1/2 nil) (-1/3 nil) (1/2 1))))
 )

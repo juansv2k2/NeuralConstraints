@@ -20,6 +20,8 @@ function anything() {
     var denominatorIndex = parseInt(denominatorIndexBits.join(''), 2); // Convert denominator index bits to integer
     var integer = parseInt(integerBits.join(''), 2); // Convert integer bits to integer
 
+    if ( integer === 15 ) { integer = 'NIL' }; 
+
     // Adjust the sign of the numerator
     if (signBit === 1) {
         numerator = -numerator; // Negate numerator if sign bit is 1

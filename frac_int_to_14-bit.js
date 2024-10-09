@@ -1,5 +1,3 @@
-autowatch = 1;
-
 function list() {
     var a = arrayfromargs(arguments);
     
@@ -9,11 +7,17 @@ function list() {
         return;
     }
 
-
     var numerator = a[0];
     var denominator = a[1];
     var integer = a[2]; 
-    var modInteger = integer % 12
+    var modInteger;
+
+    // Check if integer is the string 'NIL'
+    if (integer === 'NIL') { // Check for the string 'NIL'
+        modInteger = 15; // 1111 in binary is 15 in decimal
+    } else {
+        modInteger = integer % 12; // Compute mod 12
+    }
 
     // Validate the denominator
     var denominatorValues = [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32];
@@ -33,7 +37,7 @@ function list() {
     // Convert denominator index to a 4-bit binary value
     var binaryDen = toBinaryStringWithPadding(denominatorIndex, 4); // 4 bits for the denominator index
 
-    // Convert integer to a 4-bit binary value
+    // Convert integer to a 4-bit binary value using modInteger
     var binaryInt = toBinaryStringWithPadding(modInteger & 0xF, 4); // 4 bits for the integer
 
     // Concatenate all binary parts into a single 14-bit representation

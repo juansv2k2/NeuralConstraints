@@ -40,6 +40,71 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-401",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1712.0, 1585.320968627929688, 29.5, 20.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-365",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 578.5, 1725.236842513084412, 29.5, 20.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-368",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1541.5, 386.5, 117.0, 20.0 ],
+					"reg_data_0000000000" : [ "[", "-3/8", "NIL", "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 60, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "3/16", 67, "]", "[", "1/16", 69, "]", "[", "1/8", 67, "]", "[", "1/8", 69, "]", "[", "1/16", 72, "]", "[", "1/16", 70, "]", "[", "1/8", 69, "]", "[", "1/8", 67, "]", "[", "1/16", 69, "]", "[", "1/16", 70, "]", "[", "1/4", 69, "]", "[", "-3/4", "NIL", "]" ],
+					"reg_data_count" : [ 1 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.reg @embed 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 1,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-404",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "moz.nth.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1165.5, 501.103260934352875, 120.0, 58.0 ],
+					"varname" : "bp653855722986",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Andale Mono",
 					"fontsize" : 8.0,
 					"id" : "obj-444",
@@ -59,7 +124,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-443",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -169,9 +234,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 563.0, 1695.6875, 193.75, 20.0 ],
+					"patching_rect" : [ 578.5, 1755.0, 193.75, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 787.500080764293671, 166.0, 20.0 ]
+					"presentation_rect" : [ 13.0, 787.500080764293671, 165.0, 20.0 ]
 				}
 
 			}
@@ -184,7 +249,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1137.840305030345917, 1691.0, 54.6875, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.625, 787.500080764293671, 59.375, 20.0 ]
+					"presentation_rect" : [ 212.0, 787.500080764293671, 78.375, 20.0 ]
 				}
 
 			}
@@ -195,9 +260,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1957.441037952899933, 1706.163275837898254, 57.03125, 20.0 ],
+					"patching_rect" : [ 1957.441037952899933, 1706.163275837898254, 54.6875, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 787.500080764293671, 62.5, 20.0 ]
+					"presentation_rect" : [ 326.0, 787.500080764293671, 78.375, 20.0 ]
 				}
 
 			}
@@ -219,7 +284,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 193.0, 307.0, 622.0, 480.0 ],
+						"rect" : [ 193.0, 307.0, 720.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -249,559 +314,403 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.wrap"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 95.500013920879383, 287.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.group 14"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 548.0, 109.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500006960439691, 454.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.join @outwrap 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "bach.ratnum",
+									"maximum" : "none",
+									"minimum" : "none",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"out" : "m",
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
+									"text" : "0/1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 95.500006960439691, 385.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.slice -1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
-									"id" : "obj-27",
+									"id" : "obj-131",
 									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.999993000000018, 62.000000375000013, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-138",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 2,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 593.0, 390.0, 652.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 217.0, 64.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.wrap"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 167.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 126.500006960439691, 107.0, 50.0, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 243.0, 80.999986079120617, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 126.500013920879383, 286.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-22",
-													"linecount" : 4,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 151.0, 11.0, 435.0, 62.0 ],
-													"text" : "[ 1 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 ] [ 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 1 1 1 0 0 1 0 1 0 0 ]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 193.0, 85.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.group 14"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 111.000006960439691, 624.0, 78.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat 2 -1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 316.0, 99.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 157.500006960439691, 139.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500006960439691, 453.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.join @outwrap 1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-11",
-													"maxclass" : "bach.ratnum",
-													"maximum" : "none",
-													"minimum" : "none",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"out" : "m",
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 126.500006960439691, 420.0, 50.0, 22.0 ],
-													"text" : "0/1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 126.500006960439691, 384.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.slice -1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 69.000006960439691, 73.0, 76.5, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 506.4515380859375, 134.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-131",
-													"index" : 1,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-132",
-													"index" : 1,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 350.4515380859375, 162.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "14-bit_binary_to_frac-int.js",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js 14-bit_binary_to_frac-int.js"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-24", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 2 ],
-													"midpoints" : [ 250.000013920879383, 491.72576904296875, 193.500006960439691, 491.72576904296875 ],
-													"source" : [ "obj-28", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-35", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 1 ],
-													"source" : [ "obj-40", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 1 ],
-													"source" : [ "obj-6", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 0 ],
-													"order" : 1,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"order" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 126.999993000000018, 198.0, 151.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p 14-bit_binary_to_fraction"
+									"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-25",
+									"id" : "obj-132",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.999993000000018, 323.0, 30.0, 30.0 ]
+									"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "14-bit_binary_to_frac-int.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js 14-bit_binary_to_frac-int.js"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-138", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-131", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"midpoints" : [ 219.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -838,7 +747,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 193.0, 307.0, 622.0, 480.0 ],
+						"rect" : [ 193.0, 307.0, 720.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -868,559 +777,403 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.wrap"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 95.500013920879383, 287.0, 158.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.group 14"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 539.0, 109.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500006960439691, 454.0, 125.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.join @outwrap 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "bach.ratnum",
+									"maximum" : "none",
+									"minimum" : "none",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"out" : "m",
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
+									"text" : "0/1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 95.500006960439691, 385.0, 125.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.slice -1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
-									"id" : "obj-27",
+									"id" : "obj-131",
 									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.999993000000018, 62.000000375000013, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-138",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 2,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 593.0, 390.0, 652.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 219.0, 64.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.wrap"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 169.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 126.500006960439691, 109.0, 50.0, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 245.0, 80.999986079120617, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 126.500013920879383, 288.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-22",
-													"linecount" : 4,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 151.0, 11.0, 435.0, 62.0 ],
-													"text" : "[ 1 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 ] [ 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 1 1 1 0 0 1 0 1 0 0 ]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 157.500006960439691, 195.0, 85.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.group 14"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 111.000006960439691, 624.0, 78.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat 2 -1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 318.0, 99.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 157.500006960439691, 141.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500006960439691, 455.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.join @outwrap 1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-11",
-													"maxclass" : "bach.ratnum",
-													"maximum" : "none",
-													"minimum" : "none",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"out" : "m",
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 126.500006960439691, 422.0, 50.0, 22.0 ],
-													"text" : "0/1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 126.500006960439691, 386.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.slice -1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 69.000006960439691, 73.0, 76.5, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 506.4515380859375, 134.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-131",
-													"index" : 1,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-132",
-													"index" : 1,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500013920879383, 352.4515380859375, 162.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "14-bit_binary_to_frac-int.js",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js 14-bit_binary_to_frac-int.js"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-24", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 2 ],
-													"midpoints" : [ 250.000013920879383, 491.72576904296875, 193.500006960439691, 491.72576904296875 ],
-													"source" : [ "obj-28", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-35", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 1 ],
-													"source" : [ "obj-40", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 1 ],
-													"source" : [ "obj-6", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 0 ],
-													"order" : 1,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"order" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 126.999993000000018, 198.0, 151.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p 14-bit_binary_to_fraction"
+									"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-25",
+									"id" : "obj-132",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.999993000000018, 323.0, 30.0, 30.0 ]
+									"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "14-bit_binary_to_frac-int.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js 14-bit_binary_to_frac-int.js"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-138", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-131", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"midpoints" : [ 244.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -1457,7 +1210,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 193.0, 307.0, 622.0, 480.0 ],
+						"rect" : [ 192.0, 307.0, 720.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1487,539 +1240,403 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.wrap"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 95.500013920879383, 287.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.group 14"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 535.0, 109.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500006960439691, 454.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.join @outwrap 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "bach.ratnum",
+									"maximum" : "none",
+									"minimum" : "none",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"out" : "m",
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
+									"text" : "0/1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 95.500006960439691, 385.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.slice -1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
-									"id" : "obj-27",
+									"id" : "obj-131",
 									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.999993000000018, 62.000000375000013, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-138",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 2,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 593.0, 390.0, 652.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.500006960439691, 217.0, 64.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.wrap"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.500006960439691, 167.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 114.500006960439691, 107.0, 50.0, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.500013920879383, 243.0, 80.999986079120617, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 114.500013920879383, 286.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.500006960439691, 193.0, 85.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.group 14"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 111.000006960439691, 624.0, 78.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat 2 -1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.500013920879383, 316.0, 99.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 145.500006960439691, 139.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.500006960439691, 453.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.join @outwrap 1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-11",
-													"maxclass" : "bach.ratnum",
-													"maximum" : "none",
-													"minimum" : "none",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"out" : "m",
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 114.500006960439691, 420.0, 50.0, 22.0 ],
-													"text" : "0/1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 114.500006960439691, 384.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.slice -1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 69.000006960439691, 73.0, 64.5, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 506.4515380859375, 117.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-131",
-													"index" : 1,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-132",
-													"index" : 1,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.500013920879383, 350.4515380859375, 162.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "14-bit_binary_to_frac-int.js",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js 14-bit_binary_to_frac-int.js"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-24", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 2 ],
-													"midpoints" : [ 238.000013920879383, 491.72576904296875, 176.500006960439691, 491.72576904296875 ],
-													"source" : [ "obj-28", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-35", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 1 ],
-													"source" : [ "obj-40", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 1 ],
-													"source" : [ "obj-6", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 0 ],
-													"order" : 1,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"order" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 126.999993000000018, 198.0, 151.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p 14-bit_binary_to_fraction"
+									"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-25",
+									"id" : "obj-132",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.999993000000018, 323.0, 30.0, 30.0 ]
+									"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "14-bit_binary_to_frac-int.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js 14-bit_binary_to_frac-int.js"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-138", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-131", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"midpoints" : [ 219.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -2166,7 +1783,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1478.618055522441864, 651.976624369621277, 47.0, 20.0 ],
+					"patching_rect" : [ 1522.618055522441864, 671.976624369621277, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -2194,7 +1811,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 193.0, 307.0, 622.0, 480.0 ],
+						"rect" : [ 193.0, 307.0, 720.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2224,422 +1841,449 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 207.0, 12.5, 449.0, 49.0 ],
+									"text" : "[ [ 1 0 0 0 0 1 0 1 1 0 1 1 1 1 ] [ 0 0 0 0 0 1 0 1 1 0 1 0 0 1 ] [ 0 0 0 0 0 1 0 1 1 0 1 0 1 0 ] [ 0 0 0 0 0 1 0 0 1 1 0 0 0 0 ] [ 0 0 0 0 0 1 0 1 1 0 0 0 0 0 ] [ 0 0 0 0 0 1 0 1 1 0 0 0 1 0 ] [ 1 0 0 0 0 1 0 1 1 0 1 1 1 1 ] ]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.wrap"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 95.500013920879383, 287.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.group 14"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.reg"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500006960439691, 454.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.join @outwrap 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "bach.ratnum",
+									"maximum" : "none",
+									"minimum" : "none",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"out" : "m",
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
+									"text" : "0/1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 95.500006960439691, 385.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.slice -1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
-									"id" : "obj-27",
+									"id" : "obj-131",
 									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.999993000000018, 62.000000375000013, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-138",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 2,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 593.0, 390.0, 652.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 468.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.000006960439691, 420.0, 78.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat 2 -1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500006960439691, 172.0, 99.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 95.500006960439691, 140.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500006960439691, 316.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.join @outwrap 1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-11",
-													"maxclass" : "bach.ratnum",
-													"maximum" : "none",
-													"minimum" : "none",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"out" : "m",
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 95.500006960439691, 285.0, 50.0, 22.0 ],
-													"text" : "0/1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 95.500006960439691, 256.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.slice -1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-45",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 148.0, 80.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 69.000006960439691, 103.0, 45.5, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.000006960439691, 380.4515380859375, 72.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-131",
-													"index" : 1,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.000006960439691, 24.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-132",
-													"index" : 1,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 70.000006960439691, 468.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500006960439691, 221.4515380859375, 162.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "14-bit_binary_to_frac-int.js",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js 14-bit_binary_to_frac-int.js"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"order" : 1,
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-45", 0 ],
-													"order" : 0,
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 2 ],
-													"midpoints" : [ 219.000006960439691, 359.72576904296875, 132.500006960439691, 359.72576904296875 ],
-													"source" : [ "obj-15", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-24", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 0 ],
-													"order" : 1,
-													"source" : [ "obj-49", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"order" : 0,
-													"source" : [ "obj-49", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 1 ],
-													"source" : [ "obj-6", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-49", 0 ],
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 126.999993000000018, 198.0, 151.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p 14-bit_binary_to_fraction"
+									"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-25",
+									"id" : "obj-132",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.999993000000018, 323.0, 30.0, 30.0 ]
+									"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "14-bit_binary_to_frac-int.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js 14-bit_binary_to_frac-int.js"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-138", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-131", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"midpoints" : [ 219.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"order" : 1,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"order" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
  ]
 					}
 ,
-					"patching_rect" : [ 1478.618055522441864, 622.0, 76.0, 20.0 ],
+					"patching_rect" : [ 1522.618055522441864, 628.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2686,7 +2330,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 193.0, 307.0, 622.0, 480.0 ],
+						"rect" : [ 192.0, 307.0, 720.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2716,559 +2360,422 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.wrap"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 95.500013920879383, 287.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.group 14"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.reg"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.flat @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.iter @maxdepth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500006960439691, 454.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.join @outwrap 1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "bach.ratnum",
+									"maximum" : "none",
+									"minimum" : "none",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"out" : "m",
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
+									"text" : "0/1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 95.500006960439691, 385.0, 170.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.slice -1 @out m"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.collect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
-									"id" : "obj-27",
+									"id" : "obj-131",
 									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.999993000000018, 62.000000375000013, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-138",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 2,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 593.0, 390.0, 652.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500006960439691, 218.0, 64.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.wrap"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500006960439691, 168.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 95.500006960439691, 108.0, 50.0, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500013920879383, 244.0, 80.999986079120617, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 95.500013920879383, 287.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-22",
-													"linecount" : 4,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 151.0, 11.0, 432.0, 62.0 ],
-													"text" : "[ 1 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 ] [ 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 1 0 1 0 0 0 0 1 1 1 0 0 1 0 1 0 0 ]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.500006960439691, 194.0, 85.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.group 14"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 478.000006960439691, 108.0, 54.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 122.500006960439691, 574.0, 55.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 111.000006960439691, 624.0, 78.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat 2 -1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500013920879383, 317.0, 99.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.flat @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 126.500006960439691, 140.0, 133.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.iter @maxdepth 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-12",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500006960439691, 454.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.join @outwrap 1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-11",
-													"maxclass" : "bach.ratnum",
-													"maximum" : "none",
-													"minimum" : "none",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"out" : "m",
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 95.500006960439691, 421.0, 50.0, 22.0 ],
-													"text" : "0/1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 95.500006960439691, 385.0, 170.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.slice -1 @out m"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 69.000006960439691, 73.0, 45.5, 22.0 ],
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 506.4515380859375, 72.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"versionnumber" : 80300
-													}
-,
-													"text" : "bach.collect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-131",
-													"index" : 1,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-132",
-													"index" : 1,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"filename" : "14-bit_binary_to_frac-int.js",
-														"parameter_enable" : 0
-													}
-,
-													"text" : "js 14-bit_binary_to_frac-int.js"
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 1 ],
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-131", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-24", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 2 ],
-													"midpoints" : [ 219.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
-													"source" : [ "obj-28", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"source" : [ "obj-35", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 1 ],
-													"source" : [ "obj-40", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-11", 0 ],
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 1 ],
-													"source" : [ "obj-6", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 0 ],
-													"order" : 1,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"order" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 126.999993000000018, 198.0, 151.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p 14-bit_binary_to_fraction"
+									"patching_rect" : [ 69.000006960439691, 22.0, 30.0, 30.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"comment" : "",
-									"id" : "obj-25",
+									"id" : "obj-132",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 126.999993000000018, 323.0, 30.0, 30.0 ]
+									"patching_rect" : [ 69.000006960439691, 584.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 95.500013920879383, 351.4515380859375, 162.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "14-bit_binary_to_frac-int.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js 14-bit_binary_to_frac-int.js"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-138", 0 ]
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-138", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-131", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"midpoints" : [ 219.000013920879383, 491.72576904296875, 131.500006960439691, 491.72576904296875 ],
+									"source" : [ "obj-28", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 1 ],
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-132", 0 ],
+									"order" : 1,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"order" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -3637,7 +3144,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 192.0, 307.0, 632.0, 610.0 ],
+						"rect" : [ 116.0, 224.0, 632.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3667,13 +3174,14 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-4",
+									"id" : "obj-399",
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 286.0, 53.0, 79.0, 22.0 ],
-									"text" : "[[ 1 0 ] [ 2 9 ]]"
+									"patching_rect" : [ 201.0, 14.5, 384.0, 49.0 ],
+									"text" : "[ [ -3/8 NIL ] [ 1/8 77 ] [ 1/8 76 ] [ 1/8 74 ]] [ [ 1/8 69 ] [ 1/8 65 ] [ 3/16 64 ] [ 1/16 65 ]] [ [ 1/8 64 ] [ 1/8 74 ] [ 3/16 69 ] [ 1/16 65 ]] [ [ 1/16 69 ] [ 1/16 65 ] [ 1/16 64 ] [ 1/16 65 ]]"
 								}
 
 							}
@@ -3938,7 +3446,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-399", 0 ]
 								}
 
 							}
@@ -3968,7 +3476,9 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"order" : 0,
-									"source" : [ "obj-49", 0 ]
+									"source" : [ "obj-49", 0 ],
+									"watchpoint_flags" : 5,
+									"watchpoint_id" : 1
 								}
 
 							}
@@ -4027,7 +3537,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1478.618055522441864, 583.0, 47.0, 20.0 ],
+					"patching_rect" : [ 1461.618055522441864, 585.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -4115,34 +3625,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 69.0, 333.0, 117.0, 22.0 ],
-									"reg_data_0000000000" : [ "[", "[", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "]", "[", "[", "3/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "[", "3/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/8", 0, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/8", 0, "]", "[", "3/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 3, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 3, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 3, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 3, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 3, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 6, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "[", "3/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]" ],
-									"reg_data_0000000001" : [ "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "3/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "3/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[" ],
-									"reg_data_0000000002" : [ "[", "1/4", 7, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", 1, 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", 1, 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", 1, 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", 1, 11, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", 1, 11, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4" ],
-									"reg_data_0000000003" : [ 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 10, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 10, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 10, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 10, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 10, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 10, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 10, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 6, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 6, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 6, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 6, "]", "[", "1/4", 7, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 6, "]", "[", "1/4", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8" ],
-									"reg_data_0000000004" : [ 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "3/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "3/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "3/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "3/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "3/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]" ],
-									"reg_data_0000000005" : [ "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 5, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 5, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/3", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/3", 7, "]", "]", "[", "[", "1/6", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/3", 7, "]", "[", "1/6", 5, "]", "]", "[", "[", "1/3", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/3", 7, "]", "[", "1/6", 5, "]", "[", "1/3", 4, "]", "]", "[", "[", "1/12", 2, "]", "]", "]", "[", "[", "[", "1/3", 7, "]", "[", "1/6", 5, "]", "[", "1/3", 4, "]", "[", "1/12", 2, "]", "]", "[", "[", "1/12", 0, "]", "]", "]", "[", "[", "[", "1/6", 5, "]", "[", "1/3", 4, "]", "[", "1/12", 2, "]", "[", "1/12", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/3", 4, "]", "[", "1/12", 2, "]", "[", "1/12", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/12", 2, "]", "[", "1/12", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/12", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]" ],
-									"reg_data_0000000006" : [ "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/8", 9, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "]", "[" ],
-									"reg_data_0000000007" : [ "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "[", "1/2", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 4, "]", "[", "1/2", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/2", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/8", 9, "]", "[", "1/8", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "3/4", 9, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "3/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2" ],
-									"reg_data_0000000008" : [ 11, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", 1, 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", 1, 9, "]", "]", "[", "[", 1, 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", 1, 9, "]", "[", 1, 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", 1, 9, "]", "[", 1, 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", 1, 9, "]", "[", 1, 7, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", 1, 7, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2" ],
-									"reg_data_0000000009" : [ 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 10, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "3/8", 10, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "3/8", 10, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/8", 10, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", 1, 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 10, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "3/8", 0, "]", "[", "1/8", 10, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 0, "]", "[", "1/8", 10, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 10, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/8", 10, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 10, "]" ],
-									"reg_data_0000000010" : [ "[", "1/2", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "3/16", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "3/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", 1, 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", 1, 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", 1, 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]" ],
-									"reg_data_0000000011" : [ "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "3/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "3/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "3/8" ],
-									"reg_data_0000000012" : [ 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 4, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/8", 11, "]", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/8", 11, "]", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 3, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 3, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 3, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 3, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "3/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 3, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/4", 10, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "3/4", 10, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 10, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "3/4", 10, "]", "[", "1/4", 7, "]", "[", "1/2", 10, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "3/4", 10, "]", "[", "1/4", 7, "]", "[", "1/2", 10, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 10, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 10, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 3, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 3, "]", "]", "[", "[", "1/4", 3, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 3, "]", "[", "1/4", 3, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 3, "]", "[", "1/4", 3, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 3, "]", "[", "1/4", 3, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 3, "]", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]" ],
-									"reg_data_0000000013" : [ "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 10, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 10, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 10, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 6, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 10, "]", "[", "1/2", 7, "]" ],
-									"reg_data_0000000014" : [ "[", "1/2", 6, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 10, "]", "[", "1/2", 7, "]", "[", "1/2", 6, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 6, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 6, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[" ],
-									"reg_data_0000000015" : [ "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "3/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "3/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "3/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "3/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/4", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/2", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/2", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/2", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "3/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "3/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "]", "[", "[", "3/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/4", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 11, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2" ],
-									"reg_data_0000000016" : [ 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "3/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "3/4", 0, "]", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", 1, 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", 1, 7, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", 1, 7, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", 1, 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", 1, 7, "]", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/2", 2, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/2", 11, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "]", "[", "[", 2, 0, "]", "]", "]", "[", "[", "[", "1/2", 2, "]", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", 2, 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/2", 11, "]", "[", 2, 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 11, "]", "[", 2, 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", 2, 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 10, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 10, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 9, "]", "[", "1/2", 10, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 10, "]", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "]", "[", "[", "3/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "3/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/2", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/2", 5, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/2", 5, "]", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 7, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 10, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 10, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 9, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/2", 7, "]", "]", "]", "[", "[", "[", "1/4", 10, "]", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/2", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/2", 7, "]", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "]", "[", "[", "1/2", 0, "]", "]", "]", "[", "[", "[", "1/2", 4, "]", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/4", 4, "]", "[", "1/2", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/2", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16" ],
-									"reg_data_0000000017" : [ 4, "]", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 6, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 6, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/16", 2, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/16", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "3/16", 9, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "3/16", 9, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "3/8", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]" ],
-									"reg_data_0000000018" : [ "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 7, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 7, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/32", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "]", "[", "[", "3/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "3/32", 0, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "]", "[", "[", "3/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/32", 7, "]", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]" ],
-									"reg_data_0000000019" : [ "[", "1/16", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "3/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "3/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "3/16", 9, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/16", 11, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 4, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 4, "]", "[", "3/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/24", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/24", 4, "]", "]", "[", "[", "1/24", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/24", 4, "]", "[", "1/24", 2, "]", "]", "[", "[", "1/24", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/24", 4, "]", "[", "1/24", 2, "]", "[", "1/24", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/24", 4, "]", "[", "1/24", 2, "]", "[", "1/24", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/24", 2, "]", "[", "1/24", 0, "]", "[", "1/4", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/24", 0, "]", "[", "1/4", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[" ],
-									"reg_data_0000000020" : [ "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "3/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "3/32", 7, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "3/32", 7, "]", "[", "1/32", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "3/32", 7, "]", "[", "1/32", 4, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/32", 7, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/32", 7, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 6, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 6, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 6, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 6, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 6, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 11, "]", "[", "1/32", 11, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/32" ],
-									"reg_data_0000000021" : [ 11, "]", "[", "1/32", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 9, "]", "[", "1/16", 9, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/16", 9, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "]", "[", "[", "3/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/32", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "[", "3/32", 5, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "3/16", 9, "]", "[", "1/16", 7, "]", "[", "3/32", 5, "]", "[", "1/32", 4, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/32", 5, "]", "[", "1/32", 4, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/32", 5, "]", "[", "1/32", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "3/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/4", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16" ],
-									"reg_data_0000000022" : [ 4, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "3/16", 5, "]", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/2", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/2", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/16", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "3/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/4", 7, "]", "[", "3/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "3/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/16", 5, "]", "[", "1/16", 4, "]", "[", "3/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/16", 5, "]", "[", "1/16", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/8", 4, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "3/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "3/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 0, "]" ],
-									"reg_data_0000000023" : [ "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 4, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 4, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "3/32", 4, "]", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/32", 2, "]", "[", "1/8", 2, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/8", 2, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "]", "[", "[", "3/32", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "3/32", 9, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "3/32", 9, "]", "]", "]", "[", "[", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "[", "3/32", 9, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/32", 9, "]", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "3/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "3/32", 4, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "3/32", 4, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "3/32", 4, "]", "[", "1/32", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "3/32", 4, "]", "[", "1/32", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 5, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "]", "[", "[", "3/32", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "3/32", 4, "]", "]", "[", "[", "1/32", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "[", "3/32", 4, "]", "[", "1/32", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "3/32", 4, "]", "[", "1/32", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/32", 4, "]", "[", "1/32", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/32", 5, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 0, "]", "]", "[", "[", "1/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "3/32", 0, "]", "[", "1/32", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/32", 0, "]", "[", "1/32", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "3/32", 0, "]", "[", "1/32", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "3/32", 2, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "3/32", 2, "]", "]", "[", "[", "1/32", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "3/32", 2, "]", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/32", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]" ],
-									"reg_data_0000000024" : [ "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "3/32", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "3/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "3/32", 0, "]", "[", "1/32", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "3/32", 0, "]", "[", "1/32", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 5, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 0, "]", "]", "]", "[", "[", "[", "1/4", 5, "]", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/16", 0, "]", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8" ],
-									"reg_data_0000000025" : [ 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "3/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 5, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "3/8", 5, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "]", "[", "[", "3/16", 4, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "3/16", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 9, "]", "[", "1/16", 9, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/16", 9, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/4", 0, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/4", 4, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/4", 0, "]", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 9, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "]", "[", "[", "1/8", 9, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "]", "[", "[", "1/4", 11, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/4", 9, "]", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "]", "[", "[", "1/4", 2, "]", "]", "]", "[", "[", "[", "1/8", 9, "]", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/4", 11, "]", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "]", "[", "[", "3/8", 2, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/4", 2, "]", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "3/8", 2, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/4", 7, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/8", 11, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 11, "]", "]", "[", "[", "3/16", 2, "]", "]", "]", "[", "[", "[", "1/4", 7, "]", "[", "1/8", 7, "]", "[", "1/8", 11, "]", "[", "3/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/8", 11, "]", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "3/16", 11, "]", "]", "]", "[", "[", "[", "1/8", 11, "]", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "3/16", 2, "]", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 9, "]", "]", "[", "[", "3/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "3/16", 11, "]", "[", "1/16", 9, "]", "[", "3/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "3/16", 11, "]", "[", "1/16", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "3/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 5, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/8", 5, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/32", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "]", "[", "[", "1/24", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "[", "1/24", 7, "]", "]", "[", "[", "1/24", 7, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/32", 7, "]", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "]", "[", "[", "1/24", 7, "]", "]", "]", "[", "[", "[", "1/32", 7, "]", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/24", 7, "]", "[", "1/24", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/24", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/24", 9, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/24", 9, "]", "]", "[", "[", "1/24", 9, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "]", "[", "[", "1/24", 9, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "]", "[", "[", "1/8", 7, "]", "]", "]", "[", "[", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/24", 9, "]", "[", "1/24", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/24", 9, "]", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/8", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/16", 11, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/32", 9, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/16", 11, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/16", 11, "]", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/32", 11, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/32", 9, "]", "[", "1/32", 11, "]", "[", "1/32", 11, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 9, "]", "[", "1/32", 11, "]", "[", "1/32", 11, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/32", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/32", 11, "]", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/8", 7, "]", "]", "]" ],
-									"reg_data_0000000026" : [ "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 9, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 7, "]", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 9, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/32", 0, "]", "]", "]", "[", "[", "[", "1/16", 5, "]", "[", "1/8", 4, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/32", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/8", 2, "]", "]", "]", "[", "[", "[", "1/32", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/8", 2, "]", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/16", 0, "]", "]", "]", "[", "[", "[", "1/16", 7, "]", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "]", "[", "[", "1/8", 4, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "]", "[", "[", "1/16", 4, "]", "]", "]", "[", "[", "[", "1/16", 2, "]", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "]", "[", "[", "1/16", 7, "]", "]", "]", "[", "[", "[", "1/16", 0, "]", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "]", "[", "[", "1/16", 5, "]", "]", "]", "[", "[", "[", "1/8", 4, "]", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "]", "[", "[", "1/16", 2, "]", "]", "]", "[", "[", "[", "1/16", 4, "]", "[", "1/16", 7, "]", "[", "1/16", 5, "]", "[", "1/16", 2, "]", "]", "[", "[", "1/8", 0, "]", "]", "]" ],
-									"reg_data_count" : [ 27 ],
+									"reg_data_0000000000" : [ "[", "[", "[", "-3/8", "NIL", "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "]", "[", "[", "1/8", 69, "]", "]", "]", "[", "[", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "]", "[", "[", "3/16", 64, "]", "]", "]", "[", "[", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/8", 64, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "]", "[", "[", "1/8", 74, "]", "]", "]", "[", "[", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "]", "[", "[", "3/16", 69, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/16", 69, "]", "]", "]", "[", "[", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/16", 64, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/4", 62, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "]", "[", "[", "-1/8", "NIL", "]", "]", "]", "[", "[", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "]", "[", "[", "1/8", 77, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 77, "]", "]", "[", "[", "1/8", 76, "]", "]", "]", "[", "[", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "]", "[", "[", "1/8", 74, "]", "]", "]", "[", "[", "[", "-1/8", "NIL", "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "]", "[", "[", "1/8", 69, "]", "]", "]", "[", "[", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "]", "[", "[", "3/16", 64, "]", "]", "]", "[", "[", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/8", 64, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "]", "[", "[", "1/8", 74, "]", "]", "]", "[", "[", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "]", "[", "[", "3/16", 69, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/16", 69, "]", "]", "]", "[", "[", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/16", 64, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "]", "[", "[", "1/16", 65, "]", "]", "]", "[", "[", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "]", "[", "[", "1/4", 62, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "]", "[", "[", "-1/8", "NIL", "]", "]", "]", "[", "[", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "]", "[", "[", "1/8", 60, "]", "]", "]", "[", "[", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 60, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "1/4", 62, "]", "[", "-1/8", "NIL", "]", "[", "1/8", 60, "]", "[", "1/8", 65, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "-1/8", "NIL", "]", "[", "1/8", 60, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "1/8", 60, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "]", "[", "[", "1/8", 65, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "]", "[", "[", "3/16", 67, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "3/16", 67, "]", "]", "[", "[", "1/16", 69, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "3/16", 67, "]", "[", "1/16", 69, "]", "]", "[", "[", "1/8", 67, "]", "]", "]", "[", "[", "[", "1/8", 65, "]", "[", "3/16", 67, "]", "[", "1/16", 69, "]", "[", "1/8", 67, "]", "]", "[", "[", "1/8", 69, "]", "]", "]", "[", "[", "[", "3/16", 67, "]", "[", "1/16", 69, "]", "[", "1/8", 67, "]", "[", "1/8", 69, "]", "]", "[", "[", "1/16", 72, "]", "]", "]", "[", "[", "[", "1/16", 69, "]", "[", "1/8", 67, "]", "[", "1/8", 69, "]", "[", "1/16", 72, "]", "]", "[", "[", "1/16", 70, "]", "]", "]", "[", "[", "[", "1/8", 67, "]", "[", "1/8", 69, "]", "[", "1/16", 72, "]", "[", "1/16", 70, "]", "]", "[", "[", "1/8", 69, "]", "]", "]", "[", "[", "[", "1/8", 69, "]", "[", "1/16", 72, "]", "[", "1/16", 70, "]", "[", "1/8", 69, "]", "]", "[", "[", "1/8", 67, "]", "]", "]", "[", "[", "[", "1/16", 72, "]", "[", "1/16", 70, "]", "[", "1/8", 69, "]", "[", "1/8", 67, "]", "]", "[", "[", "1/16", 69, "]", "]", "]", "[", "[", "[", "1/16", 70, "]", "[", "1/8", 69, "]", "[", "1/8", 67, "]", "[", "1/16", 69, "]", "]", "[", "[", "1/16", 70, "]", "]", "]", "[", "[", "[", "1/8", 69, "]", "[", "1/8", 67, "]", "[", "1/16", 69, "]", "[", "1/16", 70, "]", "]", "[", "[", "1/4", 69, "]", "]", "]", "[", "[", "[", "1/8", 67, "]", "[", "1/16", 69, "]", "[", "1/16", 70, "]", "[", "1/4", 69, "]", "]", "[", "[", "-3/4", "NIL", "]", "]", "]" ],
+									"reg_data_count" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -4571,7 +4055,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1255.717410107453816, 445.039279893040316, 45.0, 29.0 ],
+					"patching_rect" : [ 1570.717410107453816, 356.153860211372375, 45.0, 29.0 ],
 					"text" : "test mod/rtm"
 				}
 
@@ -4584,26 +4068,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1226.5, 427.7396240234375, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-359",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1226.5, 479.595372170209203, 117.0, 20.0 ],
-					"reg_data_0000000000" : [ "[", "-3/8", 0, "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", 0, "]", "[", "1/8", 77, "]", "[", "1/8", 76, "]", "[", "1/8", 74, "]", "[", "1/8", 69, "]", "[", "1/8", 65, "]", "[", "3/16", 64, "]", "[", "1/16", 65, "]", "[", "1/8", 64, "]", "[", "1/8", 74, "]", "[", "3/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 69, "]", "[", "1/16", 65, "]", "[", "1/16", 64, "]", "[", "1/16", 65, "]", "[", "1/4", 62, "]", "[", "-1/8", 0, "]", "[", "1/8", 60, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "1/8", 65, "]", "[", "3/16", 67, "]", "[", "1/16", 69, "]", "[", "1/8", 67, "]", "[", "1/8", 69, "]", "[", "1/16", 72, "]", "[", "1/16", 70, "]", "[", "1/8", 69, "]", "[", "1/8", 67, "]", "[", "1/16", 69, "]", "[", "1/16", 70, "]", "[", "1/4", 69, "]", "[", "-3/4", 0, "]" ],
-					"reg_data_count" : [ 1 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.reg @embed 1"
+					"patching_rect" : [ 1541.5, 338.85420434176956, 24.0, 24.0 ]
 				}
 
 			}
@@ -6803,7 +6268,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-256",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7022,7 +6487,7 @@
 					"patching_rect" : [ 470.661294043064117, 1235.483879804611206, 99.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 308.0, 417.0, 99.0, 20.0 ],
-					"reg_data_0000000000" : [ "[", "progn", "[", "defvar", "nn", "[", "snn:restore", "\"/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test", "combined", "rhythm-modulo\"", "]", "]", "[", "defun", "convert-to-double-float-vector", "[", "input", "]", "[", "make-array", "[", "length", "input", "]", ":element-type", "'double-float", ":initial-contents", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "coerce", "x", "'double-float", "]", "]", "input", "]", "]", "]", "[", "defun", "fuzzy-equal", "[", "vec1", "vec2", "&key", "[", "tolerance", "_x_x_x_x_bach_float64_x_x_x_x_", 2296604913, 1055193269, "]", "]", "[", "and", "[", "=", "[", "length", "vec1", "]", "[", "length", "vec2", "]", "]", "[", "loop", "for", "v1", "across", "vec1", "for", "v2", "across", "vec2", "always", "[", "<=", "[", "abs", "[", "-", "v1", "v2", "]", "]", "tolerance", "]", "]", "]", "]", "[", "defun", "get-prediction-and-mae", "[", "input", "nn", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "input", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "get-prediction-and-mae", "[", "apply", "#'vector", "[", "quote", "[", 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "]", "]", "nn", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "defvar", "nn", "[", "snn:restore", "\"/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test", "short", "combined", "Schubert\"", "]", "]", "[", "defun", "convert-to-double-float-vector", "[", "input", "]", "[", "make-array", "[", "length", "input", "]", ":element-type", "'double-float", ":initial-contents", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "coerce", "x", "'double-float", "]", "]", "input", "]", "]", "]", "[", "defun", "fuzzy-equal", "[", "vec1", "vec2", "&key", "[", "tolerance", "_x_x_x_x_bach_float64_x_x_x_x_", 2296604913, 1055193269, "]", "]", "[", "and", "[", "=", "[", "length", "vec1", "]", "[", "length", "vec2", "]", "]", "[", "loop", "for", "v1", "across", "vec1", "for", "v2", "across", "vec2", "always", "[", "<=", "[", "abs", "[", "-", "v1", "v2", "]", "]", "tolerance", "]", "]", "]", "]", "[", "defun", "get-prediction-and-mae", "[", "input", "nn", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "input", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "get-prediction-and-mae", "[", "apply", "#'vector", "[", "quote", "]", "]", "nn", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -7464,7 +6929,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 69.161292433738708, 1235.483879804611206, 99.0, 20.0 ],
-					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076887552 ],
+					"reg_data_0000000000" : [ "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1077936128 ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -7857,7 +7322,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-283",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -7892,13 +7357,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-179",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.161294043064117, 1817.0, 50.0, 42.0 ],
-					"text" : "-3/8 1/8 1/8 1/8 1/8 1/8"
+					"patching_rect" : [ 494.161294043064117, 1817.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -7929,7 +7392,6 @@
 				"box" : 				{
 					"id" : "obj-253",
 					"inputs" : 5,
-					"int" : 4,
 					"maxclass" : "gswitch",
 					"numinlets" : 6,
 					"numoutlets" : 1,
@@ -9528,7 +8990,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 583.0, 1547.0, 99.0, 20.0 ],
-					"reg_data_0000000000" : [ "1.0673606563370488d0", "1.046460359302023d0", "1.0260909350397138d0", "1.0066448608888545d0", "0.9877951481636975d0", "0.9696143239646874d0", "0.9522815531929831d0", "0.9355170055128688d0", "0.9192983398450598d0", "0.9038031036732135d0", "0.8893134526506478d0", "0.875554916330286d0", "0.8627909796605177d0", "0.8512674518472755d0", "0.8406153958375386d0", "0.8307027616343503d0", "0.8215078838286887d0", "0.8127075280245623d0", "0.8044602905403592d0", "0.7967567136348618d0", "0.7895469230356549d0", "0.7827022812908995d0", "0.7763197131112369d0", "0.7702910331794547d0", "0.7646331644429174d0", "0.7593441566699848d0", "0.7544508737008128d0", "0.7498047423688614d0", "0.7454125293596618d0", "0.741296923335887d0", "0.7374136331454698d0", "0.733674209391512d0", "0.730085188725597d0", "0.7266551457137053d0", "0.7233540434957711d0", "0.7202136600319393d0", "0.7172244836662282d0", "0.7143347648131615d0", "0.7115596398146163d0", "0.7089008252426233d0", "0.706306727870149d0", "0.7037712571325788d0", "0.701307066338719d0", "0.6989088656199607d0", "0.6965670980056152d0", "0.6943108444824806d0", "0.6921604895337343d0", "0.6900652894908125d0", "0.6880360716108274d0", "0.6860455602994011d0", "0.6840967229035526d0", "0.6822171252176576d0", "0.6803690797767908d0", "0.6785599099321843d0", "0.676787941750767d0", "0.6750457036938458d0", "0.673339983832113d0", "0.6716675775554822d0", "0.6700197468891795d0", "0.6683933212609803d0", "0.6667876463341758d0", "0.6652077711599832d0", "0.6636620936900931d0", "0.6621471982305768d0", "0.6606532176841513d0", "0.6591765035506145d0", "0.6577166111554197d0", "0.6562731180637232d0", "0.65484948178405d0", "0.6534501178385941d0", "0.6520668112583797d0", "0.6507086637206415d0", "0.6493666115181262d0", "0.6480495767117871d0", "0.6467460265843924d0", "0.6454556847947495d0", "0.6441782863809303d0", "0.6429243287020047d0", "0.6416904993496015d0", "0.6404759368778252d0", "0.6392727932652704d0", "0.638085044847577d0", "0.6369115533618921d0", "0.635749020050576d0", "0.6346074041456347d0", "0.6334994401796852d0", "0.6324055304594434d0", "0.631324155210246d0", "0.6302538865989215d0", "0.6291941589672172d0", "0.6281434546315928d0", "0.6271082714912813d0", "0.6260835717664549d0", "0.6250689805431264d0", "0.6240660431581769d0", "0.6230791772943393d0", "0.6221002893109282d0", "0.621131934707301d0", "0.6201734205905889d0", "0.619223894703285d0", "0.6182866634066981d0", "0.6173567684894588d0", "0.6164341186935581d0", "0.6155186241493202d0", "0.6146101963367293d0", "0.6137087480486842d0", "0.61281692679733d0", "0.6119350854134373d0", "0.6110598432486322d0", "0.6101911209223179d0", "0.6093288401224843d0", "0.6084729235811852d0", "0.6076232950510354d0", "0.6067836912879168d0", "0.6059553352005684d0", "0.6051330016653461d0", "0.6043166174931459d0", "0.6035068612490411d0", "0.6027047669394185d0", "0.6019083376517058d0", "0.601117505236355d0", "0.6003322023908695d0", "0.5995523626448942d0", "0.5987779203458091d0", "0.598008810644797d0", "0.5972466251782349d0", "0.5964906634756965d0", "0.5957397505902424d0", "0.5949938267165279d0", "0.5942528327412536d0", "0.5935167102333426d0", "0.5927904951871417d0", "0.5920772789747417d0", "0.5913688282973267d0", "0.590670133592189d0", "0.5899758984285646d0", "0.5892860669871484d0", "0.5886005841365807d0", "0.5879193954248242d0", "0.5872424470707441d0", "0.5865696859558784d0", "0.5859010596163857d0", "0.5852398352644296d0", "0.5845831627052043d0", "0.5839304322116909d0", "0.5832815943904668d0", "0.5826366004508066d0", "0.5819954021980083d0", "0.5813579520268086d0", "0.5807242029148826d0", "0.5800941084164196d0", "0.579467622655776d0", "0.5788447003211917d0", "0.5782252966585733d0", "0.5776093674653368d0", "0.5769968690843054d0", "0.5763899502218282d0", "0.5757889068642918d0", "0.5751927042155878d0", "0.5745996918792857d0", "0.5740098297842662d0", "0.5734230783504275d0", "0.5728393984833873d0", "0.5722587515692195d0", "0.5716810994692159d0", "0.5711146908821979d0", "0.5705516230629685d0", "0.569996557487206d0", "0.5694443345978311d0", "0.5688947589600452d0", "0.568347797812917d0", "0.5678034187819102d0", "0.5672615898751234d0", "0.5667230105854274d0", "0.5661897043856132d0", "0.5656588398409268d0", "0.5651303864091783d0", "0.5646043139196626d0", "0.5640805925690864d0", "0.5635591929175313d0", "0.5630400858844524d0", "0.5625232427447084d0", "0.5620086351246284d0", "0.5614962349981141d0", "0.5609860146827772d0", "0.5604779468361116d0", "0.5599720044517019d0", "0.5594681608554677d0", "0.5589697623087915d0", "0.5584756185409827d0", "0.5579834659369185d0", "0.557493279307408d0", "0.5570050337760877d0", "0.5565187047758344d0", "0.5560352007876712d0", "0.5555536692203754d0", "0.5550739667798175d0", "0.5545960703674988d0", "0.5541199571719881d0", "0.5536456046657049d0", "0.5531729906017413d0", "0.5527020930107212d0", "0.5522328901976932d0", "0.551765360739065d0", "0.5512994834795668d0", "0.5508352375292569d0", "0.5503726022605588d0", "0.5499115573053355d0", "0.549452082551996d0", "0.5489941581426402d0", "0.5485377644702336d0", "0.5480828821758187d0", "0.5476294921457583d0", "0.547177575509014d0", "0.546727113634452d0", "0.5462780881281886d0", "0.5458304808309609d0", "0.5453842738155336d0", "0.5449426028282834d0", "0.5445037454832161d0", "0.5440677478437429d0", "0.5436330669039667d0", "0.543199685857501d0", "0.5427679873575121d0", "0.5423406032582986d0", "0.5419144551386529d0", "0.5414895271741698d0", "0.5410658078950666d0", "0.5406447099333989d0", "0.5402247973592884d0", "0.5398060548833851d0", "0.5393884674189652d0", "0.5389720200796425d0", "0.5385566981771108d0", "0.5381424872189097d0", "0.5377323811416163d0", "0.5373244508006346d0", "0.5369175499821047d0", "0.5365116652233448d0", "0.5361067832446377d0", "0.5357028909471611d0", "0.5352999754109407d0", "0.5348980238928289d0", "0.5344970238245127d0", "0.5340969628105419d0", "0.5336978286263849d0", "0.5332996092165081d0", "0.5329022926924757d0", "0.532505867331077d0", "0.53211329775252d0", "0.5317218161876666d0", "0.5313311839044205d0", "0.5309413897798642d0", "0.5305524228475534d0", "0.5301642722957914d0", "0.5297769274659258d0", "0.529390846923882d0", "0.5290055474750662d0", "0.5286210139453554d0", "0.5282372363837147d0", "0.5278542049821618d0", "0.5274719100742058d0", "0.5270903421332969d0", "0.5267094917712933d0", "0.5263293497369443d0", "0.5259499069143853d0", "0.5255711543216507d0", "0.5251930831091983d0", "0.5248156845584486d0", "0.5244395090697287d0", "0.5240679635387182d0", "0.523697049334569d0", "0.5233285938791626d0", "0.5229631913044769d0", "0.5225983802793995d0", "0.5222341531825585d0", "0.5218705025097352d0", "0.5215074208725268d0", "0.5211449009970213d0", "0.5207829357224832d0", "0.520421518000053d0", "0.5200606408914586d0", "0.5197002975677393d0", "0.5193404813079775d0", "0.518981185498049d0", "0.5186253661877485d0", "0.518270711019515d0", "0.5179165420641535d0", "0.5175628532070806d0", "0.5172096384339752d0", "0.5168568918295899d0", "0.5165046075765696d0", "0.5161527799542837d0", "0.5158014033376647d0", "0.5154504721960617d0", "0.5150999810920988d0", "0.5147499246805454d0", "0.5144002977071969d0", "0.5140510950077632d0", "0.5137037011172271d0", "0.5133583523105161d0", "0.5130134015418223d0", "0.5126688439747836d0", "0.5123246748585396d0", "0.5119808895266578d0", "0.51163748339607d0", "0.5112944519660177d0", "0.5109517908170053d0", "0.5106094956097648d0", "0.5102675620842264d0", "0.5099259860584991d0", "0.509584763427861d0", "0.5092438901637559d0", "0.5089039860499452d0", "0.5085676038113549d0", "0.5082332353283899d0", "0.5079013904794719d0", "0.5075698755478392d0", "0.5072386867608817d0", "0.5069078204170855d0", "0.506577272885086d0", "0.5062470406027323d0", "0.5059171200761596d0", "0.5055890033424052d0", "0.5052624469440365d0", "0.5049361834006711d0", "0.5046102094523397d0", "0.5042845219034364d0", "0.5039591176218385d0", "0.5036339935380322d0", "0.5033104775778151d0", "0.5029885487813627d0", "0.5026668980601299d0", "0.5023463977415338d0", "0.5020270782110753d0", "0.5017080266598987d0", "0.5013892402988394d0", "0.5010707163950642d0", "0.5007524522712666d0", "0.5004344453048696d0", "0.5001166929272398d0", "0.49979919262290406d0", "0.49948194192878004d0", "0.4991649384334096d0", "0.4988481797762025d0", "0.49853166364668755d0", "0.4982166363312886d0", "0.49790633433930864d0", "0.49759623680690135d0", "0.4972919889694099d0", "0.4969894452398235d0", "0.4966870787804779d0", "0.4963848879542173d0", "0.49608287116495553d0", "0.4957810268570319d0", "0.49547935351457284d0", "0.49517784966086026d0", "0.4948765138577077d0", "0.4945753447048427d0", "0.49427434083929633d0", "0.49397350093479875d0", "0.49367282370118476d0", "0.49337230788380027d0", "0.4930719535991583d0", "0.49277384857912326d0", "0.492475907290003d0", "0.49217812853313087d0", "0.49188051114249476d0", "0.49158332393943804d0", "0.4912885745502369d0", "0.49099397275424145d0", "0.4906995175558161d0", "0.49040520798900206d0", "0.49011104311702086d0", "0.48981702203178273d0", "0.48952314385340223d0", "0.48922940772971835d0", "0.48893581283582294d0", "0.4886423583735925d0", "0.4883490435712267d0", "0.48805586768279446d0", "0.4877628299877829d0", "0.48746992979065384d0", "0.4871771664204067d0", "0.486884539230145d0", "0.48659204759665026d0", "0.4862996909199608d0", "0.4860074686229563d0", "0.4857153801509478d0", "0.4854234249712731d0", "0.48513160257289817d0", "0.4848399124660232d0", "0.484552252323877d0", "0.4842688846215304d0", "0.48398565449196596d0", "0.4837025614346239d0", "0.48341960496844066d0", "0.48313678463149146d0", "0.4828540999806371d0", "0.4825715505911771d0", "0.4822891360565076d0", "0.48200685598778154d0", "0.4817247100135791d0", "0.481442697779576d0", "0.4811616672112506d0", "0.4808817746976219d0", "0.4806020044871492d0", "0.48032235636050624d0", "0.48004431230074746d0", "0.47976864543328107d0", "0.4794930876446011d0", "0.47921763881185886d0", "0.47894229882569883d0", "0.4786670675899909d0", "0.4783919450215694d0", "0.4781169310499734d0", "0.47784202561719297d0", "0.4775672286774176d0", "0.47729254019679024d0", "0.47701827356094756d0", "0.4767442855007946d0", "0.47647039543623365d0", "0.47619660345714426d0", "0.475922909663601d0", "0.4756493141656562d0", "0.4753758170831241d0", "0.4751024185453682d0", "0.47482911869109123d0", "0.4745559176681298d0", "0.4742828156332528d0", "0.47400981275196086d0", "0.4737369091982905d0", "0.47346410515462045d0", "0.4731914008114828d0", "0.4729187963673749d0", "0.4726462920285762d0", "0.47237388800896724d0", "0.47210158452984996d0", "0.4718293818197749d0", "0.4715572801143673d0", "0.4712852796561585d0", "0.4710133806944176d0", "0.47074158348498996d0", "0.4704698882901332d0", "0.47019829537836055d0", "0.46992680502428397d0", "0.46965541750846046d0", "0.46938413311724225d0", "0.4691129521426272d0", "0.4688418748821136d0", "0.4685709016385565d0", "0.46830003272002746d0", "0.4680292684396741d0", "0.4677586091155857d0", "0.4674880550706585d0", "0.46721760663246376d0", "0.46694726413311827d0", "0.4666770279091577d0", "0.46640689830141124d0", "0.46613713894853315d0", "0.46586777625556797d0", "0.46559851636226635d0", "0.46532935965295685d0", "0.46506030651548064d0", "0.46479196760456404d0", "0.4645257168504411d0", "0.46425956665072754d0", "0.46399377427189753d0", "0.46372967698662704d0", "0.4634659437897427d0", "0.46320287499456103d0", "0.4629409722533008d0", "0.4626796697987527d0", "0.46241846965846134d0", "0.46215737222664943d0", "0.4618963778998345d0", "0.4616356209382479d0", "0.4613759356444301d0", "0.4611169116398865d0", "0.46085799629668794d0", "0.4605991900127078d0", "0.4603404931876358d0", "0.4600819062228999d0", "0.45982342952158994d0", "0.45956506348838005d0", "0.4593068085294565d0", "0.45905120922914106d0", "0.4587973709907716d0", "0.45854363385152735d0", "0.45828999818477606d0", "0.4580364643656819d0", "0.4577830327711383d0", "0.4575297037797001d0", "0.4572764777715181d0", "0.4570233551282741d0", "0.45677033623311725d0", "0.45651742147060254d0", "0.45626483968663883d0", "0.4560144868070312d0", "0.4557642347582923d0", "0.45551408392460974d0", "0.45526403469148796d0", "0.45501408744568683d0", "0.4547642425751657d0", "0.45451450046902603d0", "0.45426486151745554d0", "0.454015326111674d0", "0.45376589464387834d0", "0.45351656750719144d0", "0.4532673450956096d0", "0.4530182278039507d0", "0.45276921602780584d0", "0.45252031016348887d0", "0.4522715106079894d0", "0.4520228177589245d0", "0.4517742320144927d0", "0.4515257537734285d0", "0.4512782992981961d0", "0.45103117726031655d0", "0.4507841966423889d0", "0.4505379029783155d0", "0.4502917110759031d0", "0.4500456213557688d0", "0.449799634238672d0", "0.4495537501454735d0", "0.4493079694970981d0", "0.4490622927144976d0", "0.44881672021861324d0", "0.44857164887925843d0", "0.4483286370068284d0", "0.44808590034421086d0", "0.44784351515899135d0", "0.4476012334450785d0", "0.44735984771454956d0", "0.44711899320019166d0", "0.446878240814158d0", "0.44663759097457795d0", "0.446397079957628d0", "0.446158117244278d0", "0.4459192532272023d0", "0.44568048832231755d0", "0.44544182294517787d0", "0.44520325751094786d0", "0.4449647924343752d0", "0.4447264281297667d0", "0.44448822064399773d0", "0.4442504167517364d0", "0.44401561309945997d0", "0.4437810978719058d0", "0.44354668078066795d0", "0.443312362222153d0", "0.4430781425922995d0", "0.4428464281222897d0", "0.44261514798721385d0", "0.44238396167702826d0", "0.44215286958567934d0", "0.4419218721066499d0", "0.44169096963294063d0", "0.4414601625570501d0", "0.4412294512709574d0", "0.4409988361661026d0", "0.4407683176333707d0", "0.44053789606307375d0", "0.4403079638749377d0", "0.44007886207220503d0", "0.4398498577030479d0", "0.43962095114630806d0", "0.43939214278021155d0", "0.4391634329823564d0", "0.4389348221296983d0", "0.43870631059853576d0", "0.4384787714755636d0", "0.43825286527905466d0", "0.4380270577312219d0", "0.43780134920400215d0", "0.4375757400686425d0", "0.43735060497167894d0", "0.43712588167153105d0", "0.43690125728319484d0", "0.436677033275259d0", "0.43645755766986255d0", "0.4362384127887103d0", "0.43601934881570786d0", "0.43580036619749507d0", "0.43558146537956216d0", "0.43536264680624226d0", "0.4351439109207041d0", "0.43492525816494604d0", "0.4347071129016354d0", "0.4344898656023459d0", "0.43427269900299426d0", "0.43405561353532257d0", "0.43383860962997334d0", "0.4336216877164816d0", "0.4334048482232716d0", "0.433188091577651d0", "0.43297141820580737d0", "0.43275482853280295d0", "0.43253832298257133d0", "0.43232190197791376d0", "0.4321055659404951d0", "0.43188931529084135d0", "0.43167315044833654d0", "0.4314570718312196d0", "0.4312410798565826d0", "0.43102517494036763d0", "0.4308093574973653d0", "0.43059362794121353d0", "0.4303779866843948d0", "0.4301624341382353d0", "0.4299469707129042d0", "0.4297315968174121d0", "0.4295163128596107d0", "0.4293011192461923d0", "0.42908700555796675d0", "0.42887371665002555d0", "0.4286605166746175d0", "0.4284474060386935d0", "0.428234385147956d0", "0.42802145440685874d0", "0.4278086142186097d0", "0.42759586498516844d0", "0.4273832071072486d0", "0.42717064098431834d0", "0.42695816701460143d0", "0.426745785595079d0", "0.42653349712148997d0", "0.426321301988333d0", "0.42610920058886864d0", "0.42589719331512027d0", "0.42568528055787713d0", "0.4254734627066955d0", "0.4252617401499009d0", "0.42505011327459147d0", "0.42483858246663975d0", "0.4246271481106949d0", "0.4244170593752795d0", "0.4242073335394658d0", "0.42399770142663085d0", "0.4237881634274838d0", "0.4235787199315479d0", "0.423369371327163d0", "0.42316011800148795d0", "0.42295096034050317d0", "0.4227418987290135d0", "0.42253293355065075d0", "0.4223240651878763d0", "0.4221152940219854d0", "0.42190662043310795d0", "0.4216980448002135d0", "0.42148956750111344d0", "0.42128118891246447d0", "0.42107290940977177d0", "0.42086472936739205d0", "0.42065664915853784d0", "0.4204486691552799d0", "0.4202407897285514d0", "0.42003301124815046d0", "0.4198253340827452d0", "0.4196177585998759d0", "0.41941028516595946d0", "0.4192029141462922d0", "0.4189956459050552d0", "0.418788480805316d0", "0.41858141920903347d0", "0.41837446147706087d0", "0.4181676079691508d0", "0.4179608590439574d0", "0.4177542150590407d0", "0.4175476763708711d0", "0.4173412433348318d0", "0.4171365588330512d0", "0.4169325392335012d0", "0.4167286237369012d0", "0.4165248126806583d0", "0.41632110640126496d0", "0.41611750523430174d0", "0.4159140095144406d0", "0.41571061957544714d0", "0.41550733575018417d0", "0.4153041583706146d0", "0.4151010877678044d0", "0.4148981242719252d0", "0.41469526821225666d0", "0.41449251991719055d0", "0.41428987971423226d0", "0.414087347930004d0", "0.4138849248902473d0", "0.4136826109198256d0", "0.41348040634272704d0", "0.41327831148206584d0", "0.41307632666008604d0", "0.412874452198163d0", "0.4126726884168057d0", "0.412474197386633d0", "0.4122773413510357d0", "0.4120811161970587d0", "0.4118849893282269d0", "0.411688961093445d0", "0.4114930318407275d0", "0.41129720191719826d0", "0.4111014716690917d0", "0.4109078172118979d0", "0.4107163154379619d0", "0.4105249086966066d0", "0.4103335973247201d0", "0.41014238165839323d0", "0.40995126203291965d0", "0.40976023878279527d0", "0.4095693122417165d0", "0.40937848274257976d0", "0.4091877506174801d0", "0.40899711619771073d0", "0.4088065798137607d0", "0.4086161417953147d0", "0.4084258024712508d0", "0.4082355621696391d0", "0.40804542121774096d0", "0.4078553799420064d0", "0.4076671105217976d0", "0.4074798450623214d0", "0.40729267566798993d0", "0.40710560266211226d0", "0.4069186263672046d0", "0.4067332978841643d0", "0.40654808889923577d0", "0.40636297513305764d0", "0.40617795690540737d0", "0.4059930345352556d0", "0.40580820834076203d0", "0.4056237862287587d0", "0.40544032502464233d0", "0.40525695976126513d0", "0.4050736907402911d0", "0.4048905182626864d0", "0.4047074426287165d0", "0.40452446413794296d0", "0.40434158308921914d0", "0.40415879978068847d0", "0.4039761145097792d0", "0.4037935275732021d0", "0.4036110392669461d0", "0.40342926409204843d0", "0.40324878339483466d0", "0.40306839887088863d0", "0.4028881108180187d0", "0.40270791953326596d0", "0.40252782531290004d0", "0.40234782845241523d0", "0.4021679292465258d0", "0.40198812798916106d0", "0.4018084249734622d0", "0.4016288204917751d0", "0.401449552958577d0", "0.4012705097765662d0", "0.4010915671480619d0", "0.40091299433121597d0", "0.400734738313336d0", "0.40055658135810535d0", "0.4003785237664943d0", "0.4002005658386521d0", "0.4000227078738989d0", "0.39984495017071897d0", "0.39966729302675236d0", "0.399489736738787d0", "0.39931228160275123d0", "0.399134927913705d0", "0.398957675965833d0", "0.39878052605243575d0", "0.39860347846592137d0", "0.39842653349779816d0", "0.39824969143866523d0", "0.39807295257820496d0", "0.3978963172051745d0", "0.3977202576746363d0", "0.39754865730194106d0", "0.3973771503196913d0", "0.39720573702305534d0", "0.39703441770629067d0", "0.396863192662734d0", "0.39669206218479325d0", "0.3965210265639377d0", "0.39635008609068934d0", "0.39617924105461344d0", "0.39600849174431d0", "0.3958378384474035d0", "0.39566728145053487d0", "0.3954968210393514d0", "0.3953264574984977d0", "0.39515619111160627d0", "0.39498602216128864d0", "0.3948159509291256d0", "0.3946463793321885d0", "0.3944778223701489d0", "0.3943102176218395d0", "0.3941440783465178d0", "0.39397953590508583d0", "0.393815083160341d0", "0.39365072040188925d0", "0.3934864479182768d0", "0.3933222659969796d0", "0.39315817492439453d0", "0.3929941749858288d0", "0.39283026646549013d0", "0.39266644964647696d0", "0.3925027248107685d0", "0.3923393387727493d0", "0.3921763811641685d0", "0.39201351463131684d0", "0.3918507394561659d0", "0.3916880559194907d0", "0.3915254643008592d0", "0.39136296487862315d0", "0.39120055792990777d0", "0.3910382437306032d0", "0.39087602255535403d0", "0.3907138946775502d0", "0.3905518603693173d0", "0.3903899199015075d0", "0.39022807354368955d0", "0.39006632156413934d0", "0.38990466422983194d0", "0.38974310180643007d0", "0.3895816345582772d0", "0.38942026274838587d0", "0.3892589866384308d0", "0.389097806488739d0", "0.38893672255827966d0", "0.38877577393105966d0", "0.3886167836076157d0", "0.3884578888333601d0", "0.38829908985583117d0", "0.38814038692120223d0", "0.38798178027427194d0", "0.3878232701584564d0", "0.3876648568157803d0", "0.3875065404868681d0", "0.38734832141093634d0", "0.3871901998257852d0", "0.38703217596778994d0", "0.38687425007189347d0", "0.3867164223715977d0", "0.38655869309895585d0", "0.3864010624845643d0", "0.3862444491117893d0", "0.38608825261448554d0", "0.3859321529106679d0", "0.38577615022704215d0", "0.38562024478885126d0", "0.3854644368198687d0", "0.385308726542389d0", "0.3851531141772232d0", "0.3849975999436879d0", "0.38484218405960136d0", "0.38468686674127556d0", "0.3845316482035074d0", "0.38437717063028043d0", "0.3842229587334815d0", "0.3840688458156288d0", "0.3839148320807853d0", "0.38376091773152127d0", "0.3836071029689072d0", "0.3834533879925083d0", "0.38329977300037604d0", "0.3831462581890446d0", "0.38299284375352255d0", "0.38283952988728853d0", "0.3826871644927576d0", "0.382535705256902d0", "0.3823843430781321d0", "0.3822330781514546d0", "0.38208191067034597d0", "0.3819308408267481d0", "0.3817798688110625d0", "0.38162899481214446d0", "0.38147821901729856d0", "0.3813275416122723d0", "0.38117696278125235d0", "0.38102648270685857d0", "0.38087610157014d0", "0.38072581955057005d0", "0.38057563682604084d0", "0.38042555357286073d0", "0.3802757811967349d0", "0.3801261300188531d0", "0.3799765786572307d0", "0.3798271272754551d0", "0.37967777603556485d0", "0.37952852509804424d0", "0.3793793746218216d0", "0.3792303247642654d0", "0.37908159429160804d0", "0.37893601097620816d0", "0.37879052131459784d0", "0.37864512547042d0", "0.3784998236057741d0", "0.37835461588121333d0", "0.3782095024557422d0", "0.3780644834868129d0", "0.37792052430356776d0", "0.37777674312281373d0", "0.3776330538908411d0", "0.37748945676643497d0", "0.3773459519067889d0", "0.37720253946750326d0", "0.37706131635426426d0", "0.37692079795611266d0", "0.37678036834411904d0", "0.3766400276754683d0", "0.37649977610575946d0", "0.37635961378900507d0", "0.376219540877628d0", "0.37607955752246147d0", "0.37593966387274697d0", "0.37579986007613375d0", "0.37566014627867694d0", "0.37552052262483765d0", "0.3753809892574813d0", "0.37524154631787776d0", "0.37510219394570044d0", "0.3749629322790253d0", "0.3748237614543323d0", "0.3746846816065035d0", "0.37454569286882383d0", "0.37440679537298144d0", "0.37426798924906735d0", "0.3741292746255758d0", "0.37399065162940587d0", "0.3738521203858607d0", "0.3737136810186486d0", "0.3735753336498844d0", "0.373437496622615d0", "0.3733016066498265d0", "0.37316580554873185d0", "0.3730300934354246d0", "0.3728944704244299d0", "0.3727589366287068d0", "0.37262349215964957d0", "0.3724881371270895d0", "0.37235287163929653d0", "0.37221769580298175d0", "0.3720826578963045d0", "0.3719482636350417d0", "0.37181395821291213d0", "0.3716797417279626d0", "0.3715456142767119d0", "0.371411575954154d0", "0.37127762685376103d0", "0.3711437670674863d0", "0.37100999668576706d0", "0.3708763157975283d0", "0.3707427244901855d0", "0.3706092228496486d0", "0.3704760595476161d0", "0.3703444237978661d0", "0.37021287579013873d0", "0.3700814156029122d0", "0.3699500433132124d0", "0.36981875899661787d0", "0.36968756272726216d0", "0.36955645457784003d0", "0.36942543461961025d0", "0.36929450292240024d0", "0.36916365955461106d0", "0.36903290458322163d0", "0.36890223807379263d0", "0.3687716600904725d0", "0.36864117069600116d0", "0.3685107699517154d0", "0.36838045791755303d0", "0.36825023465205925d0", "0.36812010021239d0", "0.36799005465431867d0", "0.36786009803224046d0", "0.3677302303991771d0", "0.3676004518067841d0", "0.3674707623053537d0", "0.36734116194382227d0", "0.36721281323851684d0", "0.36708712421549516d0", "0.3669618446738789d0", "0.36683725801886036d0", "0.366712752508131d0", "0.3665883281963275d0", "0.366463985136768d0", "0.36633972338145687d0", "0.36621617468428613d0", "0.3660932883768515d0", "0.36597118548212143d0", "0.36584939010963174d0", "0.3657276741757564d0", "0.36560603772820904d0", "0.3654844808134345d0", "0.36536300347661416d0", "0.36524160576167114d0", "0.36512028771127675d0", "0.3649990493668559d0", "0.3648778907685924d0", "0.36475681195543636d0", "0.36475681195543636d0" ],
+					"reg_data_0000000000" : [ "1.0075423359495868d0", "0.9685346208126495d0", "0.9310796027659519d0", "0.8956926732107637d0", "0.8626310031988234d0", "0.8330743215691307d0", "0.8069863482923084d0", "0.783783907979161d0", "0.7635333896735623d0", "0.7458825791646677d0", "0.7303189214358701d0", "0.7166387047602166d0", "0.7048282250585755d0", "0.6942619738584488d0", "0.6847552580005574d0", "0.6760219031655164d0", "0.6680489880009082d0", "0.6610178386698518d0", "0.6546101898674175d0", "0.6486664614962068d0", "0.6431122535946222d0", "0.6379354518953205d0", "0.6331156528702391d0", "0.628701478951305d0", "0.6245353854311437d0", "0.6206293784137202d0", "0.6168760847907174d0", "0.6132657327182723d0", "0.609787695817961d0", "0.6064544110776231d0", "0.6032931731452538d0", "0.6002629388131762d0", "0.5973214302490548d0", "0.5944788432193212d0", "0.5917527870750853d0", "0.5891210052803166d0", "0.586547196767592d0", "0.5840256334139422d0", "0.5815737755259311d0", "0.5792561084891202d0", "0.5770646363970688d0", "0.5749663948633431d0", "0.5729352333917792d0", "0.5709598968579966d0", "0.5690129804870404d0", "0.5671034129573366d0", "0.5652269368907045d0", "0.5633803755638347d0", "0.5615541829558574d0", "0.5597589214906897d0", "0.5579837360496084d0", "0.5562246476982562d0", "0.5544810689150091d0", "0.552753778382756d0", "0.5510757253203283d0", "0.5494107213154829d0", "0.547758315164152d0", "0.546118079082381d0", "0.5444896074764897d0", "0.5428725156552071d0", "0.5412709172423538d0", "0.5396938428295991d0", "0.5381286049732337d0", "0.5365730963318034d0", "0.5350288082215314d0", "0.5334998125635233d0", "0.5319796344729101d0", "0.5304728154696434d0", "0.5289890785563001d0", "0.5275263264470809d0", "0.5260726942478134d0", "0.524626466474665d0", "0.5231874104492311d0", "0.521764372641279d0", "0.5203530944663323d0", "0.5189532473654086d0", "0.5175631686627862d0", "0.5161840975567945d0", "0.5148138224956081d0", "0.5134507823444038d0", "0.5120958710880265d0", "0.5107499406241265d0", "0.5094422164714948d0", "0.5081481581753104d0", "0.5068579549739256d0", "0.5055726044464881d0", "0.5043020556699128d0", "0.5030407461578605d0", "0.5017922889325074d0", "0.5005661203332595d0", "0.4993520477813987d0", "0.49814829836559343d0", "0.4969594936360179d0", "0.4957854814767669d0", "0.49461621518502713d0", "0.49345647964262473d0", "0.49229857440545094d0", "0.4911481329644159d0", "0.49000229612507507d0", "0.48886665883787d0", "0.487737258849256d0", "0.4866080419350374d0", "0.48547899501245845d0", "0.4843501090079438d0", "0.4832213786938146d0", "0.48209280252996034d0", "0.48096438251023377d0", "0.47983612401334996d0", "0.47871638259133703d0", "0.47760302981985925d0", "0.4765161072249174d0", "0.4754332366261089d0", "0.47435718639481855d0", "0.47328593701380356d0", "0.47222190768202765d0", "0.47115747156698146d0", "0.47009426791230974d0", "0.46904830222480925d0", "0.4680077631299777d0", "0.46696890787855144d0", "0.46593541700086843d0", "0.4649077097147921d0", "0.463885476055264d0", "0.4628629740989251d0", "0.46184025092725445d0", "0.4608173548308635d0", "0.45980121014184006d0", "0.4587925220666171d0", "0.4577867774134275d0", "0.4567809857891076d0", "0.4557751938795815d0", "0.4547694493067474d0", "0.4537638005533956d0", "0.45275974110286654d0", "0.45175611460375575d0", "0.45075269889178127d0", "0.4497531991792564d0", "0.44875571472055414d0", "0.44775857966180105d0", "0.4467618469006139d0", "0.44576556965185565d0", "0.4447698013821389d0", "0.4437745957458074d0", "0.4427800065224358d0", "0.44178608755588417d0", "0.440796132077893d0", "0.4398069663717566d0", "0.4388208062957367d0", "0.4378409625905353d0", "0.43686291244927683d0", "0.4358892909042981d0", "0.4349280321416287d0", "0.4339767958475246d0", "0.43302760209534824d0", "0.4320853239006657d0", "0.43115234652568774d0", "0.4302202144006523d0", "0.429301729492261d0", "0.4283929734020572d0", "0.42748888016059794d0", "0.4265858217752586d0", "0.42568367419237196d0", "0.42478248360719983d0", "0.42389457369539d0", "0.4230145100325985d0", "0.42215546140429944d0", "0.4212971683851663d0", "0.4204396764474303d0", "0.41958303041154d0", "0.418727274426877d0", "0.4178724519538824d0", "0.41701860574757454d0", "0.41616577784243153d0", "0.41531907982597616d0", "0.4144761897741097d0", "0.4136343690262577d0", "0.41279365754041325d0", "0.4119540944766265d0", "0.41111571819027665d0", "0.4102785662264565d0", "0.4094426753154288d0", "0.40860808136912685d0", "0.40777759596244545d0", "0.40694982867492185d0", "0.4061234054583589d0", "0.4052983598444174d0", "0.4044782790579231d0", "0.40366209695022787d0", "0.4028586814398259d0", "0.4020578285853366d0", "0.4012584193209496d0", "0.4004604815879718d0", "0.39966404255248633d0", "0.3988692199126582d0", "0.3980783766951555d0", "0.39728978069489135d0", "0.39650610846504286d0", "0.39572404379364123d0", "0.3949436087764185d0", "0.39416725406458564d0", "0.3933954576000388d0", "0.39262532269035605d0", "0.39185686849061097d0", "0.39109401219709516d0", "0.3903357728012652d0", "0.3895792236323207d0", "0.38882438120166946d0", "0.38807149510493055d0", "0.3873213810422312d0", "0.38657300245423154d0", "0.38582637355851207d0", "0.38508150798964663d0", "0.3843384188097085d0", "0.38359711851882283d0", "0.38285761906574883d0", "0.38211993185847687d0", "0.38138406777483036d0", "0.3806505827919066d0", "0.3799264337276952d0", "0.37920856509087275d0", "0.378492427051676d0", "0.3777780293779886d0", "0.37707080557256056d0", "0.3763761876611927d0", "0.3756943663950154d0", "0.3750228285861954d0", "0.3743530251419186d0", "0.3736847023791289d0", "0.3730178700318166d0", "0.37235253740868024d0", "0.37168871340190224d0", "0.37102640649586516d0", "0.3703656247758035d0", "0.3697063759363861d0", "0.3690486672902216d0", "0.3683925057762825d0", "0.3677378979682436d0", "0.3670848500827284d0", "0.3664333679874625d0", "0.36578345720932737d0", "0.3651351229423125d0", "0.3644883700553637d0", "0.36384320310012147d0", "0.3631996263185512d0", "0.362557643650461d0", "0.36191725874090436d0", "0.3612852838346391d0", "0.3606552025966728d0", "0.360032414453576d0", "0.35941464479116686d0", "0.3587983883967092d0", "0.35818364090971383d0", "0.35757040479610763d0", "0.3569586822809927d0", "0.35634862110450427d0", "0.355742759630042d0", "0.3551392853864532d0", "0.3545446056730795d0", "0.35395422106259206d0", "0.35336528128715927d0", "0.3527788871698122d0", "0.3521947055058647d0", "0.3516126891512552d0", "0.3510381207889761d0", "0.3504682694244063d0", "0.3498998242197743d0", "0.3493327854496438d0", "0.34876789354726984d0", "0.34820526556208187d0", "0.347644008138209d0", "0.34708412122671983d0", "0.34652941604676846d0", "0.3459807884108456d0", "0.345441098766262d0", "0.34490264304852836d0", "0.3443654214915657d0", "0.34382943419138395d0", "0.3433013081319099d0", "0.34277485037765204d0", "0.3422547910824355d0", "0.3417368589848917d0", "0.3412255381043361d0", "0.3407164420021709d0", "0.3402136508712413d0", "0.33971443339487384d0", "0.3392162371424459d0", "0.3387190624003149d0", "0.3382232322426253d0", "0.33772873057046826d0", "0.3372361956540254d0", "0.33674753367945803d0", "0.33626181846225306d0", "0.3357774499655116d0", "0.33529883370007446d0", "0.33482116796368977d0", "0.3343444528841501d0", "0.3338686884953965d0", "0.3333938747398426d0", "0.3329200114706495d0", "0.33244709845395104d0", "0.33197513537103224d0", "0.33150412182046257d0", "0.3310340573201801d0", "0.33056494130953606d0", "0.3300967731512924d0", "0.3296295521335788d0", "0.3291632774718077d0", "0.32869794831054844d0", "0.3282335637253639d0", "0.3277701227246065d0", "0.32730762425117654d0", "0.32684606718424625d0", "0.326385450340945d0", "0.32592861651017074d0", "0.3254804659594874d0", "0.3250331548261577d0", "0.32458683289333595d0", "0.3241420358346699d0", "0.32370082799241395d0", "0.32326039757356173d0", "0.32282074434831654d0", "0.32238186802940333d0", "0.3219437682734065d0", "0.3215064446820839d0", "0.32106989680365783d0", "0.32063412413408415d0", "0.32019912611829726d0", "0.3197649021514365d0", "0.319331451580048d0", "0.31890657466111144d0", "0.3184838043009265d0", "0.3180617488221352d0", "0.3176404076950415d0", "0.317219780346515d0", "0.31679986616105915d0", "0.31638066448185975d0", "0.3159644180129461d0", "0.3155507920388822d0", "0.315138043314447d0", "0.3147259966166497d0", "0.3143146509134872d0", "0.31390400514083583d0", "0.31349662262112066d0", "0.31309030447112146d0", "0.31268624502366493d0", "0.31228337104904585d0", "0.311881156586663d0", "0.31148297702643585d0", "0.3110854600188023d0", "0.31068858777362157d0", "0.3102923590955425d0", "0.3098967727666781d0", "0.30950182754734423d0", "0.3091075221767893d0", "0.3087138553739083d0", "0.30832082583794557d0", "0.30792843224918476d0", "0.30753667326962625d0", "0.30714554754365375d0", "0.3067550536986865d0", "0.30636519034582327d0", "0.3059759560804728d0", "0.3055873494829721d0", "0.30519936911919693d0", "0.3048120135411577d0", "0.30442528128758795d0", "0.304039170884519d0", "0.30365368084584693d0", "0.30326880967388825d0", "0.30288455585992446d0", "0.3025009178847389d0", "0.30211789421914187d0", "0.30173548332448613d0", "0.3013536836531747d0", "0.3009724936491572d0", "0.3005919117484178d0", "0.30021193637945404d0", "0.299832565963747d0", "0.29945379891622126d0", "0.29907563364569756d0", "0.2986980685553358d0", "0.29832110204307066d0", "0.2979447325020372d0", "0.29756895832098906d0", "0.2971937778847088d0", "0.2968191895744095d0", "0.29644519176812834d0", "0.29607204256434255d0", "0.2957039516491285d0", "0.29533642823836204d0", "0.2949694707287689d0", "0.29460307751662407d0", "0.2942384059869318d0", "0.29387433095792026d0", "0.2935108285214286d0", "0.29314789697152d0", "0.2927863535258638d0", "0.2924255343650377d0", "0.29206527417322786d0", "0.2917055713297951d0", "0.29134642421625606d0", "0.29098787672702203d0", "0.29063095224277413d0", "0.29027457281445834d0", "0.28991873685202574d0", "0.28956676206840537d0", "0.2892197043495523d0", "0.28887314735219505d0", "0.2885270896810189d0", "0.28818152994389895d0", "0.2878389608137728d0", "0.287504938377803d0", "0.2871800322467089d0", "0.28685880953665255d0", "0.28653798026150623d0", "0.286218153853875d0", "0.2858989353974494d0", "0.2855801119481751d0", "0.2852616827088821d0", "0.2849436468821225d0", "0.2846260036703823d0", "0.28430875227628766d0", "0.2839928313490056d0", "0.28367771842946743d0", "0.2833629781296676d0", "0.2830486097618624d0", "0.28273612087792277d0", "0.2824259285128522d0", "0.2821160969244388d0", "0.28180662542532425d0", "0.2814975133293536d0", "0.2811887599517477d0", "0.28088036460927307d0", "0.28057232662040466d0", "0.2802646453054861d0", "0.2799573199868854d0", "0.27965034998914606d0", "0.279343734639134d0", "0.2790374732661811d0", "0.27873173353434477d0", "0.2784274175246168d0", "0.27812344537868733d0", "0.27782279787284003d0", "0.27752361516213697d0", "0.27722474397016095d0", "0.2769261838642085d0", "0.2766279344134716d0", "0.27632999518915635d0", "0.27603323178708666d0", "0.27573731558686354d0", "0.27544170234636317d0", "0.2751463916742749d0", "0.274851383181506d0", "0.27455667648128596d0", "0.2742622711892689d0", "0.2739681784376611d0", "0.27367525121654335d0", "0.27338433570270737d0", "0.27309489161732825d0", "0.2728069308102831d0", "0.272519439590477d0", "0.27223223799108864d0", "0.2719453256719452d0", "0.2716587022959256d0", "0.2713741469201933d0", "0.27109024390798087d0", "0.27080661381954946d0", "0.2705232564264339d0", "0.27024017150298807d0", "0.26995735882644517d0", "0.2696748181769743d0", "0.2693925493377347d0", "0.269110632574091d0", "0.26882988955941267d0", "0.2685494111446263d0", "0.2682691971343982d0", "0.2679892473364692d0", "0.267711115139117d0", "0.26743414833106477d0", "0.2671574387025442d0", "0.26688098608942257d0", "0.2666047903306586d0", "0.26632885126834027d0", "0.2660531687477219d0", "0.2657777426172575d0", "0.2655025727286336d0", "0.2652276589367986d0", "0.2649530010999901d0", "0.2646785990797614d0", "0.2644044527410041d0", "0.2641305619519703d0", "0.26385755091922236d0", "0.26358480360949227d0", "0.2633123141931746d0", "0.26304008252149985d0", "0.26276810844945053d0", "0.26249639183577d0", "0.26222493254296647d0", "0.26195373043731845d0", "0.2616827954774869d0", "0.26141336725690306d0", "0.26114599043363107d0", "0.2608806407741931d0", "0.26061553217404615d0", "0.26035066459362827d0", "0.2600860379964723d0", "0.2598216523492071d0", "0.25955750762155927d0", "0.25929360378635125d0", "0.25902994081949954d0", "0.25876651870001066d0", "0.2585082802389984d0", "0.2582505807509025d0", "0.2579931169977305d0", "0.25773588896991373d0", "0.25747889666054136d0", "0.25722214006535254d0", "0.2569656191827289d0", "0.25670933401368484d0", "0.2564532845618581d0", "0.25619747083349814d0", "0.25594189283745383d0", "0.25568851050482966d0", "0.2554356622471927d0", "0.2551830445703697d0", "0.2549306574961652d0", "0.25467850104898854d0", "0.25442657525583673d0", "0.2541748801462731d0", "0.25392341575240746d0", "0.2536721821088747d0", "0.2534211792528123d0", "0.2531705614137908d0", "0.25292151824017317d0", "0.25267269675475d0", "0.2524240970506794d0", "0.25217571922328447d0", "0.25192756337002936d0", "0.2516796295904935d0", "0.25143191798634584d0", "0.2511844286613184d0", "0.25093716172118025d0", "0.2506901172737085d0", "0.2504432954286617d0", "0.2501966962977513d0", "0.24995031999461234d0", "0.24970416663477454d0", "0.2494582363356328d0", "0.24921252921641687d0", "0.2489670453981618d0", "0.2487217850036759d0", "0.2484767481575109d0", "0.24823193498593005d0", "0.24798734561687677d0", "0.24774399967370653d0", "0.2475037079004879d0", "0.2472636269641751d0", "0.2470237570430366d0", "0.24678409831678913d0", "0.24654465096656025d0", "0.24630541517485494d0", "0.24606771596419133d0", "0.24583125821844515d0", "0.24559500475504809d0", "0.24535895574314037d0", "0.2451246674391895d0", "0.24489128453664408d0", "0.24465810393746862d0", "0.24442512579016526d0", "0.24419235024508032d0", "0.2439600987019389d0", "0.24372914519234637d0", "0.24349842128860677d0", "0.24326812156909586d0", "0.24303801746840367d0", "0.24280810918159895d0", "0.24257839690508962d0", "0.2423488808365852d0", "0.2421195611750602d0", "0.2418904381207164d0", "0.2416615118749467d0", "0.24143278264029716d0", "0.2412042506204313d0", "0.24097591602009247d0", "0.24074777904506778d0", "0.24051983990215145d0", "0.24029209879910862d0", "0.2400657466991247d0", "0.23984133563998422d0", "0.23961712592538031d0", "0.2393931014612083d0", "0.23916926251449735d0", "0.2389456093527865d0", "0.2387221422440895d0", "0.2384991497775887d0", "0.23827703399425265d0", "0.23805648837464144d0", "0.23783611730864265d0", "0.23761592113336047d0", "0.23739590018579465d0", "0.23717605480280848d0", "0.23695638532109906d0", "0.23673709339970897d0", "0.23651821736804873d0", "0.23629951893380255d0", "0.23608099842695457d0", "0.23586265617716837d0", "0.23564449251375857d0", "0.2354265077656614d0", "0.23520870226140678d0", "0.23499107632908975d0", "0.23477363029634232d0", "0.23455636449030626d0", "0.2343392792376048d0", "0.23412237486431528d0", "0.23390604443601787d0", "0.2336906711523946d0", "0.23347547373616254d0", "0.23326045252123995d0", "0.23304560784106343d0", "0.23283094002855934d0", "0.23261644941611476d0", "0.23240285796099208d0", "0.2321910530141434d0", "0.2319794234054383d0", "0.231767969466798d0", "0.23155669152938357d0", "0.23134558992357124d0", "0.23113466497892685d0", "0.23092485053434236d0", "0.2307155880927832d0", "0.23050650316762952d0", "0.23029759608441686d0", "0.230088867167741d0", "0.2298803167412331d0", "0.22967225234279512d0", "0.22946694384655178d0", "0.22926283971104094d0", "0.22905890079002247d0", "0.22885569465803085d0", "0.2286527652559025d0", "0.22845000097616802d0", "0.22824740215351497d0", "0.2280467974383738d0", "0.22784770618740052d0", "0.22764877612286905d0", "0.2274500075692718d0", "0.22725140085013815d0", "0.227052956288014d0", "0.22685493371688473d0", "0.22665849019349596d0", "0.226462203235118d0", "0.22626754791702094d0", "0.22607335606776802d0", "0.2258793169444762d0", "0.22568543086865447d0", "0.22549169816102607d0", "0.22529811914150552d0", "0.22510469412917603d0", "0.22491142344226725d0", "0.2247191381148236d0", "0.2245283658437908d0", "0.22433774832629516d0", "0.22414728584881233d0", "0.22395697869698802d0", "0.22376682715561863d0", "0.2235768315086308d0", "0.22338699203906195d0", "0.2231973090290406d0", "0.22300778275976718d0", "0.2228184135114952d0", "0.22262920156351199d0", "0.22244052926360705d0", "0.22225214219613362d0", "0.22206390957464292d0", "0.22187583167851077d0", "0.2216879087861811d0", "0.22150014117514782d0", "0.221312529121936d0", "0.22112507290208394d0", "0.22093777279012555d0", "0.22075062905957227d0", "0.22056364198289583d0", "0.22037681183151142d0", "0.22019013887576028d0", "0.22000462569698542d0", "0.21982046758762377d0", "0.21963646079597504d0", "0.2194526055884251d0", "0.21926890223040607d0", "0.21908535098637905d0", "0.21890195211981714d0", "0.21871870589318845d0", "0.2185356125679392d0", "0.2183529618918864d0", "0.21817118599683916d0", "0.2179895691730127d0", "0.21780810051674196d0", "0.2176267803000424d0", "0.21744560879392774d0", "0.21726458626839143d0", "0.21708371299238982d0", "0.21690298923382487d0", "0.21672297250119385d0", "0.21654321562933235d0", "0.21636450884979458d0", "0.21618638797545423d0", "0.2160087242819902d0", "0.21583185648987438d0", "0.2156551333016495d0", "0.2154785549939889d0", "0.2153021218422244d0", "0.21512658770364462d0", "0.21495140150892317d0", "0.2147763554934977d0", "0.2146014499523773d0", "0.2144266851790367d0", "0.2142520614654066d0", "0.21407757910186154d0", "0.21390499093367335d0", "0.2137325760340579d0", "0.21356029840676227d0", "0.21338986350662503d0", "0.2132197769414541d0", "0.21304982936923914d0", "0.2128800914582594d0", "0.2127108683560652d0", "0.21254178346997127d0", "0.21237283707901733d0", "0.2122040294604969d0", "0.21203536088995084d0", "0.2118668316411602d0", "0.21169844198614085d0", "0.211530192195137d0", "0.21136208253661498d0", "0.21119411327725768d0", "0.2110267977251312d0", "0.21086002295046408d0", "0.2106933867464156d0", "0.21052732091942444d0", "0.21036195344939174d0", "0.21019672015675323d0", "0.21003162132621506d0", "0.20986665724071166d0", "0.20970182818139854d0", "0.20953713442764388d0", "0.20937257625702202d0", "0.2092081539453055d0", "0.2090438677664587d0", "0.20887971799263028d0", "0.20871570489414748d0", "0.20855182873950848d0", "0.20838808979537712d0", "0.20822448832657617d0", "0.20806102459608178d0", "0.20789769886501736d0", "0.20773451139264806d0", "0.20757146243637573d0", "0.2074085522517331d0", "0.20724578109237884d0", "0.2070836712328817d0", "0.206923205076552d0", "0.20676287469461588d0", "0.20660268030725493d0", "0.20644390172630767d0", "0.2062854876832431d0", "0.20612720552173272d0", "0.20596905546670247d0", "0.20581103774145432d0", "0.20565315256766198d0", "0.2054954001653672d0", "0.20533778075297549d0", "0.2051802945472529d0", "0.2050229417633225d0", "0.20486572261466054d0", "0.20470863731309363d0", "0.2045519703494972d0", "0.20439564528657322d0", "0.20424043364187966d0", "0.2040853545770202d0", "0.20393231685903584d0", "0.20377945683212526d0", "0.20362672217237476d0", "0.20347411311965521d0", "0.20332162991199154d0", "0.20316927278556132d0", "0.20301704197469322d0", "0.20286493771186606d0", "0.2027129602277067d0", "0.2025611097509901d0", "0.20240938650863732d0", "0.20225779072571531d0", "0.20210632262543587d0", "0.20195498242915533d0", "0.20180377035637356d0", "0.20165268662473418d0", "0.20150173145002384d0", "0.2013509050461723d0", "0.20120037884900754d0", "0.20105044846389777d0", "0.20090064499570284d0", "0.20075096865397316d0", "0.20060141964642206d0", "0.20045199817892634d0", "0.20030270445552714d0", "0.20015353867842944d0", "0.20000450104800335d0", "0.1998555917627844d0", "0.19970681101947463d0", "0.1995581590129428d0", "0.19940963593622613d0", "0.19926124198053088d0", "0.19911297733523373d0", "0.19896484218788288d0", "0.19881683672419972d0", "0.1986689611280797d0", "0.1985212155815946d0", "0.1983736002649938d0", "0.19822611535670595d0", "0.198078761033341d0", "0.19793189189711838d0", "0.19778686419727298d0", "0.1976419613245865d0", "0.19749718345146702d0", "0.19735327942688213d0", "0.19720981111842772d0", "0.19706646497282523d0", "0.19692324115570795d0", "0.19678013983114875d0", "0.19663716116165988d0", "0.19649430530819406d0", "0.19635157243014487d0", "0.1962089626853475d0", "0.1960664762300796d0", "0.1959241132190625d0", "0.1957818738054618d0", "0.1956398138658852d0", "0.19549795752940996d0", "0.19535622449195034d0", "0.19521461490428843d0", "0.1950731289156402d0", "0.1949317666736575d0", "0.19479312976751142d0", "0.19465474707733185d0", "0.19451648231097052d0", "0.1943783356151614d0", "0.19424030713510668d0", "0.1941023970144806d0", "0.19396521591844287d0", "0.19382842113371646d0", "0.19369174385758825d0", "0.19355518422766319d0", "0.19341874238005408d0", "0.19328241844938435d0", "0.1931462125687911d0", "0.19301012486992755d0", "0.19287415548296657d0", "0.1927383045366028d0", "0.19260257215805648d0", "0.19246695847307602d0", "0.19233160524382686d0", "0.19219662063434648d0", "0.1920617538447297d0", "0.19192700500049897d0", "0.19179237422570714d0", "0.19165786164294038d0", "0.19152469633004496d0", "0.1913920033259558d0", "0.19125942227338202d0", "0.19112715728156196d0", "0.1909953133649235d0", "0.1908635818014055d0", "0.19073196270557094d0", "0.19060060025000344d0", "0.19046944350503653d0", "0.1903383944000813d0", "0.19020745307218995d0", "0.19007727063898894d0", "0.18994724415378803d0", "0.18981732278857186d0", "0.18968750668301088d0", "0.1895577959754218d0", "0.1894281908027714d0", "0.189298775427148d0", "0.18917092868700258d0", "0.18904318387700367d0", "0.18891567789889047d0", "0.18878846089868315d0", "0.18866134631647355d0", "0.18853433428290498d0", "0.18840742492729756d0", "0.18828061837765114d0", "0.18815391476064858d0", "0.18802731420165864d0", "0.1879008168247392d0", "0.18777442275264014d0", "0.1876481321068066d0", "0.187521945007382d0", "0.18739586157321172d0", "0.18726988192184532d0", "0.18714400616954094d0", "0.18701823443126755d0", "0.18689256682070887d0", "0.18676700345026642d0", "0.1866415444310628d0", "0.186516189872945d0", "0.18639093988448813d0", "0.18626579457299838d0", "0.18614075404451652d0", "0.18601581840382153d0", "0.18589110738048964d0", "0.18576664306480523d0", "0.1856422846546319d0", "0.18551803224419217d0", "0.18539388592648592d0", "0.18526984579329375d0", "0.1851459119351803d0", "0.1850220844414975d0", "0.18489836340038832d0", "0.1847747488987904d0", "0.18465124102243874d0", "0.18452790594861207d0", "0.18440526719920958d0", "0.18428286987126782d0", "0.18416069787359762d0", "0.18403863074807206d0", "0.18391666857279443d0", "0.18379481142471613d0", "0.18367305937963993d0", "0.18355141251222382d0", "0.18342987089598417d0", "0.1833084346032999d0", "0.1831871037054155d0", "0.1830670585598414d0", "0.1829472105513543d0", "0.18282746551071255d0", "0.18270782350732398d0", "0.18258828460949514d0", "0.18246884888443582d0", "0.18234951639826205d0", "0.1822302872159999d0", "0.1821111614015889d0", "0.1819925625375506d0", "0.18187460193217883d0", "0.18175674201554273d0", "0.18163898285262461d0", "0.18152132450734865d0", "0.1814037670425836d0", "0.18128741707737353d0", "0.18117159912719774d0", "0.18105587925611882d0", "0.18094025752175297d0", "0.18082473398071877d0", "0.18070990998321249d0", "0.18059528750054663d0", "0.1804807626460355d0", "0.18036633547245814d0", "0.18025202234459692d0", "0.18013825698365066d0", "0.18002458769903726d0", "0.17991101454182687d0", "0.17979753756213523d0", "0.17968415680912728d0", "0.17957095291502792d0", "0.17945803390269796d0", "0.17934521037192633d0", "0.1792336975493928d0", "0.17912251710543903d0", "0.17901142745716384d0", "0.17890042865985245d0", "0.1787895207678806d0", "0.17867897592169557d0", "0.1785685501705457d0", "0.17845821265957593d0", "0.17834796344631673d0", "0.17823780258743785d0", "0.17812810192834716d0", "0.17801938240938386d0", "0.17791074955758676d0", "0.17780220342534014d0", "0.17769374406423025d0", "0.17758537152504697d0", "0.1774770858577866d0", "0.177368887111653d0", "0.1772611197028437d0", "0.17715348962729258d0", "0.1770459455007744d0", "0.1769384873772131d0", "0.1768311153097223d0", "0.17672401610677752d0", "0.17661700883916906d0", "0.1765100901637018d0", "0.17640326011068228d0", "0.17629661379159356d0", "0.176190122437515d0", "0.1760837183434431d0", "0.17597740154384547d0", "0.1758711720724643d0", "0.175765029962318d0", "0.17565897524570348d0", "0.17555300795419845d0", "0.1754471281186625d0", "0.17534133576924008d0", "0.17523563093536199d0", "0.17513001364574743d0", "0.17502448392840625d0", "0.17491904181064072d0", "0.17481368731904764d0", "0.1747084204795206d0", "0.1746032413172519d0", "0.17449814985673429d0", "0.17439314612176351d0", "0.17428823013544031d0", "0.17418340192017195d0", "0.17407866149767529d0", "0.1739742299865043d0", "0.17387067583721175d0", "0.1737672051885035d0", "0.17366381807107029d0", "0.17356051451490329d0", "0.17345729454929534d0", "0.17335415820284344d0", "0.173251105503451d0", "0.17314813647832908d0", "0.17304525115399927d0", "0.17294244955629523d0", "0.17284005198201172d0", "0.17273817582794743d0", "0.17263638151222138d0", "0.17253486113804675d0", "0.17243370689737234d0", "0.17233296436157874d0", "0.17223245893340586d0", "0.17213203456578255d0", "0.1720316912813351d0", "0.17193142910201992d0", "0.17183124804912572d0", "0.17173114814327556d0", "0.171631129404429d0", "0.17153119185188404d0", "0.17143133550427944d0", "0.17133156037959654d0", "0.17123186649516134d0", "0.1711322538676469d0", "0.17103272251307522d0", "0.17093327244681916d0", "0.17083390368360515d0", "0.17073489385944932d0", "0.17063599688719425d0", "0.17053717938048965d0", "0.17043852521621142d0", "0.1703413392767034d0", "0.17024422717726048d0", "0.17014718894572026d0", "0.17005049893485205d0", "0.16995409289849336d0", "0.16985895046491073d0", "0.1697647690353279d0", "0.16967065621444896d0", "0.16957661202808882d0", "0.16948263650148712d0", "0.16938872965930987d0", "0.16929489152565105d0", "0.1692018022188631d0", "0.16910957259924742d0", "0.16901740751791483d0", "0.16892530700154978d0", "0.16883327107629734d0", "0.16874129976776434d0", "0.16864939310102095d0", "0.16855755110060203d0", "0.16846577379050803d0", "0.16837406119420728d0", "0.16828241333463606d0", "0.1681908302342014d0", "0.16809931191478097d0", "0.1680078583977259d0", "0.16791646970386115d0", "0.16782514585348743d0", "0.16773388686638224d0", "0.16764269276180177d0", "0.16755156355848172d0", "0.16746049927463938d0", "0.1673694999279744d0", "0.16727856553567066d0", "0.16718769611439768d0", "0.16709689168031194d0", "0.1670061522490582d0", "0.1669154778357715d0", "0.16682486845507788d0", "0.16673432412109662d0", "0.166643844847441d0", "0.1665534306472202d0", "0.16646308153304096d0", "0.1663728920312015d0", "0.16628293711298353d0", "0.1661930468577611d0", "0.16610322127644184d0", "0.16601346037943937d0", "0.1659243488168234d0", "0.16583547062935394d0", "0.16574665596811725d0", "0.1656579048438049d0", "0.1655692172666156d0", "0.1654805932462567d0", "0.16539203279194545d0", "0.16530353591241104d0", "0.16521510261589614d0", "0.16512673291015817d0", "0.16503842680247122d0", "0.1649503004968182d0", "0.16486234164483665d0", "0.16477444644758446d0", "0.1646866149070579d0", "0.16459884702480163d0", "0.16451114280191015d0", "0.16442361017159415d0", "0.16433649309992976d0", "0.16424943892706578d0", "0.16416244765280222d0", "0.16407551927649938d0", "0.1639887616538228d0", "0.16390214587487367d0", "0.16381559297885d0", "0.16372910296423063d0", "0.16364267582905972d0", "0.16355631157094863d0", "0.16347001018707688d0", "0.16338377167419416d0", "0.16329759602862173d0", "0.16321148324625345d0", "0.16312543332255816d0", "0.16303944625258024d0", "0.16295352203094196d0", "0.16286766065184455d0", "0.16278257804136903d0", "0.16269802598993457d0", "0.1626135361051809d0", "0.16252910837228512d0", "0.16244474277604729d0", "0.1623604393008908d0", "0.1622769071052894d0", "0.1621934891008928d0", "0.16211014947137953d0", "0.1620268702825219d0", "0.16194404366947146d0", "0.16186142345190963d0", "0.16177886317368187d0", "0.16169636281680033d0", "0.1616139223629276d0", "0.16153154179337817d0", "0.16144922108911994d0", "0.1613669602307754d0", "0.1612847591986236d0", "0.16120261797260085d0", "0.16112053653230274d0", "0.16103948279320368d0", "0.16095856158017371d0", "0.1608776989716707d0", "0.16079689494506347d0", "0.16071614947739787d0", "0.16063546254539804d0", "0.16055483412546817d0", "0.1604742641936936d0", "0.1603937527258423d0", "0.16031329969736613d0", "0.1602329050834023d0", "0.16015256885877455d0", "0.16007229099799478d0", "0.15999207147526437d0", "0.1599119102644751d0", "0.1598318073392114d0", "0.15975176267275085d0", "0.159671776238066d0", "0.1595918480078256d0", "0.15951197795439612d0", "0.15943216604984287d0", "0.15935241226593183d0", "0.1592727165741304d0", "0.159193078945609d0", "0.15911349935124303d0", "0.1590339777616134d0", "0.15895451414700848d0", "0.15887510847742486d0", "0.1587957607225697d0", "0.15871647085186108d0", "0.1586372388344301d0", "0.15855806463912203d0", "0.1584789482344973d0", "0.15839988958883378d0", "0.15832088867012714d0", "0.15824226792262674d0", "0.1581639180286165d0", "0.1580856232809911d0", "0.15800738365343156d0", "0.15792919911933298d0", "0.1578510696518055d0", "0.15777299522367616d0", "0.15769497580748984d0", "0.15761701137551073d0", "0.15753910189972392d0", "0.15746124735183614d0", "0.15738404525022875d0", "0.15730700362843403d0", "0.15723001476229292d0", "0.15715307862486053d0", "0.1570761951889231d0", "0.1569993644269992d0", "0.1569225863113411d0", "0.15684586081393612d0", "0.15676918790650807d0", "0.15669256756051814d0", "0.1566159997471668d0", "0.1565394844373946d0", "0.15646352111818645d0", "0.15638780900239332d0", "0.15631214804695487d0", "0.15623653822432793d0", "0.1561609795067136d0", "0.15608547186605892d0", "0.15601001527405803d0", "0.1559346097021533d0", "0.15585925512153723d0", "0.15578395150315263d0", "0.15570869881769503d0", "0.15563349703561316d0", "0.15555834612711056d0", "0.15548324606214706d0", "0.1554081968104397d0", "0.1553331983414641d0", "0.15525825062445558d0", "0.15518335362841112d0", "0.15510862563728622d0", "0.15503402611450237d0", "0.15495947717330094d0", "0.15488497878147486d0", "0.15481053090658484d0", "0.1547361335159601d0", "0.1546617865766998d0", "0.15458749005567454d0", "0.1545132439195275d0", "0.15443904813467557d0", "0.15436490266731107d0", "0.15429080748340254d0", "0.15421676254869646d0", "0.15414276782871836d0", "0.15406882328877394d0", "0.15399492889395072d0", "0.1539210846091191d0", "0.15384729039893358d0", "0.15377354622783418d0", "0.15369985206004794d0", "0.15362620785958944d0", "0.15355261359026318d0", "0.15347906921566393d0", "0.15340557469917848d0", "0.15333213000398693d0", "0.15325873509306343d0", "0.1531853899291785d0", "0.1531120944748991d0", "0.15303884869259082d0", "0.15296565254441874d0", "0.15289250599234885d0", "0.15281960151780308d0", "0.15274675028681214d0", "0.1526739491919381d0", "0.15260119818867462d0", "0.15252849723234074d0", "0.15245584627808256d0", "0.15238324528087402d0", "0.1523106941955183d0", "0.1522381929766493d0", "0.1521657415787327d0", "0.15209333995606716d0", "0.15202098806278566d0", "0.15194868585285692d0", "0.15187643328008638d0", "0.15180423029811765d0", "0.1517320768604336d0", "0.1516599729203577d0", "0.1515879184310553d0", "0.15151591334553483d0", "0.1514439576166489d0", "0.1513720511970958d0", "0.15130019403942063d0", "0.15122838609601638d0", "0.1511566273191255d0", "0.1510849176608406d0", "0.1510132570731065d0", "0.15094164550772032d0", "0.15087062471079382d0", "0.15080004220209892d0", "0.15072950719893807d0", "0.1506590196517363d0", "0.15058857951079527d0", "0.15051818672629477d0", "0.15044811406132133d0", "0.1503781148761099d0", "0.15030863397603414d0", "0.15023942110120872d0", "0.15017067150636676d0", "0.1501022453922917d0", "0.15003386311673936d0", "0.14996552463572113d0", "0.14989722990511542d0", "0.14982897888066898d0", "0.149760771517998d0", "0.14969260777258916d0", "0.149624487599801d0", "0.14955641095486488d0", "0.14948837779288623d0", "0.1494203880688455d0", "0.14935244173759982d0", "0.14928453875388317d0", "0.14921667907230887d0", "0.14914886264736932d0", "0.1490810894334381d0", "0.14901335938477067d0", "0.1489456724555057d0", "0.14887802859966584d0", "0.14881042777115935d0", "0.14874286992378097d0", "0.14867539700171511d0", "0.14860835047268256d0", "0.14854134639925984d0", "0.1484743847339627d0", "0.14840746542920819d0", "0.14834058843731568d0", "0.14827375371050824d0", "0.14820696120091317d0", "0.14814021086056378d0", "0.1480735026413996d0", "0.14800683649526833d0", "0.14794021237392604d0", "0.14787363022903893d0", "0.1478070900121839d0", "0.14774059167484965d0", "0.14767413516843803d0", "0.1476077204442646d0", "0.14754134745356026d0", "0.14747538246049302d0", "0.1474098219724162d0", "0.14734430320943864d0", "0.1472788261222316d0", "0.147213390661383d0", "0.14714799677739807d0", "0.14708285674484373d0", "0.1470181076281543d0", "0.1469533987753511d0", "0.14688873013763304d0", "0.14682410166612328d0", "0.14676025377460006d0", "0.14669694960089116d0", "0.1466336833108939d0", "0.14657045485898465d0", "0.14650726419946516d0", "0.14644418484615734d0", "0.1463812858592396d0", "0.1463184244040501d0", "0.14625560043449998d0", "0.1461928139044306d0", "0.1461300647676143d0", "0.14606735297775553d0", "0.14600467848849172d0", "0.1459420412533941d0", "0.14587944122596921d0", "0.14581687835965948d0", "0.14575435260784425d0", "0.14569208498252975d0", "0.14563039540825845d0", "0.14556874144861504d0", "0.14550712305943858d0", "0.14544554019650838d0", "0.14538409606118968d0", "0.1453232894463176d0", "0.14526251741511084d0", "0.14520177992454728d0", "0.1451410769315483d0", "0.14508040839298028d0", "0.14501977426565513d0", "0.14495917450633156d0", "0.1448986090717157d0", "0.14483807791846212d0", "0.14477791562284154d0", "0.14471786011708118d0", "0.14465783899609727d0", "0.14459785221392757d0", "0.14453789972457048d0", "0.14447798148198526d0", "0.14441809744009348d0", "0.14435824755277915d0", "0.14429843177389023d0", "0.14423865005723935d0", "0.14417899052060973d0", "0.14411965530354393d0", "0.14406035349457058d0", "0.14400108504822343d0", "0.14394184991900694d0", "0.14388264806139683d0", "0.14382352819638358d0", "0.1437650222588717d0", "0.14370654823008086d0", "0.14364810606690326d0", "0.14358969572620253d0", "0.14353131716481465d0", "0.14347297033954853d0", "0.14341465520718696d0", "0.1433569197994482d0", "0.14329934459292074d0", "0.14324179965748499d0", "0.1431842849498019d0", "0.14312680042651818d0", "0.14306934604426721d0", "0.14301192175966948d0", "0.14295464618420195d0", "0.1428975862755173d0", "0.14284055577064414d0", "0.14278355462750078d0", "0.1427265828039943d0", "0.14266968852058576d0", "0.1426129431852829d0", "0.14255622743093982d0", "0.1424995412131287d0", "0.14244336989099032d0", "0.14238790695372378d0", "0.14233247066457452d0", "0.14227706098227857d0", "0.1422216778655881d0", "0.14216632127327183d0", "0.1421109911641157d0", "0.14205568749692313d0", "0.14200041023051582d0", "0.14194515932373403d0", "0.1418899347354375d0", "0.1418347364245054d0", "0.14177956434983724d0", "0.14172441847035352d0", "0.14166929874499576d0", "0.14161420513272724d0", "0.14155921560559456d0", "0.14150457881962733d0", "0.14144996752861838d0", "0.14139538169227578d0", "0.14134082127033015d0", "0.14128628622253578d0", "0.14123177650867028d0", "0.14117729208853574d0", "0.141122832921959d0", "0.1410683989687922d0", "0.1410139901889132d0", "0.14095960654222614d0", "0.14090524798866189d0", "0.14085091448817855d0", "0.14079660600076208d0", "0.14074232248642657d0", "0.14068806390521496d0", "0.1406338302171994d0", "0.1405796213824815d0", "0.1405254373611933d0", "0.14047127811349766d0", "0.14041714359958832d0", "0.14036303377969087d0", "0.14030894861406287d0", "0.14025488806299474d0", "0.14020085208680985d0", "0.14014684064586524d0", "0.14009285370055188d0", "0.14003960677124527d0", "0.13998658730239433d0", "0.13993359132786345d0", "0.1398806188078899d0", "0.1398276697027525d0", "0.13977474397277243d0", "0.13972184157831324d0", "0.139668962479782d0", "0.139616106637629d0", "0.13956327401234847d0", "0.13951046456447913d0", "0.13945767825460434d0", "0.13940491504335267d0", "0.13935217668305735d0", "0.1392997729971016d0", "0.13924739219120336d0", "0.1391950342262447d0", "0.13914269906315552d0", "0.1390903866629137d0", "0.13903809698654634d0", "0.13898582999512915d0", "0.13893358564978753d0", "0.13888136391169664d0", "0.1388291647420821d0", "0.1387769881022202d0", "0.1387248339534384d0", "0.1386727022571156d0", "0.1386205929746826d0", "0.13856850606762275d0", "0.13851644149747214d0", "0.13846439922581982d0", "0.13841237921430852d0", "0.1383603814246351d0", "0.13830840581855042d0", "0.13825645235786055d0", "0.13820452100442646d0", "0.1381526117201647d0", "0.13810072446704788d0", "0.13804949316542983d0", "0.13799898812302988d0", "0.13794850392651462d0", "0.13789804053878582d0", "0.1378475979227994d0", "0.13779717604156538d0", "0.1377467748581482d0", "0.1376963943356677d0", "0.13764603443729878d0", "0.13759569512627254d0", "0.13754537636587608d0", "0.1374950781194534d0", "0.13744480035040546d0", "0.13739454302219095d0", "0.13734430609832615d0", "0.13729408954238614d0", "0.1372438933180043d0", "0.13719371738887334d0", "0.13714357897430102d0", "0.13709483274574868d0", "0.13704615446205318d0", "0.1369979000240011d0", "0.13694966370158057d0", "0.1369016223096188d0", "0.13685416330292982d0", "0.13680672199628127d0", "0.1367592983578948d0", "0.1367118923560317d0", "0.1366645039589939d0", "0.13661713313512422d0", "0.1365697798528067d0", "0.13652244408046732d0", "0.13647512578657417d0", "0.13642782493963784d0", "0.13638054150821238d0", "0.13633327546089488d0", "0.13628602676632656d0", "0.13623879539319303d0", "0.13619158131022452d0", "0.13614438448619667d0", "0.13609720488993052d0", "0.13605004249029343d0", "0.13600289725619877d0", "0.13595576915660737d0", "0.1359086581605269d0", "0.1358615642370131d0", "0.13581448735516966d0", "0.13576742748414883d0", "0.13572038459315194d0", "0.13567335865142954d0", "0.13562634962828218d0", "0.1355793574930606d0", "0.135532382215166d0", "0.13548542376405073d0", "0.13543848210921866d0", "0.13539155722022547d0", "0.13534464906667887d0", "0.13529811909385878d0", "0.13525176761320415d0", "0.13520543133038768d0", "0.13515911021903265d0", "0.135113152951289d0", "0.13506734668545833d0", "0.13502155473827612d0", "0.13497577708359318d0", "0.13493001369530944d0", "0.13488436981736165d0", "0.13483932603847157d0", "0.13479429557256517d0", "0.13474927839470305d0", "0.1347042744799938d0", "0.13465928380359496d0", "0.1346143063407128d0", "0.13456934206660337d0", "0.1345243909565722d0", "0.13447945298597533d0", "0.13443452813021933d0", "0.1343896163647618d0", "0.13434471766511186d0", "0.13429983200683043d0", "0.13425495936553045d0", "0.13421009971687772d0", "0.1341652530365908d0", "0.13412041930044202d0", "0.13407559848425693d0", "0.1340307905639158d0", "0.13398599551535292d0", "0.13394121331455794d0", "0.13389644410810586d0", "0.13385170300104485d0", "0.13380713972373928d0", "0.1337626020630652d0", "0.1337180772344235d0", "0.13367358233128196d0", "0.13362918600394197d0", "0.13358480213189847d0", "0.13354043069147728d0", "0.13349607165906555d0", "0.13345172501111185d0", "0.13340739072412705d0", "0.1333630687746843d0", "0.13331875913941943d0", "0.1332744617950314d0", "0.13323017671828272d0", "0.13318590388599968d0", "0.1331416432750729d0", "0.1330973948624573d0", "0.133053158625173d0", "0.1330089345403053d0", "0.13296472258500516d0", "0.13292053058807773d0", "0.13287669367850197d0", "0.13283288166385837d0", "0.1327892243286278d0", "0.13274561797546203d0", "0.13270202278279572d0", "0.13265843872895142d0", "0.13261486579231865d0", "0.13257130395135486d0", "0.13252775318458532d0", "0.13248432171007757d0", "0.1324416474490954d0", "0.13239898327382768d0", "0.13235632916012904d0", "0.13231368508393151d0", "0.13227105102124503d0", "0.13222842694815742d0", "0.1321858128408351d0", "0.1321432086755234d0", "0.13210061442854656d0", "0.13205803007630854d0", "0.1320154555952931d0", "0.13197289096206433d0", "0.13193033615326688d0", "0.13188779114562638d0", "0.1318452559159495d0", "0.13180277986957978d0", "0.13176069254037953d0", "0.13171861496941334d0", "0.1316765471328905d0", "0.13163448900710364d0", "0.1315924405684286d0", "0.1315504017933255d0", "0.13150837265833842d0", "0.13146635314009605d0", "0.1314243432153121d0", "0.1313823428607853d0", "0.13134035205339986d0", "0.13129837077012582d0", "0.13125639898801955d0", "0.13121443668422378d0", "0.13117248383596788d0", "0.1311305404205685d0", "0.13108864308509943d0", "0.1310469055715342d0", "0.13100525652183992d0", "0.1309637343774301d0", "0.13092222095055966d0", "0.130880716219845d0", "0.13083922016399066d0", "0.13079773276179057d0", "0.13075625399212698d0", "0.13071478383397186d0", "0.1306733222663867d0", "0.13063186926852272d0", "0.1305904248196213d0", "0.13054898889901456d0", "0.13050756148612486d0", "0.13046614256046588d0", "0.1304247321016425d0", "0.13038347284085242d0", "0.13034224217002427d0", "0.13030101878791778d0", "0.13025980267655615d0", "0.1302185938180537d0", "0.13017739219461646d0", "0.1301361977885421d0", "0.13009501058222053d0", "0.130053830558134d0", "0.1300126576988574d0", "0.12997149198705835d0", "0.12993033340549776d0", "0.12988918193702978d0", "0.1298480375646024d0", "0.12980690027125727d0", "0.12976577004013018d0", "0.12972464685445156d0", "0.12968353069754607d0", "0.1296424215528335d0", "0.12960131940382852d0", "0.12956022423414135d0", "0.12951924959755284d0", "0.1294785149544702d0", "0.1294377866549091d0", "0.12939706468277962d0", "0.12935634902208926d0", "0.1293156396569429d0", "0.12927493657154296d0", "0.12923423975018983d0", "0.12919354917728207d0", "0.12915286483731633d0", "0.12911218671488803d0", "0.1290715147946911d0", "0.12903084906151852d0", "0.128990318930373d0", "0.12894992113389564d0", "0.1289095295363653d0", "0.12886914412220787d0", "0.1288287648759509d0", "0.1287883917822235d0", "0.12874802482575712d0", "0.12870766399138503d0", "0.1286673092640432d0", "0.1286269606287697d0", "0.12858661807070568d0", "0.12854628157509493d0", "0.12850609974024219d0", "0.1284661095252345d0", "0.128426125811144d0", "0.12838614858177522d0", "0.12834617782103908d0", "0.12830621351295315d0", "0.12826625564164168d0", "0.1282263041913359d0", "0.12818635914637375d0", "0.12814642049120092d0", "0.12810648821036988d0", "0.12806663780708105d0", "0.12802688044015204d0", "0.1279871291559294d0", "0.12794738394036953d0", "0.1279076447795357d0", "0.12786791165959796d0", "0.12782825010691412d0", "0.1277889212468942d0", "0.12774959783697543d0", "0.12771027986503647d0", "0.12767096731906014d0", "0.12763166018713276d0", "0.12759262080812492d0", "0.12755434767797552d0", "0.12751611049830983d0", "0.12747787775622985d0", "0.12743964944259847d0", "0.12740142554837672d0", "0.127363206064624d0", "0.12732499098249814d0", "0.12728678029325577d0", "0.12724857398825173d0", "0.12721037205894d0", "0.12717217449687318d0", "0.12713398129370268d0", "0.12709579244117913d0", "0.1270576079311518d0", "0.12701942775556946d0", "0.12698125190647985d0", "0.12694308037602992d0", "0.12690491315646601d0", "0.12686675024013394d0", "0.12682859161947865d0", "0.12679043728704484d0", "0.1267522872354767d0", "0.12671447031737762d0", "0.12667679076760266d0", "0.12663911510237896d0", "0.12660144331509823d0", "0.12656377539925d0", "0.1265261113484221d0", "0.12648845115630025d0", "0.12645079481666888d0", "0.12641314232341022d0", "0.12637549367050485d0", "0.1263378488520316d0", "0.126300207862168d0", "0.12626257069518917d0", "0.12622493734546925d0", "0.12618730780748047d0", "0.12614968207579336d0", "0.1261120601450771d0", "0.12607444201009899d0", "0.12603682766572474d0", "0.1259992171069186d0", "0.12596161032874326d0", "0.12592400732635967d0", "0.12588640809502719d0", "0.12584885405508833d0", "0.12581132713940454d0", "0.12577380376432692d0", "0.12573631796394943d0", "0.12569952521277095d0", "0.125662735099179d0", "0.12562594761880755d0", "0.12558916276739404d0", "0.12555238054077916d0", "0.12551560093490685d0", "0.1254788239458242d0", "0.12544204956968133d0", "0.12540527780273156d0", "0.12536850864133126d0", "0.12533174208193965d0", "0.12529497812111895d0", "0.12525821675553422d0", "0.1252214579819532d0", "0.12518470906417295d0", "0.12514797040670775d0", "0.12511123445669886d0", "0.12507450121105693d0", "0.1250377706667934d0", "0.12500104282102067d0", "0.12496431767095227d0", "0.12492759521390243d0", "0.12489087544728614d0", "0.12485415836861913d0", "0.12481744397551767d0", "0.12478073226569852d0", "0.12474402323697892d0", "0.12470731688727639d0", "0.12467061321460852d0", "0.1246339122170933d0", "0.1245972138929484d0", "0.1245605182404916d0", "0.1245238252581404d0", "0.12448713494441213d0", "0.12445044729792341d0", "0.12441376231739065d0", "0.12437708000162917d0", "0.12434040034955399d0", "0.1243037233601789d0", "0.12426704903261679d0", "0.12423037736607931d0", "0.12419370835987689d0", "0.12415704201341854d0", "0.12412037832621177d0", "0.12408377558673622d0", "0.1240480540585248d0", "0.12401248038471319d0", "0.12397691656411852d0", "0.12394213206869956d0", "0.12390734826753258d0", "0.12387256515864553d0", "0.12383778274015808d0", "0.12380300101028167d0", "0.12376821996731942d0", "0.12373343960966601d0", "0.1236986599358081d0", "0.12366388094432376d0", "0.12362910263388241d0", "0.12359432500324544d0", "0.12355954805126534d0", "0.12352477177688634d0", "0.12349019971557663d0", "0.12345563230528606d0", "0.12342106521949651d0", "0.12338671404579692d0", "0.12335237885883135d0", "0.1233180439504966d0", "0.12328372699593679d0", "0.12324942268632576d0", "0.1232151189003922d0", "0.12318081563798122d0", "0.12314673806410562d0", "0.12311292917239858d0", "0.12307921898577082d0", "0.1230458015753639d0", "0.1230123836103888d0", "0.12297896509300806d0", "0.12294554602546877d0", "0.12291212641010321d0", "0.12287870624932791d0", "0.1228452855456444d0", "0.12281186430163833d0", "0.12277844251998d0", "0.1227450202034241d0", "0.1227116337811179d0", "0.12267830924492545d0", "0.12264498385400303d0", "0.12261165761221703d0", "0.1225783305235184d0", "0.12254500259194298d0", "0.12251180476495489d0", "0.12247878585416143d0", "0.12244576574713603d0", "0.12241274444739687d0", "0.12237972195854512d0", "0.122346698284264d0", "0.12231367342831956d0", "0.12228064739455977d0", "0.12224762018691496d0", "0.12221459180939738d0", "0.12218156226610147d0", "0.12214853156120349d0", "0.12211549969896127d0", "0.12208246668371442d0", "0.12204943251988402d0", "0.12201639721197252d0", "0.12198342395885253d0", "0.12195048341477278d0", "0.12191754133294445d0", "0.12188459771880981d0", "0.12185165257789346d0", "0.12181870591580198d0", "0.12178575773822417d0", "0.12175280805093068d0", "0.12171985685977396d0", "0.12168690417068798d0", "0.12165394998968837d0", "0.12162099432287223d0", "0.12158803717641768d0", "0.12155519944301768d0", "0.12152255591829297d0", "0.121489953934714d0", "0.12145735025299323d0", "0.12142475935393984d0", "0.1213925305804224d0", "0.12136029983641886d0", "0.12132806712783764d0", "0.12129583246066893d0", "0.12126359584098349d0", "0.12123135727493321d0", "0.12119911676875071d0", "0.12116687432874926d0", "0.12113462996132253d0", "0.1211023836729445d0", "0.12107013547016927d0", "0.1210378853596309d0", "0.12100563334804332d0", "0.1209733794422001d0", "0.12094112364897416d0", "0.12090886597531784d0", "0.12087660642826246d0", "0.12084434501491864d0", "0.12081208174247529d0", "0.12077981661820034d0", "0.12074754964944007d0", "0.12071528084361878d0", "0.12068301020823904d0", "0.12065073775088132d0", "0.12061846347920371d0", "0.1205861874009417d0", "0.12055390952390851d0", "0.12052162985599389d0", "0.12048934840516515d0", "0.12045737101853665d0", "0.12042555981670572d0", "0.12039382323972629d0", "0.12036208442907637d0", "0.12033034339413193d0", "0.12029860014433809d0", "0.12026685468920856d0", "0.12023510703832549d0", "0.12020335720133961d0", "0.12017160518796965d0", "0.12013985100800248d0", "0.12010809467129256d0", "0.12007633943284388d0", "0.12004485768448771d0", "0.12001337353595298d0", "0.11998188699732419d0", "0.11995039807875092d0", "0.11991890679044753d0", "0.119887413142693d0", "0.11985591714583055d0", "0.11982441881026792d0", "0.11979291814647663d0", "0.1197614151649921d0", "0.11972990987641322d0", "0.11969840229140256d0", "0.11966689242068553d0", "0.11963538027505076d0", "0.11960386586534962d0", "0.11957234920249604d0", "0.11954083029746633d0", "0.11950946785278696d0", "0.11947815903090911d0", "0.11944684772451268d0", "0.11941553394379027d0", "0.11938421769900023d0", "0.11935289900046624d0", "0.1193215778585768d0", "0.1192902542837854d0", "0.11925892828661026d0", "0.11922759987763396d0", "0.11919626906750334d0", "0.11916513579108357d0", "0.11913415465377808d0", "0.11910317056332186d0", "0.11907218353139161d0", "0.1190411935697269d0", "0.11901020069012996d0", "0.11897920490446526d0", "0.1189482062246593d0", "0.11891720466270084d0", "0.1188862002306399d0", "0.11885519294058816d0", "0.11885519294058816d0" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -9596,7 +9058,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1203.5, 215.209952488541262, 249.0, 42.0 ],
-					"text" : "\"Macintosh HD:/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test combined rhythm-modulo\""
+					"text" : "\"Macintosh HD:/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test short combined Schubert\""
 				}
 
 			}
@@ -11675,7 +11137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.5, 1679.333383202552795, 29.5, 20.0 ],
+					"patching_rect" : [ 240.5, 1675.0, 29.5, 20.0 ],
 					"text" : "set"
 				}
 
@@ -12271,7 +11733,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1310.0, 995.0, 130.0, 20.0 ],
-					"reg_data_0000000000" : [ "[", "[", 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "]" ],
+					"reg_data_0000000000" : [ "[", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, "]", "[", 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -12314,7 +11776,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1310.0, 874.0, 130.0, 20.0 ],
-					"reg_data_0000000000" : [ "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, "]", "]" ],
+					"reg_data_0000000000" : [ "[", "[", 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, "]", "[", 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -12521,7 +11983,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 486.290326058864594, 1177.419363260269165, 99.0, 20.0 ],
-					"reg_data_0000000000" : [ "\"/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test", "combined", "rhythm-modulo\"" ],
+					"reg_data_0000000000" : [ "\"/Users/juanvassallo/Desktop/NeuralConstraints-REPO/models/Test", "short", "combined", "Schubert\"" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -13911,7 +13373,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-155",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -18093,7 +17555,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.548387587070465, 730.645166516304016, 84.0, 20.0 ],
-					"text" : "56 8"
+					"text" : "32"
 				}
 
 			}
@@ -20466,13 +19928,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-378", 0 ],
-					"source" : [ "obj-359", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -20482,46 +19937,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
 					"midpoints" : [ 17.5, 1729.0, 82.04839026927948, 1729.0 ],
-					"order" : 5,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-170", 0 ],
-					"order" : 3,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-173", 0 ],
-					"order" : 1,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-199", 0 ],
-					"order" : 9,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
-					"order" : 8,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-205", 0 ],
 					"order" : 7,
 					"source" : [ "obj-360", 0 ]
 				}
@@ -20529,15 +19944,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-325", 0 ],
-					"order" : 6,
-					"source" : [ "obj-360", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-362", 0 ],
+					"destination" : [ "obj-170", 0 ],
 					"order" : 4,
 					"source" : [ "obj-360", 0 ]
 				}
@@ -20545,7 +19952,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-363", 0 ],
+					"destination" : [ "obj-173", 0 ],
 					"order" : 2,
 					"source" : [ "obj-360", 0 ]
 				}
@@ -20553,7 +19960,71 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"order" : 11,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-203", 0 ],
+					"order" : 10,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-205", 0 ],
+					"order" : 9,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-325", 0 ],
+					"order" : 8,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-362", 0 ],
+					"order" : 6,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-363", 0 ],
+					"order" : 3,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-364", 0 ],
+					"order" : 1,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-365", 0 ],
+					"order" : 5,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-401", 0 ],
 					"order" : 0,
 					"source" : [ "obj-360", 0 ]
 				}
@@ -20589,8 +20060,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-359", 0 ],
+					"destination" : [ "obj-432", 0 ],
+					"source" : [ "obj-365", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-368", 0 ],
 					"source" : [ "obj-367", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-378", 0 ],
+					"midpoints" : [ 1551.0, 445.301630467176437, 1368.5, 445.301630467176437 ],
+					"source" : [ "obj-368", 0 ]
 				}
 
 			}
@@ -20606,7 +20092,7 @@
 					"color" : [ 0.999993443489075, 0.999963402748108, 0.041014794260263, 1.0 ],
 					"destination" : [ "obj-394", 0 ],
 					"midpoints" : [ 1303.166666666666742, 619.398562550544739, 588.274197816848755, 619.398562550544739 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-370", 0 ]
 				}
 
@@ -20617,6 +20103,16 @@
 					"destination" : [ "obj-425", 0 ],
 					"midpoints" : [ 1303.166666666666742, 615.265159755945206, 638.5, 615.265159755945206 ],
 					"order" : 0,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.999993443489075, 0.999963402748108, 0.041014794260263, 1.0 ],
+					"destination" : [ "obj-84", 1 ],
+					"midpoints" : [ 1303.166666666666742, 619.751981824636459, 620.016132175922394, 619.751981824636459 ],
+					"order" : 1,
 					"source" : [ "obj-370", 0 ]
 				}
 
@@ -20639,7 +20135,7 @@
 				"patchline" : 				{
 					"color" : [ 0.985541701316833, 0.009453415870667, 0.999180555343628, 1.0 ],
 					"destination" : [ "obj-395", 0 ],
-					"midpoints" : [ 1488.118055522441864, 615.091736227273941, 733.5, 615.091736227273941 ],
+					"midpoints" : [ 1471.118055522441864, 615.091736227273941, 733.5, 615.091736227273941 ],
 					"order" : 2,
 					"source" : [ "obj-373", 0 ]
 				}
@@ -20649,7 +20145,7 @@
 				"patchline" : 				{
 					"color" : [ 0.985541701316833, 0.009453415870667, 0.999180555343628, 1.0 ],
 					"destination" : [ "obj-42", 1 ],
-					"midpoints" : [ 1488.118055522441864, 707.212356418371201, 1062.7333271265029, 707.212356418371201 ],
+					"midpoints" : [ 1471.118055522441864, 707.212356418371201, 1062.7333271265029, 707.212356418371201 ],
 					"order" : 0,
 					"source" : [ "obj-373", 0 ]
 				}
@@ -20659,7 +20155,7 @@
 				"patchline" : 				{
 					"color" : [ 0.985541701316833, 0.009453415870667, 0.999180555343628, 1.0 ],
 					"destination" : [ "obj-429", 0 ],
-					"midpoints" : [ 1488.118055522441864, 613.388888955116272, 796.666666666666515, 613.388888955116272 ],
+					"midpoints" : [ 1471.118055522441864, 613.388888955116272, 796.666666666666515, 613.388888955116272 ],
 					"order" : 1,
 					"source" : [ "obj-373", 0 ]
 				}
@@ -20728,6 +20224,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-373", 0 ],
+					"order" : 1,
+					"source" : [ "obj-379", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-386", 0 ],
+					"order" : 0,
 					"source" : [ "obj-379", 0 ]
 				}
 
@@ -20742,6 +20247,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-370", 0 ],
+					"order" : 1,
+					"source" : [ "obj-380", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-383", 0 ],
+					"order" : 0,
 					"source" : [ "obj-380", 0 ]
 				}
 
@@ -20923,6 +20437,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-432", 1 ],
 					"source" : [ "obj-400", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-171", 0 ],
+					"order" : 2,
+					"source" : [ "obj-401", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-357", 0 ],
+					"order" : 1,
+					"source" : [ "obj-401", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-407", 0 ],
+					"order" : 0,
+					"source" : [ "obj-401", 0 ]
 				}
 
 			}
@@ -21319,7 +20857,7 @@
 				"patchline" : 				{
 					"color" : [ 0.999993443489075, 0.999963402748108, 0.041014794260263, 1.0 ],
 					"destination" : [ "obj-84", 1 ],
-					"midpoints" : [ 902.225805401802063, 728.05609330534935, 620.016132175922394, 728.05609330534935 ],
+					"midpoints" : [ 902.225805401802063, 726.221231073141098, 620.016132175922394, 726.221231073141098 ],
 					"order" : 1,
 					"source" : [ "obj-527", 0 ]
 				}
@@ -21801,6 +21339,522 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-109" : [ "live.button[3]", "live.button[2]", 0 ],
+			"obj-137" : [ "live.tab", "live.tab", 0 ],
+			"obj-144" : [ "live.button", "live.button", 0 ],
+			"obj-259" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-286" : [ "live.numbox[7]", "live.numbox[7]", 0 ],
+			"obj-287" : [ "live.numbox[8]", "live.numbox[7]", 0 ],
+			"obj-288" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-304" : [ "live.numbox[9]", "live.numbox[9]", 0 ],
+			"obj-316" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-318" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-338" : [ "live.button[1]", "live.button", 0 ],
+			"obj-342" : [ "live.numbox[16]", "live.numbox[16]", 0 ],
+			"obj-358" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-63" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-70" : [ "live.button[2]", "live.button[2]", 0 ],
+			"obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-94" : [ "live.button[4]", "live.button[2]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "10bitToTwoInt.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "14-bit_binary_to_frac-int.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.<=.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.arithmser.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.beatbox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.belong.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.contains.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.depth.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.div.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.eval.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.filter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.filternull.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.find.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.flat.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.geq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.group.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.gt.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.intersection.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.is.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.join.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.keys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.length.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.lookup.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.lt.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mean.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.mod.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.neq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.nth.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.p2mc.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.pick.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.prepend.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.print.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.ratnum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.read.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.reg.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.replace.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.rev.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.rminus.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.roll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.score.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.sieve.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.slice.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.subs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.sum.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.thin.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.times.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.trans.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.value.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.wrap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.write.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.x2dx.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "binaryArrayToFloat.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpatcher-resize-gizmo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpatcher-resize.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "erase.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "extended-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "frac_int_to_14-bit.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fractionTo16bitBinary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "from8bitbinary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "from_frac_to_ints.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "help.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.edit.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.expr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.quote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "load_MOZ_helpfile.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mac_or_win.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "make_path_once.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.init-unless.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.nth.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/moz_modules",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/moz_modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.tosymbol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "neural.quickeval.maxpat",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "open-doc-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pw.eval-box.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rhythm_viewer.maxpat",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "save-double.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sendback.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "to8bitbinary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "twoIntTo10bit.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-183", "obj-181" ]
 			}
