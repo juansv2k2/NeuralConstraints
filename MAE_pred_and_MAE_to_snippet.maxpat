@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2248.0, 123.0, 1028.0, 843.0 ],
+		"rect" : [ 134.0, 90.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 269.25, 931.0, 59.0, 20.0 ],
+					"text" : "good one"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.471977243820817, 977.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "multiple-value-bind", "[", "prediction", "mae", "]", "[", "get-prediction-and-mae", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "nn1", "]", "[", "progn", "[", "let", "[", "[", "predicted-value", "[", "first", "[", "binary2inputs", "[", "denormalize2", "[", "first", "prediction", "]", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "predicted-value", "]", "[", "let", "[", "[", "actual-mae", "[", "abs", "[", "-", "predicted-value", "e", "]", "]", "]", "]", "[", "format", "t", "MAE: ~a~%", "actual-mae", "]", "[", "values", "actual-mae", "]", "]", "]", "]", "]", "]" ],
+					"patching_rect" : [ 89.0, 956.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -127,6 +138,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[19]",
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -198,7 +210,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
+					"patching_rect" : [ 265.666666666666686, 956.0, 163.0, 22.0 ],
 					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
@@ -403,6 +415,7 @@
 							"parameter_enum" : [ "<", ">", "=" ],
 							"parameter_longname" : "live.tab[1]",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -520,6 +533,7 @@
 							"parameter_enum" : [ "heur", "deter" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -1076,6 +1090,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[17]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1103,6 +1118,7 @@
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[18]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1763,7 +1779,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
-					"midpoints" : [ 22.5, 930.0, 67.971977243820817, 930.0 ],
+					"midpoints" : [ 22.5, 930.0, 98.5, 930.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1907,7 +1923,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2062,7 +2078,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 67.971977243820817, 1020.5, 22.5, 1020.5 ],
+					"midpoints" : [ 98.5, 1020.5, 22.5, 1020.5 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
