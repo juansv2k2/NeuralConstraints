@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 90.0, 1028.0, 843.0 ],
+		"rect" : [ 2155.0, 123.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 956.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -136,9 +136,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[19]",
+							"parameter_longname" : "live.numbox[28]",
 							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -171,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 90.0, 827.0, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 89.0, 791.0, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -413,9 +412,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "<", ">", "=" ],
-							"parameter_longname" : "live.tab[1]",
+							"parameter_longname" : "live.tab[6]",
 							"parameter_mmax" : 2,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -487,7 +485,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[29]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -531,9 +529,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "heur", "deter" ],
-							"parameter_longname" : "live.tab[2]",
+							"parameter_longname" : "live.tab[7]",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -1089,8 +1086,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[17]",
-							"parameter_modmode" : 0,
+							"parameter_longname" : "live.numbox[30]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1117,8 +1113,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
-							"parameter_modmode" : 0,
+							"parameter_longname" : "live.numbox[27]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1246,7 +1241,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1318,7 +1313,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "input", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -2175,12 +2170,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-23" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-29" : [ "live.numbox[27]", "live.numbox", 0 ],
+			"obj-34" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-46" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-54" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-74" : [ "live.numbox[28]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

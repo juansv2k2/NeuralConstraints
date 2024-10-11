@@ -1,4 +1,4 @@
-(lambda (a b c d e)
+(lambda lst
   (let* ((input-vector (vector (coerce a 'double-float) 
                                (coerce b 'double-float)
                                (coerce c 'double-float)
@@ -6,12 +6,13 @@
 
  
          (normalized-input (normalize1
-                            (apply #'vector
-                                   (inputs2binary
-                                    (mapcar
-                                     (lambda (x)
-                                       (mod x 12))
-                                     ( list a b c d ))))))
+                              (apply #'vector
+                                (inputs2binary
+                                  ( list input )
+                                )
+                              )
+                            )
+                          )
 
 
          (prediction (snn:predict nn normalized-input))

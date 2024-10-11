@@ -1,14 +1,14 @@
 	( lambda lst
-		( heur
+		( * 1
 			( print ( -
 				( abs
-					( - outputs
+					( - target
 						( binary2inputs
 							( denormalize2
 								( snn:predict nn
 									( normalize1
 										( inputs2binary
-											( list inputs )
+											( list input )
 										)
 									)
 								)

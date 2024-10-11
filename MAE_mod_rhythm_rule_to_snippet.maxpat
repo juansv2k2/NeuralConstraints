@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2248.0, 123.0, 1028.0, 843.0 ],
+		"rect" : [ 212.0, 105.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 284.0, 817.676572293043137, 29.5, 22.0 ],
+					"patching_rect" : [ 21.5, 748.676572293043137, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 284.0, 730.0, 58.0, 22.0 ],
+					"patching_rect" : [ 21.5, 661.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.0, 786.0, 71.0, 22.0 ],
+					"patching_rect" : [ 21.5, 717.0, 71.0, 22.0 ],
 					"text" : "sprintf nn%i"
 				}
 
@@ -83,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 767.0, 73.0, 17.0 ],
+					"patching_rect" : [ 9.0, 647.5, 73.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.791510999202728, 12.73856694996357, 73.0, 17.0 ],
 					"text" : "model number",
@@ -99,14 +99,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 284.0, 760.0, 44.0, 15.0 ],
+					"patching_rect" : [ 21.5, 691.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.72908878326416, 13.73856694996357, 52.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[19]",
+							"parameter_longname" : "live.numbox[22]",
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "print", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "[", "print", "mean-absolute-error", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -308,7 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.666666666666686, 296.0, 57.0, 22.0 ],
+					"patching_rect" : [ 279.666666666666686, 296.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.666666666666686, 327.0, 85.0, 22.0 ],
+					"patching_rect" : [ 199.666666666666686, 327.0, 99.0, 22.0 ],
 					"text" : "*"
 				}
 
@@ -334,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 88.0, 280.0, 67.0, 22.0 ],
+					"patching_rect" : [ 87.666666666666686, 296.0, 131.0, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -360,7 +360,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.0, 361.0, 185.0, 22.0 ],
+					"patching_rect" : [ 87.666666666666686, 358.0, 186.999999999999943, 22.0 ],
 					"text" : "bach.replace"
 				}
 
@@ -382,7 +382,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "<", ">", "=" ],
-							"parameter_longname" : "live.tab[1]",
+							"parameter_longname" : "live.tab[3]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -455,7 +455,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[33]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -499,7 +499,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "heur", "deter" ],
-							"parameter_longname" : "live.tab[2]",
+							"parameter_longname" : "live.tab[4]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -518,8 +518,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.0, 709.0, 129.0, 22.0 ],
-					"text" : "s MAE_combined_rule"
+					"patching_rect" : [ 745.0, 709.0, 169.0, 22.0 ],
+					"text" : "s #0_MAE_combined_rule"
 				}
 
 			}
@@ -552,8 +552,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.5, 4.0, 127.0, 22.0 ],
-					"text" : "r MAE_combined_rule"
+					"patching_rect" : [ 129.5, 4.0, 167.0, 22.0 ],
+					"text" : "r #0_MAE_combined_rule"
 				}
 
 			}
@@ -660,7 +660,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -698,11 +698,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 13.0, 865.212899416685104, 30.0, 30.0 ]
 				}
 
@@ -1056,7 +1056,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[17]",
+							"parameter_longname" : "live.numbox[23]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1083,7 +1083,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[34]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1211,7 +1211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "print", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "*", -1, "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1283,7 +1283,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "print", "[", "list", "input", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "combined-list-2-binary", "[", "comb-pitch-2-mod", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "print", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "input", "]", "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "print", "[", "combined-list-2-binary", "[", "print", "[", "comb-pitch-2-mod", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "[", "print", "mean-absolute-error", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1801,7 +1801,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"midpoints" : [ 688.25, 124.0, 275.166666666666686, 124.0 ],
+					"midpoints" : [ 688.25, 124.0, 289.166666666666686, 124.0 ],
 					"source" : [ "obj-54", 1 ]
 				}
 
@@ -1874,7 +1874,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"midpoints" : [ 490.5, 275.5, 275.166666666666686, 275.5 ],
+					"midpoints" : [ 490.5, 275.5, 289.166666666666686, 275.5 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -1910,7 +1910,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
-					"midpoints" : [ 145.5, 315.25, 209.166666666666686, 315.25 ],
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -1918,7 +1917,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
-					"midpoints" : [ 121.5, 317.5, 153.833333333333343, 317.5 ],
 					"source" : [ "obj-65", 1 ]
 				}
 
@@ -2090,7 +2088,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 178.943954487641633, 848.871682733297348 ],
+					"midpoints" : [ 41.5, 819.44473585486412, 178.943954487641633, 819.44473585486412 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -2098,7 +2096,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 293.5, 849.676572293043137, 366.0, 849.676572293043137, 366.0, 58.0, 98.5, 58.0 ],
+					"midpoints" : [ 31.0, 780.676572293043137, 64.75, 780.676572293043137, 64.75, 58.0, 98.5, 58.0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -2138,157 +2136,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-23" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.arithmser.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.filternull.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.find.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.read.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.reg.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.replace.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.rev.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.slice.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.subs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.wrap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.write.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "erase.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "extended-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.edit.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mac_or_win.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "open-doc-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "save-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sendback.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
