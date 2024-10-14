@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2248.0, 123.0, 1028.0, 843.0 ],
+		"rect" : [ 3269.0, 147.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.471977243820817, 977.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "multiple-value-bind", "[", "prediction", "mae", "]", "[", "get-prediction-and-mae", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "nn1", "]", "[", "progn", "[", "let", "[", "[", "predicted-value", "[", "first", "[", "binary2inputs", "[", "denormalize2", "[", "first", "prediction", "]", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "predicted-value", "]", "[", "let", "[", "[", "actual-mae", "[", "abs", "[", "-", "predicted-value", "e", "]", "]", "]", "]", "[", "format", "t", "MAE: ~a~%", "actual-mae", "]", "[", "values", "actual-mae", "]", "]", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "defun", "get-prediction-and-mae", "[", "lista", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction 1: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1: ~a~%", "mae", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "results", "[", "get-prediction-and-mae", "input-vector", "]", "]", "[", "prediction", "[", "first", "results", "]", "]", "[", "mae", "[", "second", "results", "]", "]", "]", "[", "when", "mae", "[", "let*", "[", "[", "predicted-values", "[", "list", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "]", "]", "[", "if", "[", "listp", "predicted-values", "]", "[", "let*", "[", "[", "predicted-value", "[", "first", "predicted-values", "]", "]", "]", "[", "when", "[", "numberp", "predicted-value", "]", "[", "let*", "[", "[", "abs-difference", "[", "abs", "[", "-", "e", "predicted-value", "]", "]", "]", "]", "[", "format", "t", "Prediction 2: ~a~%", "predicted-value", "]", "[", "format", "t", "MAE 2: ~a~%", "mae", "]", "[", "format", "t", "E Value: ~a~%", "e", "]", "[", "format", "t", "Absolute Difference: ~a~%", "abs-difference", "]", "mae", "]", "]", "]", "[", "format", "t", "Error: Predicted values not a list: ~a~%", "predicted-values", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -125,7 +125,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[19]",
+							"parameter_longname" : "live.numbox[28]",
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -146,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.943954487641633, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 207.735988621910394, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn1"
 				}
 
@@ -159,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 90.0, 827.0, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 138.792034134268761, 823.0, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.471977243820817, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 173.264011378089577, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn"
 				}
 
@@ -185,7 +185,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.0, 901.0, 125.415931731462479, 22.0 ],
+					"patching_rect" : [ 137.792034134268761, 897.0, 125.415931731462479, 22.0 ],
 					"text" : "bach.replace nn"
 				}
 
@@ -199,7 +199,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "defun", "get-prediction-and-mae", "[", "lista", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction 1: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1: ~a~%", "mae", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "results", "[", "get-prediction-and-mae", "input-vector", "]", "]", "[", "prediction", "[", "first", "results", "]", "]", "[", "mae", "[", "second", "results", "]", "]", "]", "[", "when", "mae", "[", "let*", "[", "[", "predicted-values", "[", "list", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "]", "]", "[", "if", "[", "listp", "predicted-values", "]", "[", "let*", "[", "[", "predicted-value", "[", "first", "predicted-values", "]", "]", "]", "[", "when", "[", "numberp", "predicted-value", "]", "[", "let*", "[", "[", "abs-difference", "[", "abs", "[", "-", "e", "predicted-value", "]", "]", "]", "]", "[", "format", "t", "Prediction 2: ~a~%", "predicted-value", "]", "[", "format", "t", "MAE 2: ~a~%", "mae", "]", "[", "format", "t", "E Value: ~a~%", "e", "]", "[", "format", "t", "Absolute Difference: ~a~%", "abs-difference", "]", "mae", "]", "]", "]", "[", "format", "t", "Error: Predicted values not a list: ~a~%", "predicted-values", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -401,7 +401,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "<", ">", "=" ],
-							"parameter_longname" : "live.tab[1]",
+							"parameter_longname" : "live.tab[6]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -474,7 +474,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[29]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -518,7 +518,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "heur", "deter" ],
-							"parameter_longname" : "live.tab[2]",
+							"parameter_longname" : "live.tab[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -1075,7 +1075,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[17]",
+							"parameter_longname" : "live.numbox[30]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1102,7 +1102,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[27]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1230,7 +1230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "defun", "get-prediction-and-mae", "[", "lista", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction 1: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1: ~a~%", "mae", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "results", "[", "get-prediction-and-mae", "input-vector", "]", "]", "[", "prediction", "[", "first", "results", "]", "]", "[", "mae", "[", "second", "results", "]", "]", "]", "[", "when", "mae", "[", "let*", "[", "[", "predicted-values", "[", "list", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "]", "]", "[", "if", "[", "listp", "predicted-values", "]", "[", "let*", "[", "[", "predicted-value", "[", "first", "predicted-values", "]", "]", "]", "[", "when", "[", "numberp", "predicted-value", "]", "[", "let*", "[", "[", "abs-difference", "[", "abs", "[", "-", "e", "predicted-value", "]", "]", "]", "]", "[", "format", "t", "Prediction 2: ~a~%", "predicted-value", "]", "[", "format", "t", "MAE 2: ~a~%", "mae", "]", "[", "format", "t", "E Value: ~a~%", "e", "]", "[", "format", "t", "Absolute Difference: ~a~%", "abs-difference", "]", "mae", "]", "]", "]", "[", "format", "t", "Error: Predicted values not a list: ~a~%", "predicted-values", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1302,7 +1302,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "defun", "get-prediction-and-mae", "[", "lista", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "index", "[", "position", "normalized-input", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "and", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "expected-target", "]", "]", "]", "]", "]", "[", "format", "t", "Prediction 1: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1: ~a~%", "mae", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "results", "[", "get-prediction-and-mae", "input-vector", "]", "]", "[", "prediction", "[", "first", "results", "]", "]", "[", "mae", "[", "second", "results", "]", "]", "]", "[", "when", "mae", "[", "let*", "[", "[", "predicted-values", "[", "list", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "]", "]", "[", "if", "[", "listp", "predicted-values", "]", "[", "let*", "[", "[", "predicted-value", "[", "first", "predicted-values", "]", "]", "]", "[", "when", "[", "numberp", "predicted-value", "]", "[", "let*", "[", "[", "abs-difference", "[", "abs", "[", "-", "e", "predicted-value", "]", "]", "]", "]", "[", "format", "t", "Prediction 2: ~a~%", "predicted-value", "]", "[", "format", "t", "MAE 2: ~a~%", "mae", "]", "[", "format", "t", "E Value: ~a~%", "e", "]", "[", "format", "t", "Absolute Difference: ~a~%", "abs-difference", "]", "mae", "]", "]", "]", "[", "format", "t", "Error: Predicted values not a list: ~a~%", "predicted-values", "]", "]", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1983,7 +1983,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2002,6 +2002,13 @@
 					"midpoints" : [ 819.5, 80.0, 649.5, 80.0 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-71", 0 ]
 				}
 
 			}
@@ -2109,7 +2116,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 178.943954487641633, 848.871682733297348 ],
+					"midpoints" : [ 304.0, 848.871682733297348, 227.735988621910394, 848.871682733297348 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -2159,12 +2166,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-23" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-29" : [ "live.numbox[27]", "live.numbox", 0 ],
+			"obj-34" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-46" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-54" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-74" : [ "live.numbox[28]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
