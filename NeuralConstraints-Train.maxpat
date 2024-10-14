@@ -49,11 +49,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "train_to_snippet_w_replace_modulo.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 1,
+					"name" : "train_to_snippet_clean.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2.0, 2.0, 420.0, 823.0 ],
 					"varname" : "bp1483236017017",
 					"viewvisibility" : 1
@@ -64,7 +64,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-109" : [ "live.button[3]", "live.button[2]", 0 ],
-			"obj-1::obj-137" : [ "live.tab", "live.tab", 0 ],
+			"obj-1::obj-137" : [ "live.tab", "live.tab[1]", 0 ],
 			"obj-1::obj-144" : [ "live.button", "live.button", 0 ],
 			"obj-1::obj-259" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-1::obj-286" : [ "live.numbox[7]", "live.numbox[7]", 0 ],
@@ -76,10 +76,11 @@
 			"obj-1::obj-338" : [ "live.button[1]", "live.button", 0 ],
 			"obj-1::obj-342" : [ "live.numbox[16]", "live.numbox[16]", 0 ],
 			"obj-1::obj-358" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-1::obj-388" : [ "live.button[5]", "live.button[2]", 0 ],
 			"obj-1::obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-1::obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-1::obj-6" : [ "live.button[6]", "live.button[2]", 0 ],
 			"obj-1::obj-63" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-1::obj-70" : [ "live.button[2]", "live.button[2]", 0 ],
 			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
@@ -106,6 +107,13 @@
 			}
 , 			{
 				"name" : "14-bit_binary_to_frac-int.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "16-bit_binary_to_frac-int.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
@@ -258,10 +266,6 @@
 			}
 , 			{
 				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.p2mc.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -420,6 +424,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "frac_int_to_16-bit.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fractionTo16bitBinary.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
@@ -449,6 +460,20 @@
 			}
 , 			{
 				"name" : "lisp.expr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.lambda.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.print.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
@@ -549,7 +574,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "train_to_snippet_w_replace_modulo.maxpat",
+				"name" : "train_to_snippet_clean.maxpat",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
