@@ -41,13 +41,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 648.0, 353.0, 35.0 ],
-					"text" : "[ lambda [ a b c d e f ] [ equal [ list a b c d e f ] ' [ 65 64 62 69 65 64 ] ] ]"
+					"patching_rect" : [ 420.0, 648.0, 353.0, 22.0 ],
+					"text" : "[ lambda [ ] [ print [ equal [ list ] [ quote [ ] ] ] ] ]"
 				}
 
 			}
@@ -304,8 +303,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 355.364810070945396, 268.0, 22.0 ],
-					"text" : "(lambda ( inputs ) (equal (list inputs ) '( predict )))"
+					"patching_rect" : [ 349.0, 355.364810070945396, 310.0, 22.0 ],
+					"text" : "(lambda ( inputs ) (equal (list inputs ) ( quote ( predict ))))"
 				}
 
 			}
@@ -318,7 +317,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 121.887681404749628, 693.5, 310.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "equal", "[", "list", "a", "b", "c", "d", "e", "f", "]", "'", "[", 65, 64, 62, 69, 65, 64, "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "]", "[", "print", "[", "equal", "[", "list", "]", "[", "quote", "[", "]", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,

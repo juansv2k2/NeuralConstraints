@@ -4,7 +4,7 @@
             (
                 ( normalized-input
                     ( normalize1
-                        ( convert-to-double-float-vector lista )
+                        ( convert-to-double-float-vector ( list input ))
                     )
                 )
                 ( prediction
