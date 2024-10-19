@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2082.0, 87.0, 2492.0, 959.0 ],
+		"rect" : [ 2286.0, 137.0, 1293.0, 856.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,91 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-27",
+					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 604.0, 349.5, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 12.0,
-					"id" : "obj-103",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 484.0, 616.5, 121.0, 22.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 58.471977243820817, 977.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
+						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.slice -1 @out m"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-102",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1051.0, 585.0, 80.0, 22.0 ],
-					"text" : "[ 2 2 -4 ]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-100",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1112.0, 534.0, 125.0, 22.0 ],
-					"text" : "lisp.quickeval @out m"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1112.0, 752.0, 169.0, 22.0 ],
-					"text" : "[ 60 122 186 246 ]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-96",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1112.0, 470.5, 442.0, 49.0 ],
-					"text" : "( progn (defun calculate-intervals ( lst ) (if (>= (length lst) 2) (let ((prev (first lst))) (mapcar (lambda (x) (let ((interval (- x prev))) (setq prev x) interval)) (rest lst))) t )) (calculate-intervals ( list 60 62 64 60 )))"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1228.0, 393.0, 72.0, 22.0 ],
-					"text" : "60 62 64 60"
+					"text" : "bach.reg @embed 1"
 				}
 
 			}
@@ -196,7 +125,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[28]",
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -217,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.528022756179212, 870.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 207.735988621910394, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn1"
 				}
 
@@ -230,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 127.584068268537578, 818.676572293043137, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 138.792034134268761, 823.0, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -243,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.056045512358395, 870.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 173.264011378089577, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn"
 				}
 
@@ -256,7 +185,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 126.58406826853755, 903.0, 125.415931731462479, 22.0 ],
+					"patching_rect" : [ 137.792034134268761, 897.0, 125.415931731462479, 22.0 ],
 					"text" : "bach.replace nn"
 				}
 
@@ -269,8 +198,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 963.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -472,7 +401,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "<", ">", "=" ],
-							"parameter_longname" : "live.tab[1]",
+							"parameter_longname" : "live.tab[6]",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -545,7 +474,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[17]",
+							"parameter_longname" : "live.numbox[29]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -589,7 +518,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "heur", "deter" ],
-							"parameter_longname" : "live.tab[2]",
+							"parameter_longname" : "live.tab[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
@@ -608,8 +537,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.0, 767.0, 154.0, 22.0 ],
-					"text" : "s MAE_intervals_rule_pitch"
+					"patching_rect" : [ 653.0, 746.0, 153.0, 22.0 ],
+					"text" : "s MAE_intervals_heur_rule"
 				}
 
 			}
@@ -630,7 +559,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 866.0, 639.5, 146.0, 93.0 ],
+					"patching_rect" : [ 653.0, 616.5, 146.0, 93.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -642,8 +571,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.5, 4.0, 152.0, 22.0 ],
-					"text" : "r MAE_intervals_rule_pitch"
+					"patching_rect" : [ 129.5, 4.0, 151.0, 22.0 ],
+					"text" : "r MAE_intervals_heur_rule"
 				}
 
 			}
@@ -802,14 +731,13 @@
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-181",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.0, 338.5, 117.0, 33.0 ],
+					"patching_rect" : [ 827.0, 347.5, 138.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.299574837088585, 13.73856694996357, 138.0, 20.0 ],
-					"text" : "MAE_Intervals_Rule",
+					"presentation_rect" : [ 203.866383224725723, 13.73856694996357, 138.0, 20.0 ],
+					"text" : "MAE rule intervals",
 					"textjustification" : 2
 				}
 
@@ -898,8 +826,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 199.5, 29.5, 22.0 ],
-					"text" : "8"
+					"patching_rect" : [ 540.0, 199.5, 41.0, 22.0 ],
+					"text" : "4"
 				}
 
 			}
@@ -925,7 +853,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.333333333333314, 675.0, 29.5, 22.0 ],
-					"text" : "i j"
+					"text" : "e"
 				}
 
 			}
@@ -976,8 +904,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 563.0, 121.0, 22.0 ],
-					"text" : "a b c d e f g h i"
+					"patching_rect" : [ 168.0, 563.0, 65.0, 22.0 ],
+					"text" : "a b c d"
 				}
 
 			}
@@ -1023,13 +951,30 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 12.0,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 377.0, 608.5, 109.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.wrap @out m"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-47",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.0, 568.5, 104.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"text" : "a b c d e"
 				}
 
 			}
@@ -1041,8 +986,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.0, 670.5, 29.5, 22.0 ],
-					"text" : "i j"
+					"patching_rect" : [ 562.0, 676.5, 29.5, 22.0 ],
+					"text" : "e"
 				}
 
 			}
@@ -1067,8 +1012,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.0, 512.5, 51.0, 22.0 ],
-					"text" : "index -2"
+					"patching_rect" : [ 540.0, 525.5, 54.0, 22.0 ],
+					"text" : "index $1"
 				}
 
 			}
@@ -1080,7 +1025,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 607.5, 616.5, 121.0, 22.0 ],
+					"patching_rect" : [ 484.0, 642.5, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -1097,7 +1042,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 604.0, 289.5, 46.0, 22.0 ],
+					"patching_rect" : [ 604.0, 285.5, 46.0, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -1130,7 +1075,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[30]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1157,7 +1102,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[21]",
+							"parameter_longname" : "live.numbox[27]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1166,6 +1111,19 @@
 					}
 ,
 					"varname" : "live.numbox"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 458.0, 676.5, 65.0, 22.0 ],
+					"text" : "a b c d"
 				}
 
 			}
@@ -1217,7 +1175,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.0, 442.5, 29.5, 22.0 ],
-					"text" : "10"
+					"text" : "5"
 				}
 
 			}
@@ -1272,7 +1230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1291,8 +1249,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 452.0, 105.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"patching_rect" : [ 200.0, 452.0, 85.0, 22.0 ],
+					"text" : "[ a b c d e ]"
 				}
 
 			}
@@ -1344,7 +1302,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1390,21 +1348,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 1 ],
-					"source" : [ "obj-100", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 1 ],
-					"midpoints" : [ 493.5, 676.5, 321.5, 676.5, 321.5, 552.0, 279.5, 552.0 ],
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-62", 2 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -1427,7 +1370,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 413.5, 693.5, 344.5, 693.5, 344.5, 441.0, 295.5, 441.0 ],
+					"midpoints" : [ 413.5, 668.5, 344.5, 668.5, 344.5, 441.0, 275.5, 441.0 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -1435,7 +1378,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 386.5, 706.5, 242.5, 706.5, 242.5, 58.0, 98.5, 58.0 ],
+					"midpoints" : [ 386.5, 668.5, 242.5, 668.5, 242.5, 58.0, 98.5, 58.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1494,16 +1437,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"order" : 1,
-					"source" : [ "obj-25", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 493.5, 573.5, 617.0, 573.5 ],
 					"order" : 0,
 					"source" : [ "obj-25", 2 ]
 				}
@@ -1513,7 +1447,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 1 ],
 					"midpoints" : [ 493.5, 554.5, 471.5, 554.5 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-25", 2 ]
 				}
 
@@ -1530,7 +1464,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 139.0, 49.0, 98.5, 49.0 ],
+					"midpoints" : [ 139.0, 47.0, 98.5, 47.0 ],
 					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
@@ -1538,18 +1472,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"midpoints" : [ 613.5, 389.0, 750.0, 389.0 ],
-					"order" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 613.5, 389.0, 469.5, 389.0 ],
-					"order" : 1,
+					"destination" : [ "obj-55", 1 ],
+					"midpoints" : [ 467.5, 708.5, 277.5, 708.5, 277.5, 552.0, 223.5, 552.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1564,16 +1488,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 549.5, 314.0, 613.5, 314.0 ],
-					"order" : 1,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 549.5, 359.5, 708.5, 359.5 ],
+					"midpoints" : [ 549.5, 311.0, 613.5, 311.0 ],
 					"order" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
@@ -1581,8 +1496,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"order" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 549.5, 352.0, 386.5, 352.0 ],
+					"midpoints" : [ 549.5, 340.0, 386.5, 340.0 ],
 					"order" : 2,
 					"source" : [ "obj-29", 0 ]
 				}
@@ -1637,7 +1560,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-16", 1 ],
+					"midpoints" : [ 613.5, 389.0, 750.0, 389.0 ],
+					"order" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"midpoints" : [ 613.5, 389.0, 469.5, 389.0 ],
+					"order" : 1,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -1710,6 +1644,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"order" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"midpoints" : [ 493.5, 669.5, 467.5, 669.5 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 1 ],
 					"order" : 0,
 					"source" : [ "obj-40", 1 ]
@@ -1719,7 +1670,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 719.0, 659.5, 708.5, 659.5 ],
+					"midpoints" : [ 595.5, 669.5, 571.5, 669.5 ],
 					"order" : 1,
 					"source" : [ "obj-40", 1 ]
 				}
@@ -1735,7 +1686,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 708.5, 579.0, 617.0, 579.0 ],
+					"midpoints" : [ 549.5, 599.5, 493.5, 599.5 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1766,7 +1717,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 1 ],
-					"midpoints" : [ 708.5, 722.5, 265.25, 722.5, 265.25, 657.0, 188.333333333333314, 657.0 ],
+					"midpoints" : [ 571.5, 722.5, 265.25, 722.5, 265.25, 657.0, 188.333333333333314, 657.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1780,7 +1731,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 386.5, 598.5, 493.5, 598.5 ],
+					"order" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
 					"order" : 1,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1788,10 +1748,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 386.5, 598.5, 617.0, 598.5 ],
-					"order" : 0,
-					"source" : [ "obj-47", 0 ]
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1804,8 +1762,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"midpoints" : [ 22.5, 944.0, 98.5, 944.0 ],
+					"destination" : [ "obj-78", 0 ],
+					"midpoints" : [ 22.5, 930.0, 67.971977243820817, 930.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2049,8 +2007,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 98.5, 995.5, 22.5, 995.5 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -2111,6 +2068,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"midpoints" : [ 67.971977243820817, 1020.5, 22.5, 1020.5 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"order" : 1,
 					"source" : [ "obj-79", 1 ]
@@ -2151,7 +2116,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 217.528022756179212, 848.871682733297348 ],
+					"midpoints" : [ 304.0, 848.871682733297348, 227.735988621910394, 848.871682733297348 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -2199,21 +2164,14 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-100", 0 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[21]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-23" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-29" : [ "live.numbox[27]", "live.numbox", 0 ],
+			"obj-34" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-46" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-54" : [ "live.tab[6]", "live.tab[1]", 0 ],
+			"obj-74" : [ "live.numbox[28]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -2235,13 +2193,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.belong.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.eq.mxo",
 				"type" : "iLaX"
 			}
@@ -2261,34 +2212,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.intersection.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.join.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lookup.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nth.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2323,7 +2247,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.thin.mxo",
+				"name" : "bach.wrap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2352,44 +2276,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lisp.expr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quickeval.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mac_or_win.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "make_path_once.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moz.init-unless.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2398,13 +2287,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pw.eval-box.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

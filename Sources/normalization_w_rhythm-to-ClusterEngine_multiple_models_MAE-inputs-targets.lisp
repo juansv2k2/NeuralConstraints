@@ -1,12 +1,74 @@
 ( progn
 	( ce::preferences t 200000000 :self :other :other :rhythm :rhythm
 		:self :rhythm :self :next-pitch :next )
-	( defvar nn1
+	 
+ 	( defvar nn1
 		( snn:restore model1 )
-		)
- 	( defvar nn2
+	)
+	( defvar nn2
 		( snn:restore model2 )
+	)
+	
+	( defun normalize1
+		( input )
+		( map 'vector
+			( lambda
+				( x )
+				( if
+					( = x 1 )
+					1.0d0 -1.0d0 )
+				)
+			input )
 		)
+	( defun denormalize2
+		( output )
+		( map 'list
+			( lambda
+				( x )
+				( if
+					( plusp x )
+					1 0 )
+				)
+			output )
+		)
+
+	defvarinputs
+	
+	defvartargets
+
+	( defun convert-to-double-float-vector
+		( input )
+		( make-array
+			( length input )
+			:element-type 'double-float :initial-contents
+			( map 'list
+				( lambda
+					( x )
+					( coerce x 'double-float )
+					)
+				input )
+			)
+		)
+	( defun fuzzy-equal
+		( vec1 vec2 &key
+			( tolerance 0.00001 )
+			)
+		( and
+			( =
+				( length vec1 )
+				( length vec2 )
+				)
+			( loop for v1 across vec1 for v2 across vec2 always
+				( <=
+					( abs
+						( - v1 v2 )
+						)
+					tolerance )
+				)
+			)
+		)
+
+	
 	( defun binary_to_integer_representation
 		( binarylist )
 		( unless
@@ -81,28 +143,7 @@
 				)
 			binary-list )
 		)
-	( defun normalize1
-		( input )
-		( map 'vector
-			( lambda
-				( x )
-				( if
-					( = x 1 )
-					1.0d0 -1.0d0 )
-				)
-			input )
-		)
-	( defun denormalize2
-		( output )
-		( map 'list
-			( lambda
-				( x )
-				( if
-					( plusp x )
-					1 0 )
-				)
-			output )
-		)
+	
 	( defun inputs2binary
 		( inputlist )
 		( patch-work::flat
@@ -294,6 +335,7 @@
 		( binary-list )
 		( mapcar #'binary-list-to-rational binary-list )
 		)
+	
 	(defun calculate-intervals (lst) 
 		(if (>= (length lst) 2)
 			(let ((prev (first lst)))    
@@ -428,11 +470,46 @@
 
 		(let ((rational-part (first lista ))
 			(integer-part (mod (second lista ) 12)))
-		(list rational-part integer-part)))
+		(list rational-part integer-part))
+		)
 
 	(defun comb-pitch-2-mod (combined-list)
 		(mapcar #'mod-second-element combined-list)
-  	)  
+		)
+	
 
+	(defun integer-to-6bit-binary (input)
+		(let* ((offset-input (+ input 24)) 
+			(binary-list (make-list 6 :initial-element 0)))  
+
+
+		(format t "Input: ~a, Offset Input: ~a~%" input offset-input)
+
+
+		(dotimes (i (min 6 (integer-length offset-input)))
+
+			(setf (nth (- 5 i) binary-list)
+				(logand offset-input 1))
+			(setf offset-input (ash offset-input -1)))
+
+
+		(format t "Final 6-bit binary list: ~a~%" binary-list)
+		binary-list)
+
+		)			
+
+	(defun interv2binary (inputlist)
+		(progn
+			(format t "interv2binary Input: ~a~%" inputlist)
+
+			(let ((binary-list (apply #'concatenate 'list
+				(mapcar #'integer-to-6bit-binary inputlist))))
+
+			(format t "interv2binary Flat Output: ~a~%" binary-list)
+			binary-list))
+  	)
 )
+
+
+
 

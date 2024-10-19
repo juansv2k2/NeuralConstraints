@@ -236,7 +236,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 736.0, 428.777130484580994, 112.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 40.632436563372494, 132.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 40.632436563372494, 263.0, 22.0 ],
 					"text" : "send a prompt",
 					"textjustification" : 1
 				}
@@ -365,7 +365,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 799.559294581413269, 634.0, 108.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.866383224725723, 27.649105504155159, 92.0, 20.0 ],
+					"presentation_rect" : [ 285.866383224725723, 27.649105504155159, 52.0, 20.0 ],
 					"text" : "Prompt",
 					"textjustification" : 2
 				}
