@@ -1,8 +1,8 @@
 (lambda ( lst )
   (let* ((input-vector
-          (normalize1 ( interv2binary ( calculate-intervals (list input )))))
+          (normalize1 ( convert-to-double-float-vector ( interv2binary ( calculate-intervals (list input ))))))
          (norm-e
-          (normalize1 ( interv2binary ( calculate-intervals (list target )))))
+          (normalize1 ( convert-to-double-float-vector ( interv2binary ( calculate-intervals (list target ))))))
          (prediction
           (snn:predict nn input-vector))
          (index
@@ -26,10 +26,10 @@
 
          (epsilon 1e-6)  
          (weight1 (if mae1 (/ 1.0 (+ mae1 epsilon)) 0.0))
-         (weight2 (/ 1.0 (+ mae2 epsilon)))) 
+         (weight2 (/ 1.0 (+ mae2 epsilon)))
         
-    (format t "MAE 1 - vs Expected Target: ~a~%" mae1)
-    (format t "MAE 2 - vs E: ~a~%" mae2)
+        ) 
+        
     (format t "Weight 1 - MAE 1: ~a~%" weight1)
     (format t "Weight 2 - MAE 2: ~a~%" weight2)
 

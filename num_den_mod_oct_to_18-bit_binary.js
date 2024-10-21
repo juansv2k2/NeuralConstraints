@@ -9,7 +9,7 @@ function list() {
     var pitchClass = a[2];
     var octave = a[3];
 
-    // Validate denominator and map it to an index
+    // Validate the denominator and map it to an index
     var denominatorValues = [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32];
     var denominatorIndex = denominatorValues.indexOf(denominator);
     if (denominatorIndex === -1) {
@@ -23,10 +23,10 @@ function list() {
     var binaryDen = toBinaryStringWithPadding(denominatorIndex, 4);
     var rhythmicBinary = [signBit].concat(binaryNum, binaryDen);
 
-    // Construct the binary representation for pitch (if available)
+    // Construct the binary representation for pitch or set all zeros if the numerator is negative
     var pitchBinary = [];
-    if (pitchClass !== "NIL" && octave !== "NIL") {
-        // Validate pitch class and octave
+    if (numerator >= 0 && pitchClass !== null && octave !== null) {
+        // Validate the pitch class and octave
         if (pitchClass < 0 || pitchClass > 11 || octave < 0 || octave > 10) {
             post("Pitch class or octave is out of range\n");
             return;
@@ -34,10 +34,12 @@ function list() {
         var midiNote = pitchClass + (octave * 12);
         pitchBinary = to8BitBinary(midiNote);
     } else {
-        // Use a loop to fill with zeros if it's a rest
+        // Fill with zeros if it's a rest
         for (var i = 0; i < 8; i++) {
             pitchBinary.push(0);
         }
+        pitchClass = null;
+        octave = null;
     }
 
     // Ensure we have obtained exactly 18 bits

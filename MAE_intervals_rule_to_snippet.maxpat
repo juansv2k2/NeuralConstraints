@@ -196,7 +196,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[25]",
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.528022756179212, 870.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 159.943954487641633, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn1"
 				}
 
@@ -230,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 127.584068268537578, 818.676572293043137, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 89.0, 817.676572293043137, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -243,7 +243,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.056045512358395, 870.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 123.471977243820817, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn"
 				}
 
@@ -256,7 +256,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 126.58406826853755, 903.0, 125.415931731462479, 22.0 ],
+					"patching_rect" : [ 89.0, 901.0, 125.415931731462479, 22.0 ],
 					"text" : "bach.replace nn"
 				}
 
@@ -270,7 +270,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 963.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mean-absolute-error", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -545,7 +545,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[17]",
+							"parameter_longname" : "live.numbox[22]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -750,7 +750,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -788,11 +788,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 13.0, 865.212899416685104, 30.0, 30.0 ]
 				}
 
@@ -925,7 +925,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.333333333333314, 675.0, 29.5, 22.0 ],
-					"text" : "i j"
+					"text" : "e f"
 				}
 
 			}
@@ -977,7 +977,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.0, 563.0, 121.0, 22.0 ],
-					"text" : "a b c d e f g h i"
+					"text" : "a b c d e"
 				}
 
 			}
@@ -1029,7 +1029,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.0, 568.5, 104.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"text" : "a b c d e f"
 				}
 
 			}
@@ -1042,7 +1042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 699.0, 670.5, 29.5, 22.0 ],
-					"text" : "i j"
+					"text" : "e f"
 				}
 
 			}
@@ -1130,7 +1130,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[23]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1157,7 +1157,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[21]",
+							"parameter_longname" : "live.numbox[24]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1217,7 +1217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.0, 442.5, 29.5, 22.0 ],
-					"text" : "10"
+					"text" : "6"
 				}
 
 			}
@@ -1272,7 +1272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mean-absolute-error", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1292,7 +1292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 200.0, 452.0, 105.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"text" : "a b c d e f"
 				}
 
 			}
@@ -1344,7 +1344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mean-absolute-error", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -2025,7 +2025,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2151,7 +2151,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 217.528022756179212, 848.871682733297348 ],
+					"midpoints" : [ 304.0, 848.871682733297348, 179.943954487641633, 848.871682733297348 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -2206,233 +2206,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-23" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[21]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.arithmser.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.belong.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.filternull.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.find.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.intersection.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.join.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lookup.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.read.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.reg.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.replace.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.rev.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.slice.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.subs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.thin.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.write.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "erase.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "extended-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.edit.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.expr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quickeval.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mac_or_win.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "make_path_once.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moz.init-unless.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "open-doc-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pw.eval-box.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "save-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sendback.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
