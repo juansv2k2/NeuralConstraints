@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1211,7 +1211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1283,7 +1283,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "mapcar", "[", "lambda", "[", "x", "]", "[", "mod", "x", 12, "]", "]", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "input", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "midi-notes-to-flat-binary", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1456,13 +1456,6 @@
 					"destination" : [ "obj-55", 1 ],
 					"midpoints" : [ 467.5, 708.5, 277.5, 708.5, 277.5, 552.0, 223.5, 552.0 ],
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 287.0, 129.0, 614.0, 926.0 ],
+		"rect" : [ 823.0, 134.0, 614.0, 926.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,11 +50,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "train_to_snippet_clean.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 2,
+					"numinlets" : 3,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2.0, 2.0, 420.0, 823.0 ],
+					"patching_rect" : [ 2.0, 2.0, 420.0, 770.0 ],
 					"varname" : "bp1483236017017",
 					"viewvisibility" : 1
 				}
@@ -70,6 +69,7 @@
 			"obj-1::obj-286" : [ "live.numbox[7]", "live.numbox[7]", 0 ],
 			"obj-1::obj-287" : [ "live.numbox[8]", "live.numbox[7]", 0 ],
 			"obj-1::obj-288" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-1::obj-302" : [ "live.numbox[18]", "live.numbox[18]", 0 ],
 			"obj-1::obj-304" : [ "live.numbox[9]", "live.numbox[9]", 0 ],
 			"obj-1::obj-316" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-1::obj-318" : [ "live.numbox[15]", "live.numbox", 0 ],
@@ -78,14 +78,12 @@
 			"obj-1::obj-358" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-1::obj-388" : [ "live.button[5]", "live.button[2]", 0 ],
 			"obj-1::obj-427" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-1::obj-428" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-1::obj-6" : [ "live.button[6]", "live.button[2]", 0 ],
 			"obj-1::obj-63" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-1::obj-72" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-1::obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-1::obj-94" : [ "live.button[4]", "live.button[2]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -106,17 +104,31 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "14-bit_binary_to_frac-int.js",
+				"name" : "18-bit_binary_to_num_den_mod_oct.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "16-bit_binary_to_frac-int.js",
+				"name" : "6-bit_binary_to_intervals.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "8-bit_binary_to_mod_oct.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.+.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -133,6 +145,10 @@
 			}
 , 			{
 				"name" : "bach.beatbox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.beatunbox.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -228,6 +244,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.lace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.length.mxo",
 				"type" : "iLaX"
 			}
@@ -244,6 +264,10 @@
 			}
 , 			{
 				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mc2p.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -269,19 +293,23 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.p2mc.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.pick.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.prepend.maxpat",
+				"name" : "bach.pitchunpack.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bach.print.mxo",
@@ -298,6 +326,13 @@
 , 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.repeat.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.replace.maxpat",
@@ -318,8 +353,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.roll.mxo",
-				"type" : "iLaX"
+				"name" : "bach.round.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.score.mxo",
@@ -382,13 +420,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "binaryArrayToFloat.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bpatcher-resize-gizmo.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
@@ -417,20 +448,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "frac_int_to_14-bit.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "frac_int_to_16-bit.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fractionTo16bitBinary.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
@@ -438,14 +455,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "from8bitbinary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "from_frac_to_ints.js",
+				"name" : "intervals_to_6-bit_binary.js",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
@@ -501,6 +511,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mod_oct_to_8-bit_binary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "moz.init-unless.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
@@ -522,6 +539,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "num_den_mod_oct_to_18-bit_binary.js",
+				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "open-doc-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
@@ -532,13 +556,6 @@
 				"name" : "pw.eval-box.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rhythm_viewer.maxpat",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -564,13 +581,6 @@
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "to8bitbinary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
