@@ -397,28 +397,39 @@
 					<alter>0</alter>
 					<octave>4</octave>
 				</pitch>
-				<duration>2</duration>
-				<tie type="start" />
-				<type>eighth</type>
-				<beam number="1">end</beam>
+				<duration>1</duration>
+				<type>16th</type>
+				<beam number="1">continue</beam>
+				<beam number="2">begin</beam>
 				<notations>
-					<tied type="start" />
 					<articulations />
 				</notations>
 			</note>
 			<note>
 				<pitch>
-					<step>C</step>
+					<step>F</step>
 					<alter>0</alter>
 					<octave>4</octave>
 				</pitch>
 				<duration>1</duration>
-				<tie type="stop" />
+				<type>16th</type>
+				<beam number="1">end</beam>
+				<beam number="2">end</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
 				<type>16th</type>
 				<beam number="1">begin</beam>
 				<beam number="2">begin</beam>
 				<notations>
-					<tied type="stop" />
 					<articulations />
 				</notations>
 			</note>
@@ -438,35 +449,92 @@
 			</note>
 			<note>
 				<pitch>
-					<step>G</step>
+					<step>E</step>
 					<alter>0</alter>
 					<octave>4</octave>
 				</pitch>
 				<duration>1</duration>
 				<type>16th</type>
+				<beam number="1">continue</beam>
+				<beam number="2">continue</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start" />
+				<type>16th</type>
 				<beam number="1">end</beam>
 				<beam number="2">end</beam>
 				<notations>
+					<tied type="start" />
 					<articulations />
 				</notations>
 			</note>
 			<note>
-				<rest />
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
 				<duration>1</duration>
+				<tie type="stop" />
 				<type>16th</type>
+				<beam number="1">begin</beam>
+				<beam number="2">forward hook</beam>
 				<notations>
-					<ornaments />
-					<technical />
+					<tied type="stop" />
 					<articulations />
 				</notations>
 			</note>
 			<note>
-				<rest />
-				<duration>8</duration>
-				<type>half</type>
+				<pitch>
+					<step>D</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">continue</beam>
 				<notations>
-					<ornaments />
-					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="start" />
+				<type>16th</type>
+				<beam number="1">end</beam>
+				<beam number="2">backward hook</beam>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<tie type="stop" />
+				<tie type="start" />
+				<type>quarter</type>
+				<notations>
+					<tied type="stop" />
+					<tied type="start" />
 					<articulations />
 				</notations>
 			</note>
@@ -476,9 +544,35 @@
 				<divisions>4</divisions>
 			</attributes>
 			<note>
+				<pitch>
+					<step>E</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<tie type="stop" />
+				<type>16th</type>
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
 				<rest />
-				<duration>16</duration>
-				<type>whole</type>
+				<duration>3</duration>
+				<type>eighth</type>
+				<dot />
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<rest />
+				<duration>12</duration>
+				<type>half</type>
+				<dot />
 				<notations>
 					<ornaments />
 					<technical />
