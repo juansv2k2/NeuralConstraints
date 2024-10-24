@@ -1,12 +1,14 @@
 ( progn
 	( ce::preferences t 200000000 :self :other :other :rhythm :rhythm
 		:self :rhythm :self :next-pitch :next )
-	 
- 	( defvar nn1
-		( snn:restore model1 )
+	( defvar nn1
+		1111
 	)
-	( defvar nn2
-		( snn:restore model2 )
+ 	( defvar nn2
+		2222
+	)
+  	( defvar nn3
+		3333
 	)
 	
 	( defun normalize1
@@ -32,10 +34,7 @@
 			output )
 		)
 
-	defvarinputs
-	
-	defvartargets
-
+		
 	( defun convert-to-double-float-vector
 		( input )
 		( make-array
@@ -245,7 +244,7 @@
 							( to-list number )
 							)
 						)
-					( reverse binary-list )
+					binary-list 
 					)
 				)
 			)
@@ -483,9 +482,6 @@
 			(binary-list (make-list 6 :initial-element 0)))  
 
 
-		(format t "Input: ~a, Offset Input: ~a~%" input offset-input)
-
-
 		(dotimes (i (min 6 (integer-length offset-input)))
 
 			(setf (nth (- 5 i) binary-list)
@@ -493,21 +489,139 @@
 			(setf offset-input (ash offset-input -1)))
 
 
-		(format t "Final 6-bit binary list: ~a~%" binary-list)
+		
 		binary-list)
 
 		)			
 
 	(defun interv2binary (inputlist)
-		(progn
-			(format t "interv2binary Input: ~a~%" inputlist)
+		
+		
 
-			(let ((binary-list (apply #'concatenate 'list
-				(mapcar #'integer-to-6bit-binary inputlist))))
+		(let ((binary-list (apply #'concatenate 'list
+			(mapcar #'integer-to-6bit-binary inputlist))))
 
-			(format t "interv2binary Flat Output: ~a~%" binary-list)
-			binary-list))
+		binary-list)
+		)
+	(defun midi-to-pitch-class-and-octave (midi-note)
+		(if (or (< midi-note 0) (> midi-note 127))
+			(progn
+				(format t "MIDI note ~a is out of range~%" midi-note)
+				nil) 
+			(let* ((pitch-class (mod midi-note 12))
+				(octave (floor midi-note 12)))
+			(list pitch-class octave)))) 
+
+	(defun to-8-bit-binary (num)
+
+		(let ((binary-list (make-list 8 :initial-element 0))) 
+			(loop for i from 7 downto 0
+				for bit = (logand (ash num (- i)) 1)
+				do (setf (nth (- 7 i) binary-list) bit)) 
+			binary-list))  
+
+	(defun midi-notes-to-flat-binary (midi-notes)
+
+		(apply #'append
+			(mapcar (lambda (midi-note)
+				(let* ((result (midi-to-pitch-class-and-octave midi-note)))
+					(when result
+						(let* ((pitch-class (first result))
+							(octave (second result))
+							(encoded-midi-note (+ pitch-class (* octave 12))))
+						(to-8-bit-binary encoded-midi-note)))))
+			midi-notes)))
+	
+	(defun rhythm-pitch-to-18-bit-binary (input)
+		(let* ((rhythm (first input))
+			(midi-note (second input))
+			(numerator (if (rationalp rhythm) (numerator rhythm) rhythm))
+			(denominator (if (rationalp rhythm) (denominator rhythm) 1)))
+
+		(let* ((pitch-class (if (and (not (< numerator 0)) midi-note)
+			(mod midi-note 12)
+			nil))
+		(octave (if (and (not (< numerator 0)) midi-note)
+			(floor midi-note 12)
+			nil)))
+
+		(let ((sign-bit (if (< numerator 0) 1 0)))
+
+			(let* ((denominator-values '(1 2 3 4 5 6 8 10 12 16 24 32))
+				(denominator-index (position denominator denominator-values))
+				(binary-rhythm (let* ((abs-numerator (abs numerator))
+					(binary-num (loop for i from 4 downto 0
+						collect (if (logbitp i abs-numerator)
+							1
+							0)))
+					(binary-den (loop for i from 3 downto 0
+						collect (if (and denominator-index
+							(logbitp i denominator-index))
+						1
+						0))))
+				(append (list sign-bit)
+					binary-num
+					binary-den))))
+
+			(let ((pitch-binary (if (and pitch-class octave)
+				(let* ((midi-note (+ pitch-class (* octave 12))))
+					(loop for i from 7 downto 0
+						collect (if (logbitp i midi-note)
+							1
+							0)))
+				(list 0 0 0 0 0 0 0 0))))
+
+			(let ((result (append binary-rhythm pitch-binary)))
+
+				result)))))))	
+
+	( defun rhythm-MIDI-2-binary (binary-list)
+		( patch-work::flat
+			( mapcar #'rhythm-pitch-to-18-bit-binary binary-list )
+			)
+		)
+	(defun binary-to-midi (binary-input)
+		(let* ((sign-bit (first binary-input))
+			(numerator-bits (subseq binary-input 1 6))
+			(denominator-bits (subseq binary-input 6 10))
+			(pitch-bits (subseq binary-input 10 18))
+
+
+			(numerator (reduce (lambda (acc bit) (+ (* acc 2) bit)) numerator-bits))
+			(numerator (if (zerop sign-bit) numerator (- numerator)))
+
+			(denominator-values '(1 2 3 4 5 6 8 10 12 16 24 32))
+			(denominator-index (reduce (lambda (acc bit) (+ (* acc 2) bit)) denominator-bits))
+			(denominator (if (< denominator-index (length denominator-values))
+				(nth denominator-index denominator-values)
+				nil))
+
+
+			(pitch (if (zerop sign-bit)
+				(let ((midi-note (reduce (lambda (acc bit) (+ (* acc 2) bit)) pitch-bits)))
+					(+ (mod midi-note 12) (* (floor midi-note 12) 12)))
+				'NIL))) 
+
+
+		(format t "Sign Bit: ~a~%" sign-bit)
+		(format t "Numerator Bits: ~a, Computed Numerator: ~a~%" numerator-bits numerator)
+		(format t "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%" 
+			denominator-bits denominator-index denominator)
+		(format t "Pitch Bits: ~a, MIDI Note: ~a~%" pitch-bits pitch)
+
+		(when denominator
+			(let ((rhythm (if (and numerator denominator)
+				(/ numerator denominator) 
+				nil)))
+			(format t "Rhythm: ~a, Pitch: ~a~%" rhythm pitch)
+			(list rhythm pitch ))))
   	)
+ 	
+	( defun binary-2-rhythm-MIDI (binary-list)
+		( patch-work::flat
+			( mapcar #'binary-to-midi binary-list )
+			)
+		)
 )
 
 

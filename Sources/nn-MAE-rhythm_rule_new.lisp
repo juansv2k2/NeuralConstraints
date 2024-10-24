@@ -1,8 +1,8 @@
 (lambda  lst 
   (let* ((input-vector
-          (normalize1 ( convert-to-double-float-vector ( rhythm-to-binary (list input )))))
+          (normalize1 ( rhythm-to-binary (list input ))))
          (norm-e
-          (normalize1 ( convert-to-double-float-vector ( rhythm-to-binary (list target )))))
+          (normalize1 ( rhythm-to-binary (list target ))))
          (prediction
           (snn:predict nn input-vector))
          (index
@@ -36,6 +36,6 @@
 
 
     (if (> weight1 weight2)
-        (- mae1)
-      (- mae2)))
+        mae1
+      mae2))
   )

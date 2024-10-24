@@ -11,12 +11,15 @@
              (list
                (normalize1
                  (apply #'vector
-                   (rhythm-to-binary
-                     (progn (list target)
-                            (list target))))))))
+                  ( print (rhythm-to-binary
+                     (list target))))))))
           
-
           (weight1 (/ 1.0 (+ (log (+ mean-absolute-error 1)) 1e-6))))
     
 
-    (print weight1)))
+    ( progn 
+     ( format t "MAE: ~a~%" mean-absolute-error )
+     ( format t "weight: ~a~%" weight1 )
+     weight1
+    
+    )))

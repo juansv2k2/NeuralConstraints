@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN"
+"http://www.musicxml.org/dtds/partwise.dtd" >
+<score-partwise version="3.0">
+	<identification>
+		<encoding>
+			<software>bach for Max v0.8.3.0 beta</software>
+			<encoding-date>2024-10-24</encoding-date>
+		</encoding>
+	</identification>
+	<defaults>
+		<word-font font-family="Times New Roman" font-size="11" />
+	</defaults>
+	<part-list>
+		<score-part id="P1">
+			<part-name></part-name>
+			<score-instrument id="P1-I1">
+				<instrument-name>Grand Piano</instrument-name>
+			</score-instrument>
+		</score-part>
+	</part-list>
+	<part id="P1">
+		<measure number="1">
+			<attributes>
+				<divisions>4</divisions>
+				<key>
+					<fifths>0</fifths>
+					<mode>major</mode>
+				</key>
+				<time>
+					<beats>4</beats>
+					<beat-type>4</beat-type>
+				</time>
+				<clef number="1">
+					<sign>G</sign>
+					<line>2</line>
+				</clef>
+			</attributes>
+			<direction>
+				<direction-type>
+					<metronome>
+						<beat-unit>quarter</beat-unit>
+						<per-minute>120</per-minute>
+					</metronome>
+				</direction-type>
+				<offset sound="yes">0</offset>
+				<sound tempo="120.000000" />
+			</direction>
+			<note>
+				<rest />
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>6</duration>
+				<type>quarter</type>
+				<dot />
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">begin</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">end</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="2">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>12</duration>
+				<type>half</type>
+				<dot />
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<type>quarter</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="3">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<rest />
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">begin</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">end</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<type>16th</type>
+				<accidental>flat</accidental>
+				<beam number="1">begin</beam>
+				<beam number="2">begin</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>1</duration>
+				<type>16th</type>
+				<accidental>flat</accidental>
+				<beam number="1">continue</beam>
+				<beam number="2">end</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="start" />
+				<type>eighth</type>
+				<beam number="1">end</beam>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<tie type="stop" />
+				<tie type="start" />
+				<type>quarter</type>
+				<notations>
+					<tied type="stop" />
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="4">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<pitch>
+					<step>G</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop" />
+				<type>eighth</type>
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<rest />
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">begin</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="start" />
+				<type>eighth</type>
+				<accidental>flat</accidental>
+				<beam number="1">end</beam>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<tie type="stop" />
+				<type>quarter</type>
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>4</duration>
+				<tie type="start" />
+				<type>quarter</type>
+				<accidental>flat</accidental>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="5">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop" />
+				<type>eighth</type>
+				<beam number="1">begin</beam>
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>A</step>
+					<alter>-1</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<accidental>flat</accidental>
+				<beam number="1">end</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>E</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<beam number="1">begin</beam>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="start" />
+				<type>eighth</type>
+				<beam number="1">end</beam>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>6</duration>
+				<tie type="stop" />
+				<type>quarter</type>
+				<dot />
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="6">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>C</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>4</duration>
+				<type>quarter</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="start" />
+				<type>eighth</type>
+				<notations>
+					<tied type="start" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>B</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<tie type="stop" />
+				<type>eighth</type>
+				<notations>
+					<tied type="stop" />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>1</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>4</duration>
+				<type>quarter</type>
+				<accidental>sharp</accidental>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>0</alter>
+					<octave>5</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<accidental>natural</accidental>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="7">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<pitch>
+					<step>F</step>
+					<alter>0</alter>
+					<octave>4</octave>
+				</pitch>
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<rest />
+				<duration>2</duration>
+				<type>eighth</type>
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<note>
+				<rest />
+				<duration>12</duration>
+				<type>half</type>
+				<dot />
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+		</measure>
+		<measure number="8">
+			<attributes>
+				<divisions>4</divisions>
+			</attributes>
+			<note>
+				<rest />
+				<duration>16</duration>
+				<type>whole</type>
+				<notations>
+					<ornaments />
+					<technical />
+					<articulations />
+				</notations>
+			</note>
+			<barline>
+				<bar-style>light-heavy</bar-style>
+			</barline>
+		</measure>
+	</part>
+</score-partwise>

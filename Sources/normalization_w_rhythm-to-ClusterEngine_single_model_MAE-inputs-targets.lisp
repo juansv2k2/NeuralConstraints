@@ -39,12 +39,12 @@
 					)
 				( quote
 					(
-						( 0 0 0 0 )
-						)
+						inputsList
 					)
 				)
 			)
 		)
+	)
 	
 	( defvar targets
 		( mapcar #'normalize1
@@ -53,16 +53,16 @@
 					( lambda
 						( x )
 						( apply #'vector x )
-						)
 					)
+				)
 				( quote
 					(
-						( 1 1 1 1 ) 
-						)
+						targetsList 
 					)
 				)
 			)
 		)
+	)
 	
 	
 	
