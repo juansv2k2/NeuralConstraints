@@ -4,6 +4,57 @@
 	( defvar nn1
 		( snn:restore model )
 		)
+	
+	( defun normalize1
+		( input )
+		( map 'vector
+			( lambda
+				( x )
+				( if
+					( = x 1 )
+					1.0d0 -1.0d0 )
+				)
+			input )
+		)
+	( defun denormalize2
+		( output )
+		( map 'list
+			( lambda
+				( x )
+				( if
+					( plusp x )
+					1 0 )
+				)
+			output )
+		)
+	
+	
+	
+	(defun get-prediction-and-mae (input)
+		(let* ((normalized-input
+			(normalize1
+				(convert-to-double-float-vector input)))
+		(index
+			(position normalized-input inputs :test #'fuzzy-equal))
+		(expected-target
+			(and index
+				(nth index targets)))
+		(prediction
+			(snn:predict nn normalized-input))
+		(denormalized-prediction
+			(denormalize2 prediction))
+		(mae
+			(and expected-target
+				(snn:mean-absolute-error nn
+					(list normalized-input)
+					(list expected-target)))))
+
+		(format t "Prediction: ~a~%" denormalized-prediction)
+		(format t "MAE: ~a~%" mae)
+
+		(list denormalized-prediction mae))) 
+	
+	
 	( defun binary_to_integer_representation
 		( binarylist )
 		( unless
@@ -78,6 +129,7 @@
 				)
 			binary-list )
 		)
+<<<<<<< HEAD:Rules/normalization_w_rhythm-to-ClusterEngine_single_model.lisp
 	( defun normalize1
 		( input )
 		( map 'vector
@@ -101,6 +153,9 @@
 			output )
 		)
 				
+=======
+	
+>>>>>>> new-branch:Sources/normalization_w_rhythm-to-ClusterEngine_single_model.lisp
 	( defun inputs2binary
 		( inputlist )
 		( patch-work::flat

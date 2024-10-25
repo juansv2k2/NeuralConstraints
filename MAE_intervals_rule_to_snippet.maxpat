@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2240.0, 108.0, 1563.0, 930.0 ],
+		"rect" : [ 2082.0, 87.0, 2492.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -196,7 +196,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[18]",
+							"parameter_longname" : "live.numbox[25]",
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.943954487641633, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 159.943954487641633, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn1"
 				}
 
@@ -230,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 90.0, 827.0, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 89.0, 817.676572293043137, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -243,7 +243,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.471977243820817, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 123.471977243820817, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn"
 				}
 
@@ -270,7 +270,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 963.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -545,7 +545,7 @@
 					"presentation_rect" : [ 183.799574837088585, 53.73856694996357, 50.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[17]",
+							"parameter_longname" : "live.numbox[22]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "live.numbox",
@@ -899,7 +899,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 540.0, 199.5, 29.5, 22.0 ],
-					"text" : "8"
+					"text" : "7"
 				}
 
 			}
@@ -925,7 +925,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.333333333333314, 675.0, 29.5, 22.0 ],
-					"text" : "i j"
+					"text" : "h i"
 				}
 
 			}
@@ -977,7 +977,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.0, 563.0, 121.0, 22.0 ],
-					"text" : "a b c d e f g h i"
+					"text" : "a b c d e f g h"
 				}
 
 			}
@@ -1029,7 +1029,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.0, 568.5, 104.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"text" : "a b c d e f g h i"
 				}
 
 			}
@@ -1042,7 +1042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 699.0, 670.5, 29.5, 22.0 ],
-					"text" : "i j"
+					"text" : "h i"
 				}
 
 			}
@@ -1130,7 +1130,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[20]",
+							"parameter_longname" : "live.numbox[23]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1157,7 +1157,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[21]",
+							"parameter_longname" : "live.numbox[24]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1217,7 +1217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.0, 442.5, 29.5, 22.0 ],
-					"text" : "10"
+					"text" : "9"
 				}
 
 			}
@@ -1272,7 +1272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "i", "j", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "*", -1, "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1292,7 +1292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 200.0, 452.0, 105.0, 22.0 ],
-					"text" : "a b c d e f g h i j"
+					"text" : "a b c d e f g h i"
 				}
 
 			}
@@ -1344,7 +1344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "inputs2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "]", "[", "oper", "weight", "mean-absolute-error", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1530,7 +1530,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 139.0, 47.0, 98.5, 47.0 ],
+					"midpoints" : [ 139.0, 49.0, 98.5, 49.0 ],
 					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
@@ -1551,13 +1551,6 @@
 					"midpoints" : [ 613.5, 389.0, 469.5, 389.0 ],
 					"order" : 1,
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2151,7 +2144,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 178.943954487641633, 848.871682733297348 ],
+					"midpoints" : [ 304.0, 848.871682733297348, 179.943954487641633, 848.871682733297348 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
@@ -2208,12 +2201,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[21]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[20]", "live.numbox", 0 ],
+			"obj-23" : [ "live.numbox[22]", "live.numbox", 0 ],
+			"obj-29" : [ "live.numbox[24]", "live.numbox", 0 ],
+			"obj-34" : [ "live.numbox[23]", "live.numbox", 0 ],
 			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
 			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-74" : [ "live.numbox[25]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

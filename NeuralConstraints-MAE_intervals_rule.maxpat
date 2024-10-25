@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"rect" : [ 19.0, 138.0, 1198.0, 888.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,6 +77,33 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-1::obj-23" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-1::obj-29" : 				{
+					"parameter_longname" : "live.numbox"
+				}
+,
+				"obj-1::obj-34" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-1::obj-46" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
+				"obj-1::obj-54" : 				{
+					"parameter_longname" : "live.tab[1]"
+				}
+,
+				"obj-1::obj-74" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -94,6 +121,13 @@
 , 			{
 				"name" : "bach.arithmser.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.belong.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.eq.mxo",
@@ -115,7 +149,34 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.intersection.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.join.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.length.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.lookup.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.nth.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -150,7 +211,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.wrap.mxo",
+				"name" : "bach.thin.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -179,9 +240,44 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "lisp.expr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.quickeval.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lisp.quote.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mac_or_win.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "make_path_once.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.init-unless.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -190,6 +286,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pw.eval-box.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

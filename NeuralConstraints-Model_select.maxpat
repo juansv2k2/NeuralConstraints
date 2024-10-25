@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 106.0, 737.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 4.0, 343.0, 87.0 ],
+					"patching_rect" : [ 2.0, 4.0, 342.0, 122.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -86,6 +86,14 @@
 			}
 , 			{
 				"name" : "bach.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.pick.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -155,6 +163,13 @@
 				"name" : "model-selection_to_snippet.maxpat",
 				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.tosymbol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}

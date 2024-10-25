@@ -10,7 +10,11 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< HEAD
 		"rect" : [ 34.0, 87.0, 1472.0, 1031.0 ],
+=======
+		"rect" : [ 34.0, 87.0, 1980.0, 1031.0 ],
+>>>>>>> new-branch
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -841,8 +845,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 1107.0, 252.0, 22.0 ],
-					"text" : "[ -3/8 NIL ] [ 1/8 5 ] [ 1/8 4 ] [ 1/8 2 ]"
+					"patching_rect" : [ 69.0, 1107.0, 252.0, 22.0 ]
 				}
 
 			}
@@ -1466,9 +1469,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "train_to_snippet_clean.maxpat",
 					"numinlets" : 4,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 261.0, 420.0, 823.0 ],
 					"varname" : "bp1483236017017",
 					"viewvisibility" : 1

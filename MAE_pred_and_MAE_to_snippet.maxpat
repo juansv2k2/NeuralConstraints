@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2155.0, 123.0, 1028.0, 843.0 ],
+		"rect" : [ 2286.0, 137.0, 1293.0, 856.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,24 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 269.25, 931.0, 59.0, 20.0 ],
-					"text" : "good one"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 956.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"patching_rect" : [ 58.471977243820817, 977.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "inputs2binary", "[", "list", "e", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "denormalized-prediction", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -157,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.943954487641633, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 207.735988621910394, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn1"
 				}
 
@@ -170,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 89.0, 791.0, 87.943954487641633, 22.0 ],
+					"patching_rect" : [ 138.792034134268761, 823.0, 87.943954487641633, 22.0 ],
 					"text" : "t l b b"
 				}
 
@@ -183,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.471977243820817, 869.212899416685104, 29.5, 22.0 ],
+					"patching_rect" : [ 173.264011378089577, 865.212899416685104, 29.5, 22.0 ],
 					"text" : "nn"
 				}
 
@@ -196,7 +185,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.0, 901.0, 125.415931731462479, 22.0 ],
+					"patching_rect" : [ 137.792034134268761, 897.0, 125.415931731462479, 22.0 ],
 					"text" : "bach.replace nn"
 				}
 
@@ -209,8 +198,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.666666666666686, 956.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "lista", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn1", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn1", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"patching_rect" : [ 89.0, 943.0, 163.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "inputs2binary", "[", "list", "e", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "denormalized-prediction", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1241,7 +1230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "inputs2binary", "[", "list", "e", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "denormalized-prediction", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1313,7 +1302,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "normalized-input", "[", "normalize1", "[", "convert-to-double-float-vector", "[", "list", "input", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "normalized-input", "]", "]", "[", "denormalized-prediction", "[", "denormalize2", "prediction", "]", "]", "[", "mae", "[", "snn:mean-absolute-error", "nn", "[", "list", "normalized-input", "]", "[", "list", "prediction", "]", "]", "]", "]", "[", "when", "mae", "[", "format", "t", "MAE: ~a~%", "mae", "]", "]", "[", "list", "denormalized-prediction", "mae", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "input-vector", "[", "normalize1", "[", "inputs2binary", "[", "list", "a", "b", "c", "d", "]", "]", "]", "]", "[", "norm-e", "[", "normalize1", "[", "inputs2binary", "[", "list", "e", "]", "]", "]", "]", "[", "prediction", "[", "snn:predict", "nn", "input-vector", "]", "]", "[", "denormalized-prediction", "[", "binary2inputs", "[", "denormalize2", "prediction", "]", "]", "]", "[", "index", "[", "position", "input-vector", "inputs", ":test", "#'fuzzy-equal", "]", "]", "[", "expected-target", "[", "and", "index", "[", "nth", "index", "targets", "]", "]", "]", "[", "mae1", "[", "if", "expected-target", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "expected-target", "]", "]", "[", "]", "]", "]", "[", "mae2", "[", "snn:mean-absolute-error", "nn", "[", "list", "input-vector", "]", "[", "list", "norm-e", "]", "]", "]", "[", "epsilon", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "[", "weight1", "[", "if", "mae1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae1", "epsilon", "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "]", "[", "weight2", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "mae2", "epsilon", "]", "]", "]", "]", "[", "format", "t", "Prediction: ~a~%", "denormalized-prediction", "]", "[", "format", "t", "MAE 1 - vs Expected Target: ~a~%", "mae1", "]", "[", "format", "t", "MAE 2 - vs E: ~a~%", "mae2", "]", "[", "format", "t", "Weight 1 - MAE 1: ~a~%", "weight1", "]", "[", "format", "t", "Weight 2 - MAE 2: ~a~%", "weight2", "]", "[", "if", "[", ">", "weight1", "weight2", "]", "[", "-", "mae1", "]", "[", "-", "mae2", "]", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1774,7 +1763,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
-					"midpoints" : [ 22.5, 930.0, 98.5, 930.0 ],
+					"midpoints" : [ 22.5, 930.0, 67.971977243820817, 930.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1918,7 +1907,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -1994,7 +1983,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2013,6 +2002,13 @@
 					"midpoints" : [ 819.5, 80.0, 649.5, 80.0 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-71", 0 ]
 				}
 
 			}
@@ -2073,7 +2069,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 98.5, 1020.5, 22.5, 1020.5 ],
+					"midpoints" : [ 67.971977243820817, 1020.5, 22.5, 1020.5 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -2120,7 +2116,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 304.0, 848.871682733297348, 178.943954487641633, 848.871682733297348 ],
+					"midpoints" : [ 304.0, 848.871682733297348, 227.735988621910394, 848.871682733297348 ],
 					"source" : [ "obj-82", 1 ]
 				}
 
