@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 823.0, 134.0, 614.0, 926.0 ],
+		"rect" : [ 822.0, 91.0, 614.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -98,28 +98,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "10bitToTwoInt.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "18-bit_binary_to_num_den_mod_oct.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "6-bit_binary_to_intervals.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "8-bit_binary_to_mod_oct.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -127,7 +127,7 @@
 , 			{
 				"name" : "bach.+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -154,7 +154,7 @@
 , 			{
 				"name" : "bach.belong.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -173,7 +173,7 @@
 , 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -192,14 +192,14 @@
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -254,7 +254,7 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -273,14 +273,14 @@
 , 			{
 				"name" : "bach.mean.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.mod.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -303,7 +303,7 @@
 , 			{
 				"name" : "bach.pitchunpack.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -330,14 +330,14 @@
 , 			{
 				"name" : "bach.repeat.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.replace.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -348,14 +348,14 @@
 , 			{
 				"name" : "bach.rminus.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.round.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -366,7 +366,7 @@
 , 			{
 				"name" : "bach.sieve.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -381,7 +381,7 @@
 , 			{
 				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -392,7 +392,7 @@
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -415,48 +415,48 @@
 , 			{
 				"name" : "bach.x2dx.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher-resize-gizmo.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher-resize.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "erase.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "extended-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractionTo16bitBinary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intervals_to_6-bit_binary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -464,55 +464,55 @@
 , 			{
 				"name" : "lisp.edit.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.expr.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.lambda.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.print.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.quote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mac_or_win.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "make_path_once.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mod_oct_to_8-bit_binary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -520,27 +520,27 @@
 , 			{
 				"name" : "moz.init-unless.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.tosymbol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "neural.quickeval.maxpat",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "num_den_mod_oct_to_18-bit_binary.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -548,28 +548,28 @@
 , 			{
 				"name" : "open-doc-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pw.eval-box.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "save-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendback.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -585,14 +585,14 @@
 			}
 , 			{
 				"name" : "train_to_snippet_clean.maxpat",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "twoIntTo10bit.js",
-				"bootpath" : "~/Desktop/NeuralConstraints-REPO",
+				"bootpath" : "~/Documents/GitHub/NeuralConstraints-REPO",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
