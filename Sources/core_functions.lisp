@@ -112,9 +112,7 @@
 
 ( defun rhythm-pitch-to-binary (binary-list)
 	( patch-work::flat
-		( mapcar #'rhythm-pitch-to-18-bit-binary binary-list )
-	)
-)
+		( mapcar #'rhythm-pitch-to-18-bit-binary binary-list )))
 
 (defun rhythm-pitch-to-18-bit-binary (input)
 	(let* ((rhythm (first input))
@@ -154,12 +152,8 @@
 						1
 						0)))
 			(list 0 0 0 0 0 0 0 0))))
-
 		(let ((result (append binary-rhythm pitch-binary)))
-
-		result)))))
-  	)
-)
+		result)))))))
 
 #| decoding of intervals |# 
 
@@ -167,9 +161,7 @@
   	(if (every (lambda (digit) (and (integerp digit) (<= 0 digit 1))) binary-list)
      	(loop for i from 0 below (length binary-list) by 6
             collect (6bit-binary-to-integer (subseq binary-list i (+ i 6))))
-     		(format t "Error: Input must be a list of binary digits~%")
-  	)
-)
+     		(format t "Error: Input must be a list of binary digits~%")))
 
 (defun 6bit-binary-to-integer (binary-list)
   	(if (and (= (length binary-list) 6)
@@ -178,9 +170,7 @@
             (+ (* acc 2) bit))
             binary-list)))
         	(- offset-num 24))
-      	(format t "Input must be a list of 6 binary digits 0 or 1~%")
-  	)
-) 
+      	(format t "Input must be a list of 6 binary digits 0 or 1~%"))) 
 
 #| decoding of mod-octave |# 
 
@@ -218,7 +208,6 @@
         for note-binary = (subseq flat-binary-list i (+ i 8))
         for pitch-class-octave = (binary-to-pitch-class-and-octave note-binary)
         collect (pitch-class-and-octave-to-midi pitch-class-octave)))
-
 
 #| decoding of rhythm |# 
 
@@ -283,6 +272,4 @@
   	#| main wrapper for decoding of rhythm |# 
   	
 ( defun binary-to-rhythm-pitch (binary-list)
-	( patch-work::flat
-		( mapcar #'binary-to-midi binary-list ))
-)
+	( patch-work::flat ( mapcar #'binary-to-midi binary-list )))
