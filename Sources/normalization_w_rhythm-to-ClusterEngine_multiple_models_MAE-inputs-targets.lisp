@@ -495,15 +495,12 @@
 		)			
 
 	(defun interv2binary (inputlist)
-		
-		
-
 		(let ((binary-list (apply #'concatenate 'list
 			(mapcar #'integer-to-6bit-binary inputlist))))
-
 		binary-list)
-		)
-	(defun midi-to-pitch-class-and-octave (midi-note)
+	)
+
+ 	(defun midi-to-pitch-class-and-octave (midi-note)
 		(if (or (< midi-note 0) (> midi-note 127))
 			(progn
 				(format t "MIDI note ~a is out of range~%" midi-note)
