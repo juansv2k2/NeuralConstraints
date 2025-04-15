@@ -1,19 +1,19 @@
 ( progn
 		( defvar nn
-			( snn:restore model )
+			( snn:restore "/Users/juanvassallo/Documents/GitHub/NeuralConstraints/models/test-new" )
 		)
 		( defun get-prediction-and-mae
 			( input nn )
 			( let*
 				(
 					( normalized-input
-						( normalize1 input )
+						( normalize-binary input )
 					)
 					( prediction
 						( snn:predict nn normalized-input )
 					)
 					( denormalized-prediction
-						( denormalize2 prediction )
+						( denormalize-binary prediction )
 					)
 					(mae 
        					(snn:mean-absolute-error nn (list input) (list prediction))
