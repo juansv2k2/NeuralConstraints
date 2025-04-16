@@ -325,9 +325,9 @@ binary-representation))
 				)
 			)
 		)
-	)
+	) 
  
- ( defun convert-to-double-float-vector
+( defun convert-to-double-float-vector
 	( input )
 	( make-array
 		( length input )
@@ -392,38 +392,8 @@ binary-representation))
 		)
 		( list denormalized-prediction mae )
 	)
-)
+) 
 
- #|	inputs-targets OLD 
- 
- ( defvar inputs
-		( mapcar #'normalize-binary
-			( mapcar
-				( function
-					( lambda
-						( x )
-						( apply #'vector x )
-					)
-				)
-				( quote inputsList )
-			)
-		)
-	)
-	( defvar targets
-		( mapcar #'normalize-binary
-			( mapcar
-				( function
-					( lambda
-						( x )
-						( apply #'vector x )
-					)
-				)
-				( quote targetsList )
-			)
-		)
-	)
- 
- |#
 
 
 	
