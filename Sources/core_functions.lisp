@@ -194,7 +194,7 @@
   		collect (binary-10bit-to-rational (subseq binary-list i (+ i 10)))))
 
 
-#| ==>> encoding of mod-oct-rhythm |#
+#| ==>> encoding of mod-oct-rhythm (uses to-4bit-binary from mod-oct encoding) |#
 
 (defun rhythm-pitch-to-18-bit-binary (input)
 		(let* (
@@ -233,12 +233,11 @@
 #| Main wrapper for encoding mod-octave-rhythm |#
 
 ( defun rhythm-pitch-to-binary (rhythm-pitch-list)
-( patch-work::flat ( mapcar #'rhythm-pitch-to-18-bit-binary rhythm-pitch-list )))
+		(patch-work::flat ( mapcar #'rhythm-pitch-to-18-bit-binary rhythm-pitch-list )))
 
 #| test: (rhythm-pitch-to-binary '((1/4 60)(1/8 61)(-1/8 nil))) |#
 
-#| <<== decoding of mod-octave-rhythm (uses the functions 'from-4bit-binary', 
-'binary-to-pitch-class-and-octave' and 'pitch-class-and-octave-to-midi' from decoding mod-oct) |# 
+#| <<== decoding of mod-octave-rhythm (uses the functions 'from-4bit-binary', 'binary-to-pitch-class-and-octave' and 'pitch-class-and-octave-to-midi' from decoding mod-oct) |# 
 
 (defun from-4bit-binary (binary-4bits)
 		(reduce (lambda (acc bit) (+ (* acc 2) bit))
@@ -284,23 +283,21 @@
 	                     nil)))
 
         (progn 
-	      (format t "Sign Bit: ~a~%" sign-bit)
+	     #| (format t "Sign Bit: ~a~%" sign-bit)
 	      (format t "Numerator Bits: ~a, Computed Numerator: ~a~%" numerator-bits numerator)
 	      (format t "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%" denominator-bits denominator-index denominator) 
 	      (format t "Pitch class + octave list: ~a~%" pitch-class-octave-list)
 	      (format t "MIDI Note: ~a~%" pitch) 
-	      (format t "Rhythm: ~a, Pitch: ~a~%" rhythm pitch)
+	      (format t "Rhythm: ~a, Pitch: ~a~%" rhythm pitch) |#
 	      (list rhythm pitch))))
 
-     	  	
-          #| test line: (binary-to-rhythm-pitch '(( 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 )( 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 ))) |#
-          
+     	                    
 #| main wrapper for decoding of rhythm |# 
 	
 ( defun binary-to-rhythm-pitch (binary-list)
-			( patch-work::flat ( mapcar #'binary-to-midi binary-list )))
+			(patch-work::flat ( mapcar #'binary-to-midi binary-list )))
 
-#| test: (binary-to-rhythm-pitch '(( 0 0 0 0 0 1 0 0 1 1 0 0 1 1 1 1 0 0 )( 0 0 0 0 0 1 0 1 1 0 0 0 1 1 1 1 0 1 )( 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 ))) |#
+#| test line: (binary-to-rhythm-pitch '(( 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 )( 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 0 1 )( 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 ))) |#
 
 
 #| inputs-targets |#
@@ -328,7 +325,7 @@
 				( loop for v1 across vec1 for v2 across vec2 always
 						( <= ( abs ( - v1 v2 )) tolerance ))))
 
-( defun get-prediction-and-mae ( input nn )
+#| ( defun get-prediction-and-mae ( input nn )
 		( let*
 						(( normalized-input ( normalize-binary ( convert-to-double-float-vector input )))
 						 ( index ( position normalized-input inputs :test #'fuzzy-equal ))
@@ -338,7 +335,7 @@
 						 ( denormalized-prediction ( denormalize-binary prediction ))
 						 ( mae ( and expected-target 
 		            	( snn:mean-absolute-error nn ( list normalized-input )( list expected-target )))))
-				( list denormalized-prediction mae ))) 
+				( list denormalized-prediction mae ))) |#
 
 
 
