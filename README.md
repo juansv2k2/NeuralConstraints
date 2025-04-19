@@ -29,7 +29,7 @@ For detailed documentation and examples, refer to the following article:
 **Vassallo, J. S., Sandred, Ö., & Vincenot, J. (2025).**  
 _NeuralConstraints: Integrating a Neural Generative Model with Constraint-Based Composition._  
 **Frontiers in Computer Science, 7.**  
-[https://doi.org/10.3389/fcomp.2025.1543074](https://doi.org/10.3389/fcomp.2025.1543074)
+[https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1543074/abstract](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1543074/abstract)
 
 ## License
 
