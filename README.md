@@ -24,13 +24,13 @@ To use NeuralConstraints, ensure the following dependencies are installed:
 
 ## Documentation
 
-For detailed documentation and examples, refer to the article published in Frontiers in Computer Science:  
-[NeuralConstraints: A Constraint-Based Compositional Framework](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1543074/abstract)
+For detailed documentation and examples, refer to the following article:
+
+**Vassallo, J. S., Sandred, Ö., & Vincenot, J. (2025).**  
+_NeuralConstraints: Integrating a Neural Generative Model with Constraint-Based Composition._  
+**Frontiers in Computer Science, 7.**  
+[https://doi.org/10.3389/fcomp.2025.1543074](https://doi.org/10.3389/fcomp.2025.1543074)
 
 ## License
 
 This project is licensed under [your license here]. Replace this section with the appropriate license information.
-
-## Acknowledgments
-
-Special thanks to the developers of Max, Moz'lib, and Bach for their contributions to the compositional ecosystem.
