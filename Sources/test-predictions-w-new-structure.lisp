@@ -26,4 +26,4 @@
           
             (list converted-prediction mae)))
 
-    (get-prediction-and-mae ( quote inpt )))
+    (get-prediction-and-mae ( quote ( inpt ))))
