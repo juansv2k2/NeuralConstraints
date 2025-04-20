@@ -18,32 +18,25 @@
 	
 #| ==>> encoding of intervals |#
 
-(defun calculate-intervals (lst) 
-		(if (>= (length lst) 2)
-		  	(let ((prev (first lst)))    
-		   			  (mapcar (lambda (x)
-		              (let ((interval (- x prev))) 
-		                  	(setq prev x)               
-		                	interval))                  
-		  				(rest lst)))
-		  nil)) #| in the original returns t |# 
+(defun calculate-intervals (lst)
+  (loop for a on lst while (cdr a)
+        collect (- (second a) (first a))))
 
 (defun integer-to-6bit-binary (input)
-		(let* ((offset-input (+ input 24)) 
-					 (binary-list (make-list 6 :initial-element 0)))  
-			  (dotimes (i (min 6 (integer-length offset-input)))
-						(setf (nth (- 5 i) binary-list)
-						(logand offset-input 1))
-					(setf offset-input (ash offset-input -1)))
-		binary-list))
+  (let ((offset-input (+ input 24)))
+    (loop for i from 5 downto 0
+          collect (logand (ash offset-input (- i)) 1))))
 
-#| main wrapper for encoding of intervals |#
+#| Main wrapper of encoding of intervals |#
 
-(defun interv-to-binary (inputlist)
-		(let* ((interval-list (calculate-intervals inputlist))
-		       (binary-list (apply #'concatenate 'list
-		         (mapcar #'integer-to-6bit-binary interval-list))))
-		 		binary-list))
+(defun interv-to-binary (input)
+  (let ((sequences (if (and (listp input) (every #'listp input))
+                       input
+                       (list input))))
+    (mapcar
+     (lambda (lst)
+       (mapcan #'integer-to-6bit-binary (calculate-intervals lst)))
+     sequences)))
 
 #| <<== decoding of intervals |# 
 
@@ -63,34 +56,42 @@
 #| ==>> encoding of mod-octave |#
 
 (defun midi-note-to-8bit-binary (midi-note)
-		(let ((result (midi-to-pitch-class-and-octave midi-note)))
-		  	 (if result
-			    		(let ((pitch-class (first result))
-			     				  (octave (second result)))
-			        		  (append (to-4bit-binary pitch-class) (to-4bit-binary octave)))
-			        (progn
-				          (format t "Invalid MIDI note: ~a~%" midi-note) 
-			           	nil))))
+        (let ((result (midi-to-pitch-class-and-octave midi-note)))
+             (if result
+                        (let ((pitch-class (first result))
+                                  (octave (second result)))
+                              (append (to-4bit-binary pitch-class) (to-4bit-binary octave)))
+                    (progn
+                          (format t "Invalid MIDI note: ~a~%" midi-note) 
+                        nil))))
 
 (defun midi-to-pitch-class-and-octave (midi-note)
-		(if (or (< midi-note 0) (> midi-note 127))
-		 	  (progn
-			    	(format t "MIDI note ~a is out of range~%" midi-note) 
-		      	nil)
-		    (list (mod midi-note 12) (floor midi-note 12))))
+        (if (or (< midi-note 0) (> midi-note 127))
+              (progn
+                    (format t "MIDI note ~a is out of range~%" midi-note) 
+                nil)
+            (list (mod midi-note 12) (floor midi-note 12))))
 
 (defun to-4bit-binary (num)
-		(let ((binary (make-list 4 :initial-element 0)))
-		  (loop for i from 3 downto 0
-		  	  for idx from 0 to 3 do
-		      		(setf (nth idx binary) (logand (ash num (- i)) 1)))
-		  	binary))
+        (let ((binary (make-list 4 :initial-element 0)))
+          (loop for i from 3 downto 0
+              for idx from 0 to 3 do
+                    (setf (nth idx binary) (logand (ash num (- i)) 1)))
+            binary))
 
 #| Main wrapper for encoding mod-octave |# 
 
-(defun midi-notes-to-flat-binary (midi-notes)
-		(apply #'append
-		 		(mapcar #'midi-note-to-8bit-binary midi-notes)))
+(defun midi-notes-to-flat-binary (notes-or-lists)
+  (let ((groups (if (and (listp notes-or-lists)
+                         (every #'listp notes-or-lists))
+                    notes-or-lists
+                    (list notes-or-lists))))
+    (mapcar
+     (lambda (note-list)
+       (mapcan #'midi-note-to-8bit-binary note-list))
+     groups)))
+
+
 
 #| <<== decoding of mod-octave |# 
 
@@ -115,16 +116,25 @@
 		          nil)
 		      	midi-note)))
 
-#| Main wrapper for decoding mod-octave |#
-
 (defun flat-binary-to-midi-notes (flat-binary-list)
 	(unless (= (mod (length flat-binary-list) 8) 0)
-	  (error "flat-binary-to-midi-notes: input length must be divisible by 8."))
+	  (error "flat-binary-to-midi-notes: input length is ~a must be divisible by 8." (length flat-binary-list)))
 	(loop for i from 0 below (length flat-binary-list) by 8
 	      for note-binary = (subseq flat-binary-list i (+ i 8))
 	      for pitch-class-octave = (binary-to-pitch-class-and-octave note-binary)
 	      collect (pitch-class-and-octave-to-midi pitch-class-octave)))
 
+#| Main wrapper for decoding mod-octave (takes either a list or a list of lists) |#
+
+(defun binary-to-midi (binary-or-list)
+  (let ((lol (if (and (listp binary-or-list)
+                      (every #'listp binary-or-list))
+                 binary-or-list      
+                 (list binary-or-list))))
+    (mapcan #'flat-binary-to-midi-notes lol)))
+		
+  	#| test line: (binary-to-midi '((1 0 0 1 0 1 0 1)(1 0 0 1 0 1 0 1))) |#
+	
 
 #| ==>> encoding of rhythm |# 
 
@@ -159,8 +169,18 @@
 
 #| Main wrapper for encoding of rhythm |#
 
-( defun rhythm-to-binary ( rational-list )
-		( patch-work::flat ( mapcar #'rational-to-10bit-representation rational-list )))
+(defun rhythm-to-binary (input)
+  (labels ((rational-list-p
+              (lst) (and (listp lst) (every #'rationalp lst))))
+    (cond
+      ((and (listp input) (every #'rational-list-p input)) 
+       (mapcar (lambda (seq)
+                 (patch-work::flat (mapcar #'rational-to-10bit-representation seq)))
+               input))
+      ((rational-list-p input)                              
+       (patch-work::flat (mapcar #'rational-to-10bit-representation input)))
+      (t
+       (error "Invalid input: ~S" input)))))
 
 
 #| <<== decoding of rhythm |# 
@@ -232,10 +252,21 @@
  
 #| Main wrapper for encoding mod-octave-rhythm |#
 
-( defun rhythm-pitch-to-binary (rhythm-pitch-list)
-		(patch-work::flat ( mapcar #'rhythm-pitch-to-18-bit-binary rhythm-pitch-list )))
-
-#| test: (rhythm-pitch-to-binary '((1/4 60)(1/8 61)(-1/8 nil))) |#
+(defun rhythm-pitch-to-binary (input)
+  (labels ((pair-list-p (lst)
+             (and (listp lst)
+                  (every (lambda (x) (and (listp x) (= (length x) 2))) lst))))
+    (cond
+      ((and (listp input) (every #'pair-list-p input))
+       
+       (mapcar (lambda (lst)
+                 (patch-work::flat (mapcar #'rhythm-pitch-to-18-bit-binary lst)))
+               input))
+      ((pair-list-p input)
+     
+       (patch-work::flat (mapcar #'rhythm-pitch-to-18-bit-binary input)))
+      (t
+       (error "Invalid input: ~S" input)))))
 
 #| <<== decoding of mod-octave-rhythm (uses the functions 'from-4bit-binary', 'binary-to-pitch-class-and-octave' and 'pitch-class-and-octave-to-midi' from decoding mod-oct) |# 
 
@@ -260,7 +291,7 @@
 		          nil)
 		    			midi-note)))
 
-	(defun binary-to-midi (binary-input)
+	(defun binary-to-rhythm-midi (binary-input)
 	  (let* ((sign-bit (first binary-input))
 	         (numerator-bits (subseq binary-input 1 6))
 	         (denominator-bits (subseq binary-input 6 10))
@@ -292,10 +323,22 @@
 	      (list rhythm pitch))))
 
      	                    
-#| main wrapper for decoding of rhythm |# 
+#| main wrapper for decoding of rhythm-mod-oct |# 
 	
-( defun binary-to-rhythm-pitch (binary-list)
-			(patch-work::flat ( mapcar #'binary-to-midi binary-list )))
+(defun binary-to-rhythm-pitch (input)
+  (labels ((flat-binary-list-p (lst)
+             (and (listp lst)
+                  (every #'numberp lst)
+                  (= (length lst) 18))))
+    (cond
+      ((and (listp input) (every #'flat-binary-list-p input))
+
+       (mapcar #'binary-to-rhythm-midi input))
+      ((flat-binary-list-p input)
+
+       (binary-to-rhythm-midi input))
+      (t
+       (error "Invalid input: ~S" input)))))
 
 #| test line: (binary-to-rhythm-pitch '(( 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 )( 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 0 1 )( 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 ))) |#
 
@@ -305,12 +348,12 @@
 (defvar inputs
 		(mapcar #'normalize-binary
 			(mapcar	#'(lambda (x) (apply #'vector x))
-				 (mapcar funct (quote inputsList )))))
+				 ( funct ( quote inputsList )))))
 
 (defvar targets
   	(mapcar #'normalize-binary
 		  (mapcar	#'(lambda (x)	(apply #'vector x))
-				 ( mapcar funct ( quote targetsList ))))) 
+				 ( funct ( quote targetsList ))))) 
  
 ( defun convert-to-double-float-vector ( input )
 		( make-array ( length input )
