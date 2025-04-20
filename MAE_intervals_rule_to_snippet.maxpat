@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -84,8 +84,8 @@
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1112.0, 534.0, 125.0, 22.0 ],
 					"text" : "lisp.quickeval @out m"
 				}
@@ -198,6 +198,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[25]",
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -270,7 +271,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 963.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -474,6 +475,7 @@
 							"parameter_enum" : [ "<", ">", "=" ],
 							"parameter_longname" : "live.tab[1]",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -591,6 +593,7 @@
 							"parameter_enum" : [ "heur", "deter" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -608,7 +611,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.0, 767.0, 154.0, 22.0 ],
+					"patching_rect" : [ 866.0, 752.0, 154.0, 22.0 ],
 					"text" : "s MAE_intervals_rule_pitch"
 				}
 
@@ -750,7 +753,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -788,11 +791,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 13.0, 865.212899416685104, 30.0, 30.0 ]
 				}
 
@@ -899,7 +902,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 540.0, 199.5, 29.5, 22.0 ],
-					"text" : "7"
+					"text" : "6"
 				}
 
 			}
@@ -1131,6 +1134,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[23]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1158,6 +1162,7 @@
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[24]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1272,7 +1277,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 752.0, 163.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "h", "i", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "g", "h", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "h", "i", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1344,7 +1349,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 107.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv2binary", "[", "calculate-intervals", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "lst", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "input", "]", "]", "]", "]", "]", "[", "list", "[", "normalize1", "[", "apply", "#'vector", "[", "interv-to-binary", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mean-absolute-error", 1, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1551,6 +1556,13 @@
 					"midpoints" : [ 613.5, 389.0, 469.5, 389.0 ],
 					"order" : 1,
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2199,233 +2211,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-23" : [ "live.numbox[22]", "live.numbox", 0 ],
-			"obj-29" : [ "live.numbox[24]", "live.numbox", 0 ],
-			"obj-34" : [ "live.numbox[23]", "live.numbox", 0 ],
-			"obj-46" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-74" : [ "live.numbox[25]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.arithmser.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.belong.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.filternull.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.find.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.intersection.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.join.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lookup.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.read.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.reg.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.replace.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.rev.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.slice.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.subs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.thin.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.write.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "erase.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "extended-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.edit.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.expr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quickeval.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lisp.quote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mac_or_win.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "make_path_once.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moz.init-unless.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "open-doc-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pw.eval-box.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "save-double.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sendback.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

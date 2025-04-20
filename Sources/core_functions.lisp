@@ -368,17 +368,6 @@
 				( loop for v1 across vec1 for v2 across vec2 always
 						( <= ( abs ( - v1 v2 )) tolerance ))))
 
-#| ( defun get-prediction-and-mae ( input nn )
-		( let*
-						(( normalized-input ( normalize-binary ( convert-to-double-float-vector input )))
-						 ( index ( position normalized-input inputs :test #'fuzzy-equal ))
-						 ( expected-target ( and index 
-		                        				( nth index targets )))
-						 ( prediction ( snn:predict nn normalized-input ))
-						 ( denormalized-prediction ( denormalize-binary prediction ))
-						 ( mae ( and expected-target 
-		            	( snn:mean-absolute-error nn ( list normalized-input )( list expected-target )))))
-				( list denormalized-prediction mae ))) |#
 
 
 

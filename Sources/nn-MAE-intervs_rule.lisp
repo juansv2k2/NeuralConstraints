@@ -3,17 +3,13 @@
     (mean-absolute-error
      (snn:mean-absolute-error nn
        (list
-         (normalize1
+         (normalize-binary
            (apply #'vector
-             (interv2binary
-               (calculate-intervals
-                 (list input))))))
+             ( patch-work::flat (interv-to-binary (list input ))))))
        (list
-         (normalize1
+         (normalize-binary
            (apply #'vector
-             (interv2binary
-               (calculate-intervals
-                 (list target)))))))
+             ( patch-work::flat (interv-to-binary (list target )))))))
      
      )
       (weight1 (/ 1.0 (+ (log (+ mean-absolute-error 1)) 1e-6))))
