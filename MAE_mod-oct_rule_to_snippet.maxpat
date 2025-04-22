@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2241.0, 195.0, 1028.0, 843.0 ],
+		"rect" : [ 2597.0, 117.0, 1028.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 767.0, 73.0, 17.0 ],
+					"patching_rect" : [ 336.0, 759.0, 73.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.791510999202728, 12.73856694996357, 73.0, 17.0 ],
 					"text" : "model number",
@@ -108,6 +108,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[18]",
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -384,6 +385,7 @@
 							"parameter_enum" : [ "<", ">", "=" ],
 							"parameter_longname" : "live.tab[1]",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -501,6 +503,7 @@
 							"parameter_enum" : [ "heur", "deter" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -1057,6 +1060,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[1]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1084,6 +1088,7 @@
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -2166,7 +2171,7 @@
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2197,7 +2202,7 @@
 , 			{
 				"name" : "bach.replace.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2224,49 +2229,49 @@
 , 			{
 				"name" : "erase.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "extended-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.edit.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mac_or_win.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "open-doc-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "save-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendback.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
