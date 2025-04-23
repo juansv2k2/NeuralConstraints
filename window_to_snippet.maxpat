@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1980.0, 1031.0 ],
+		"rect" : [ 2217.0, 201.0, 1428.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,13 +42,42 @@
 				"box" : 				{
 					"fontname" : "Andale Mono",
 					"fontsize" : 8.0,
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1177.0, 22.5, 23.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 115.0, 1.0, 23.0, 15.0 ],
+					"text" : "nth",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "nth (int)",
+					"id" : "obj-39",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1211.5, 15.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Andale Mono",
+					"fontsize" : 8.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1347.0, 22.5, 37.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.359689712524414, 0.719822029173258, 37.0, 15.0 ],
+					"presentation_rect" : [ 226.0, 0.719822029173258, 37.0, 15.0 ],
 					"text" : "domain",
 					"textjustification" : 1
 				}
@@ -56,7 +85,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "input — bach score / roll object (1 voice) or arbitrary llll or list",
+					"comment" : "domain (0-3)",
 					"id" : "obj-36",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -97,7 +126,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "input — bach score / roll object (1 voice) or arbitrary llll or list",
+					"comment" : "inputs/targets (two int list)",
 					"id" : "obj-28",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -209,8 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 703.0, 864.0, 157.0, 22.0 ],
-					"text" : "77 76 74 69 65"
+					"patching_rect" : [ 703.0, 864.0, 157.0, 22.0 ]
 				}
 
 			}
@@ -8419,6 +8447,14 @@
 					"destination" : [ "obj-71", 0 ],
 					"midpoints" : [ 454.5, 852.190722227096558, 559.5, 852.190722227096558 ],
 					"source" : [ "obj-386", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"midpoints" : [ 1221.0, 469.0, 304.016132175922394, 469.0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
