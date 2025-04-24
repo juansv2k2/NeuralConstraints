@@ -4,15 +4,17 @@
           (mean-absolute-error
            (snn:mean-absolute-error nn
              (list
-               (normalize1
+               (normalize-binary
                  (apply #'vector
-                   (midi-notes-to-flat-binary
-                     (list input)))))
+                    ( patch-work::flat  
+                     (midi-notes-to-flat-binary
+                       (list input))))))
              (list
-               (normalize1
+               (normalize-binary
                  (apply #'vector
+                  ( patch-work::flat                       
                    (midi-notes-to-flat-binary
-                     (list target))))))
+                     (list target)))))))
            )
           
 
