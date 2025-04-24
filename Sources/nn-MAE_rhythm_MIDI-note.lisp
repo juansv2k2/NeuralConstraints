@@ -5,14 +5,14 @@
               (normalize1
                 (apply #'vector
                   (rhythm-MIDI-2-binary
-                    (list input)))))
+                    (list input )))))
             (list
               (normalize1
                 (apply #'vector
                   (rhythm-MIDI-2-binary
-                    (list target)))))))
+                    (list target )))))))
 
      
-         (check-result (< mean-absolute-error 0.2)))
+         ( weight-result ( oper mean-absolute-error weight )))
 
-      check-result))
+      weight-result ))

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1428.0, 1031.0 ],
+		"rect" : [ 2222.0, 87.0, 1980.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -797,7 +797,7 @@
 					"patching_rect" : [ 827.0, 347.5, 174.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.866383224725723, 13.73856694996357, 174.0, 20.0 ],
-					"text" : "MAE_Rtm_pitch_Rule",
+					"text" : "MAE_Rtm_pitch_Rule_OLD",
 					"textjustification" : 2
 				}
 
