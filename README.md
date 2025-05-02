@@ -35,4 +35,4 @@ _NeuralConstraints: Integrating a Neural Generative Model with Constraint-Based 
 
 ## License
 
-This project is licensed under (Creative Commons Attribution 4.0 International License) [https://creativecommons.org/licenses/by/4.0/deed.en].
+This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en).
