@@ -1,36 +1,36 @@
-( progn
-	( ce::preferences t 200000000 :self :other :other :rhythm :rhythm
-	:self :rhythm :self :next-pitch :next )
-	( defvar nn1 1111 )
-	( defvar nn2 2222 )
-	( defvar nn3 3333 )
+(progn
+	(ce::preferences t 200000000 :self :other :other :rhythm :rhythm
+	:self :rhythm :self :next-pitch :next)
+	(defvar nn1 1111)
+	(defvar nn2 2222)
+	(defvar nn3 3333)
 	
  	#| normalization/denormalization |#
 
-	( defun normalize-binary ( input ) 
-			( map 'vector ( lambda ( x ) ( if ( = x 1 ) 1.0d0 -1.0d0 ))
-			input ))
+	(defun normalize-binary (input) 
+			(map 'vector (lambda (x) (if (= x 1) 1.0d0 -1.0d0))
+			input))
 
-	( defun denormalize-binary ( output )
-			( map 'list ( lambda ( x ) ( if ( plusp x ) 1 0 ))
-			output ))
+	(defun denormalize-binary (output)
+			(map 'list (lambda (x) (if (plusp x) 1 0))
+			output))
 
-	( defun normalize-float ( input )
-			( map 'vector ( lambda ( x ) ( coerce ( - ( / x 64.000000 ) 1.000000 ) 'double-float ))
-			input ))
+	(defun normalize-float (input)
+			(map 'vector (lambda (x) (coerce (- (/ x 64.000000) 1.000000) 'double-float))
+			input))
 
-	( defun denormalize-float ( input )
-			( map 'vector ( lambda ( x ) ( * ( + x 1.000000 ) 64.000000 ))
-			input ))
+	(defun denormalize-float (input)
+			(map 'vector (lambda (x) (* (+ x 1.000000) 64.000000))
+			input))
 		
 	#| ==>> encoding of intervals |#
 
 	(defun calculate-intervals (lst)
-	  (loop for a on lst while (cdr a)
+	   (loop for a on lst while (cdr a)
 	        collect (- (second a) (first a))))
 
 	(defun integer-to-6bit-binary (input)
-	  (let ((offset-input (+ input 24)))
+	   (let ((offset-input (+ input 24)))
 	    (loop for i from 5 downto 0
 	          collect (logand (ash offset-input (- i)) 1))))
 
@@ -164,15 +164,15 @@
 			  	  (append (make-list (- target-length (length binary-list)) :initial-element 0)
 			  binary-list)))
 
-	( defun integer-to-binary-list ( number )
-		  ( if ( = number 0 ) 
-	    		 '( 0 ) 
-		    		( labels (( to-list ( n ) 
-		        	  ( if ( = n 0 ) 
-	            			'( )
-		          			 ( cons ( mod n 2 ) ( to-list ( floor n 2 ))))))
-		      	( let (( binary-list ( to-list number )))
-		        binary-list ))))
+	(defun integer-to-binary-list (number)
+		  (if (= number 0) 
+	    		 '(0) 
+		    		(labels ((to-list (n) 
+		        	  (if (= n 0) 
+	            			'()
+		          			 (cons (mod n 2) (to-list (floor n 2))))))
+		      	(let ((binary-list (to-list number)))
+		        binary-list))))
 
 	#| Main wrapper for encoding of rhythm |#
 
@@ -193,24 +193,24 @@
 	#| <<== decoding of rhythm |# 
 
 	(defun binary-10bit-to-rational (bits)
-	"Convert a 10-bit binary list into rational rhythm."
-	(let* ((sign-bit (first bits))
-	       (num-bits (subseq bits 1 6))
-	       (den-bits (subseq bits 6 10))
-	       (numerator (binary-to-integer num-bits))
-	       (denominator-index (binary-to-integer den-bits))
-	       (denominator-values '(1 2 3 4 5 6 8 10 12 16 24 32))
-	       (denominator (nth denominator-index denominator-values)))
-	  (unless denominator
-	    (error "binary-10bit-to-rational: Invalid denominator index ~a" denominator-index))
-	  (if (= denominator 0)
-	      (error "binary-10bit-to-rational: Denominator = 0 index ~a" denominator-index))
-	  (let ((fraction (/ numerator denominator)))
-	    (if (zerop sign-bit) fraction (- fraction)))))
+		"Convert a 10-bit binary list into rational rhythm."
+		(let* ((sign-bit (first bits))
+		       (num-bits (subseq bits 1 6))
+		       (den-bits (subseq bits 6 10))
+		       (numerator (binary-to-integer num-bits))
+		       (denominator-index (binary-to-integer den-bits))
+		       (denominator-values '(1 2 3 4 5 6 8 10 12 16 24 32))
+		       (denominator (nth denominator-index denominator-values)))
+		  (unless denominator
+		    (error "binary-10bit-to-rational: Invalid denominator index ~a" denominator-index))
+		  (if (= denominator 0)
+		      (error "binary-10bit-to-rational: Denominator = 0 index ~a" denominator-index))
+		  (let ((fraction (/ numerator denominator)))
+		    (if (zerop sign-bit) fraction (- fraction)))))
 
 	(defun binary-to-integer (binary)
-	"Convert binary list to integer."
-	(reduce (lambda (acc bit) (+ (* acc 2) bit)) binary))
+		"Convert binary list to integer."
+		(reduce (lambda (acc bit) (+ (* acc 2) bit)) binary))
 
 	#| main wrapper for decoding of rhythm |# 
 
@@ -253,7 +253,7 @@
 		         (pitch-binary 
 		         		(if (and pitch-class octave)
 		             	(append (to-4bit-binary pitch-class) (to-4bit-binary octave))
-		         			( list 0 0 0 0 0 0 0 0 ))))
+		         			(list 0 0 0 0 0 0 0 0))))
 			    (append binary-rhythm pitch-binary)))
 
 	 
@@ -347,5 +347,5 @@
 	      (t
 	       (error "Invalid input: ~S" input)))))
 
-	#| test line: (binary-to-rhythm-pitch '(( 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 )( 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 0 1 )( 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 ))) |#
+	#| test line: (binary-to-rhythm-pitch '((0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1)(0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 1 0 1)(1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0))) |#
 )
