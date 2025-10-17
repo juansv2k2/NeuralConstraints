@@ -4,6 +4,11 @@
 	(defvar nn1 1111)
 	(defvar nn2 2222)
 	(defvar nn3 3333)
+ 
+ 	
+  	#| Compute the weight from mean absolute error |# 
+  	(defun weight-from-mae (mae)
+			(/ 1.0 (+ (log (+ mae 1.0)) 0.000001)))
 	
  	#| normalization/denormalization |#
 
