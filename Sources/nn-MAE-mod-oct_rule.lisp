@@ -1,24 +1,18 @@
 (lambda lst
   (let* (
-
           (mean-absolute-error
-           (snn:mean-absolute-error nn
+           (snn:mean-absolute-error nn1
              (list
                (normalize-binary
                  (apply #'vector
                     ( patch-work::flat  
                      (midi-notes-to-flat-binary
-                       (list input))))))
+                       (list input ))))))
              (list
                (normalize-binary
                  (apply #'vector
                   ( patch-work::flat                       
                    (midi-notes-to-flat-binary
-                     (list target)))))))
-           )
-          
-
-          (weight1 (/ 1.0 (+ (log (+ mean-absolute-error 1)) 1e-6))))
-    
-
+                     (list target ))))))))
+          (weight1 (weight-from-mae mean-absolute-error)))
     (print weight1)))

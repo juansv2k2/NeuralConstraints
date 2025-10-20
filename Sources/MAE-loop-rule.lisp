@@ -9,7 +9,7 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 													( random 127 )
@@ -18,7 +18,7 @@
 													( random 127 )
 													( random 127 )
 												)
-											)
+											
 										)
 									)
 								)
@@ -29,11 +29,11 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 												a )
-											)
+											
 										)
 									)
 								)
@@ -64,7 +64,7 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 													( random 127 )
@@ -73,7 +73,7 @@
 													( random 127 )
 												a )
 											)
-										)
+										
 									)
 								)
 							)
@@ -82,11 +82,11 @@
 							( normalize-binary
 								( apply #'vector
 									( patch-work::flat
-										( interv-to-binary
-											( calculate-intervals
+										
+											( interv-to-binary
 												( list a b )
 											)
-										)
+										
 									)
 								)
 							)
@@ -116,7 +116,7 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 													( random 127 )
@@ -124,7 +124,7 @@
 													( random 127 )
 												a b )
 											)
-										)
+										
 									)
 								)
 							)
@@ -134,10 +134,10 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list b c )
 											)
-										)
+										
 									)
 								)
 							)
@@ -167,13 +167,13 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 													( random 127 )
 													( random 127 )
 												a b c )
-											)
+											
 										)
 									)
 								)
@@ -184,9 +184,9 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list c d )
-											)
+											
 										)
 									)
 								)
@@ -217,12 +217,12 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 													( random 127 )
 												a b c d )
-											)
+											
 										)
 									)
 								)
@@ -233,9 +233,9 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list d e )
-											)
+											
 										)
 									)
 								)
@@ -266,11 +266,11 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list
 													( random 127 )
 												a b c d e )
-											)
+											
 										)
 									)
 								)
@@ -281,9 +281,9 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list e f )
-											)
+											
 										)
 									)
 								)
@@ -314,9 +314,9 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list a b c d e f )
-											)
+											
 										)
 									)
 								)
@@ -327,9 +327,9 @@
 								( apply #'vector
 									( patch-work::flat
 										( interv-to-binary
-											( calculate-intervals
+											
 												( list f g )
-											)
+											
 										)
 									)
 								)
