@@ -40,12 +40,339 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-55",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 849.0, 644.0, 150.0, 64.0 ],
+					"text" : "11. Try bypassing one rule at the time and see how it affects the solution. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1340.0, 912.0, 70.0, 22.0 ],
+					"text" : "loadmess 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1329.0, 679.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-76",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 795.0, 1274.0, 268.0, 106.0 ],
+					"text" : "10. Now we are ready to start the generation. Press 'v' or click on the red bang above the domain. The MAE value for each iteration of the rules will be printed in the Max console. If the process goes on for too long, press the red bang below. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 710.0, 7.0, 71.0, 22.0 ],
+					"text" : "Rule side"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 710.0, 31.0, 424.0, 47.0 ],
+					"text" : "After you are done training your model, you can move to the rule side. Here, the created models are accessed by the ClusterEngine and used as heuristic rules to influence the constrained generation. Follow the bubble numbers."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"id" : "obj-73",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 5.0, 190.0, 22.0 ],
+					"text" : "Introduction-tutorial - Train"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 29.0, 424.0, 47.0 ],
+					"text" : "There are two important steps we must follow to use NeuralConstraints. The first one is the training stage, and the second one is the rule side. We'll start training a model using the Train module below. Follow the bubble numbers."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-46",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 592.0, 1260.0, 134.0, 52.0 ],
+					"text" : "Change the length of the solution here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 623.0, 1306.0, 83.0, 22.0 ],
+					"text" : "loadmess 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 623.0, 1336.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 623.0, 1366.0, 73.0, 22.0 ],
+					"text" : "variables $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 461.0, 1306.0, 83.0, 22.0 ],
+					"text" : "loadmess 120"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-24",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 456.0, 1260.0, 134.0, 52.0 ],
+					"text" : "Change the tempo for each new generation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1174.0, 1128.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1362.0, 1189.0, 278.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 687.0, 285.0, 50.0, 102.0 ],
+					"text" : "Bach_mod-oct_6-4-3-2-1_001_100000_b32_m95"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1174.0, 1161.0, 265.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 548.0, 291.0, 50.0, 102.0 ],
+					"text" : "Bach_interv_6-4-3-2-1_001_100000_b32_m95"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.0,
+					"bubbleside" : 2,
+					"id" : "obj-16",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1163.0, 878.0, 287.0, 66.0 ],
+					"text" : "8b. Choose also 6 inputs and 1 output. Choose model number 2. This is the order of the model files that you will load into the ClusterEngine below."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.0,
+					"bubbleside" : 2,
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1138.0, 664.0, 198.0, 52.0 ],
+					"text" : "8a. Choose 6 inputs and 1 output. Choose model number 1. "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 940.0, 90.0, 100.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 747.0, 463.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 740.0, 432.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 747.0, 493.0, 100.0, 22.0 ],
+					"text" : "prepend bypass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 953.0, 262.0, 150.0, 55.0 ],
+					"text" : "7. This is the domain. Right now it's limited to one rhythmic value (1/16) and MIDI notes from 40 to 84."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1194.0, 446.0, 181.0, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 679.0, 880.5, 55.0, 22.0 ],
+					"patching_rect" : [ 747.0, 785.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -63,18 +390,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 694.0, 759.5, 24.0, 24.0 ]
+					"patching_rect" : [ 762.0, 664.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.0, 720.5, 70.0, 22.0 ],
+					"patching_rect" : [ 762.0, 634.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -86,7 +414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.0, 787.5, 100.0, 22.0 ],
+					"patching_rect" : [ 762.0, 692.0, 100.0, 22.0 ],
 					"text" : "prepend bypass"
 				}
 
@@ -107,7 +435,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 658.0, 831.5, 244.0, 30.0 ],
+					"patching_rect" : [ 726.0, 735.0, 244.0, 30.0 ],
 					"varname" : "bp137229507508[2]",
 					"viewvisibility" : 1
 				}
@@ -125,11 +453,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "MAE_interv_loop_rule_to_snippet.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 938.0, 803.0, 342.0, 87.0 ],
+					"patching_rect" : [ 1006.0, 707.0, 342.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -141,7 +469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1272.0, 1162.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1340.0, 1028.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -163,11 +491,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "MAE_mod-oct_loop_rule_to_snippet.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 949.0, 1072.0, 342.0, 87.0 ],
+					"patching_rect" : [ 1017.0, 938.0, 342.0, 87.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -179,7 +507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1337.0, 705.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1356.0, 598.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -196,9 +524,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1175.0, 581.0, 85.0, 22.0 ],
-					"presentation_linecount" : 2,
-					"text" : "0 4 8 12 16 20"
+					"patching_rect" : [ 1194.0, 474.0, 85.0, 22.0 ],
+					"text" : "0 1 2 3 4 5"
 				}
 
 			}
@@ -218,7 +545,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 609.0, 344.0, 88.0 ],
+					"patching_rect" : [ 1031.0, 502.0, 344.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -239,7 +566,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 658.0, 636.0, 244.0, 30.0 ],
+					"patching_rect" : [ 726.0, 527.0, 244.0, 30.0 ],
 					"varname" : "bp137229507508",
 					"viewvisibility" : 1
 				}
@@ -252,8 +579,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1114.0, 1717.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "code_snippet", "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Models/new", "models/Bach_mod-oct_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn2", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Models/test", "intervals\"", "]", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
+					"patching_rect" : [ 1191.0, 1366.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "code_snippet", "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Introduction-tutorial/Bach_interv_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn2", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Introduction-tutorial/Bach_mod-oct_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -266,25 +593,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-74",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1292.0, 1083.0, 347.0, 64.0 ],
-					"text" : "This abstraction uses the NN in a way that the MAE value is calculated sequentially with an increasing list of variables. This way the rule prevents the first 8 values to be randomly picked until the MAE rule starts to take effect."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 1149.0, 55.0, 22.0 ],
+					"patching_rect" : [ 748.0, 1015.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -302,18 +616,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 1028.0, 24.0, 24.0 ]
+					"patching_rect" : [ 763.0, 894.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 695.0, 989.0, 70.0, 22.0 ],
+					"patching_rect" : [ 763.0, 863.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -325,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 695.0, 1056.0, 100.0, 22.0 ],
+					"patching_rect" : [ 763.0, 922.0, 100.0, 22.0 ],
 					"text" : "prepend bypass"
 				}
 
@@ -346,7 +661,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 659.0, 1100.0, 244.0, 30.0 ],
+					"patching_rect" : [ 727.0, 966.0, 244.0, 30.0 ],
 					"varname" : "bp137229507508[1]",
 					"viewvisibility" : 1
 				}
@@ -360,7 +675,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 569.0, 1666.0, 50.0, 22.0 ]
+					"patching_rect" : [ 461.0, 1336.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -371,334 +686,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 1699.0, 59.0, 22.0 ],
+					"patching_rect" : [ 461.0, 1366.0, 59.0, 22.0 ],
 					"text" : "tempo $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1292.0, 1385.0, 125.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "*", "[", "?if", "[", "if", "[", "and", "[", "morphologie::ptrn-find", "omcs::l", "[", "]", "]", "[", ">=", "[", "length", "omcs::l", "]", 14, "]", "]", "[", "not", "[", ">", "[", "pw::g-max", "[", "mapcar", "#'length", "[", "mapcar", "#'first", "[", "morphologie::ptrn-find", "omcs::l", "[", "]", "]", "]", "]", "]", 14, "]", "]", "t", "]", "]", "]" ],
-					"reg_data_count" : [ 1 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.reg @embed 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-82",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1353.0, 1245.0, 281.0, 131.0 ],
-					"text" : "We use the function 'ptrn-find' from the library 'OM morphologie' to avoid repetition of patterns longer than 14 notes. \n\nBypass the member rule above, and activate this accessor (click on 'bypassed') and the two accessors below. The first forbids more than 5 repetitions of a note, and the second forbids interval leaps bigger than an octave.  "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.0, 1266.0, 111.0, 22.0 ],
-					"text" : "loadmess bypass 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1292.0, 1212.0, 77.0, 22.0 ],
-					"text" : "loadmess 14"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 220.0, 109.0, 22.0 ],
-									"text" : "bach.replace size2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 94.833333333333371, 100.0, 29.5, 22.0 ],
-									"text" : "t b i"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 191.0, 102.0, 22.0 ],
-									"text" : "bach.replace size"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 134.0, 24.0, 24.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 164.0, 117.0, 22.0 ],
-									"reg_data_0000000000" : [ "[", "*", "[", "?if", "[", "if", "[", "and", "[", "morphologie::ptrn-find", "omcs::l", "[", "]", "]", "[", ">=", "[", "length", "omcs::l", "]", "size", "]", "]", "[", "not", "[", ">", "[", "pw::g-max", "[", "mapcar", "#'length", "[", "mapcar", "#'first", "[", "morphologie::ptrn-find", "omcs::l", "[", "]", "]", "]", "]", "]", "size2", "]", "]", "t", "]", "]", "]" ],
-									"reg_data_count" : [ 1 ],
-									"saved_object_attributes" : 									{
-										"embed" : 1,
-										"versionnumber" : 80300
-									}
-,
-									"text" : "bach.reg @embed 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-20",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 94.833312999999976, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-22",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 286.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"midpoints" : [ 104.333333333333371, 127.5, 59.5, 127.5 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 2 ],
-									"order" : 1,
-									"source" : [ "obj-18", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 2 ],
-									"order" : 0,
-									"source" : [ "obj-18", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-20", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1292.0, 1266.0, 56.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p pattern"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-58",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1292.0, 1239.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 1,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-60",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "pmc.rule.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "bang" ],
-					"patching_rect" : [ 1006.0, 1297.0, 305.0, 79.0 ],
-					"varname" : "pmc.rule[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 1,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-63",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "cluster.r-pmc-one-engine.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 658.0, 1303.0, 273.0, 68.0 ],
-					"varname" : "bp1651522142990",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -718,7 +707,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1114.0, 1543.0, 394.5, 145.0 ],
+					"patching_rect" : [ 1174.0, 1213.0, 394.5, 145.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -739,7 +728,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 18.0, 87.0, 526.0, 117.833333333333343 ],
+					"patching_rect" : [ 18.0, 142.0, 526.0, 117.833333333333343 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -756,24 +745,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 14.0, 71.0, 22.0 ],
-					"text" : "exportmidi"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 658.0, 255.0, 100.0, 22.0 ],
+					"patching_rect" : [ 726.0, 148.0, 100.0, 22.0 ],
 					"text" : "key_trigger"
 				}
 
@@ -785,20 +762,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 765.0, 310.0, 50.0, 22.0 ],
+					"patching_rect" : [ 833.0, 176.0, 50.0, 22.0 ],
 					"text" : "( 1/16 )"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 872.0, 226.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -809,7 +774,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 310.0, 69.0, 22.0 ],
+					"patching_rect" : [ 940.0, 176.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -825,7 +790,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 255.0, 121.0, 22.0 ],
+					"patching_rect" : [ 940.0, 121.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -841,8 +806,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1261.0, 904.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "a", "b", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "b", "c", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "d", "e", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "a", "b", "c", "d", "e", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn2", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "f", "g", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]" ],
+					"patching_rect" : [ 1329.0, 808.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "a", "b", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "b", "c", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "c", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "d", "e", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "[", "random", 127, "]", "a", "b", "c", "d", "e", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "e", "f", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]", "[", "ce::hr-pitches-one-voice", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "interv-to-binary", "[", "list", "f", "g", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "quote", "[", 0, "]", "]", ":pitches", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -875,19 +840,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 897.0, 1800.0, 24.0, 24.0 ]
+					"patching_rect" : [ 957.0, 1470.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.986251711845398, 0.00723597407341, 0.02742300927639, 1.0 ],
 					"id" : "obj-64",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 841.0, 1715.0, 24.0, 24.0 ]
+					"patching_rect" : [ 913.0, 1382.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -900,8 +866,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1148.0, 1448.0, 126.0, 93.0 ],
-					"text" : "8. Import your model file(s). Each time you train a new model, you must import it again."
+					"patching_rect" : [ 1346.0, 1073.0, 166.0, 93.0 ],
+					"text" : "9. Import the model files). Each time you train a new model, you must import it again. For tests, use the pre-trained models below."
 				}
 
 			}
@@ -922,29 +888,30 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 0,
 					"fontsize" : 10.0,
 					"id" : "obj-37",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.5, 685.0, 79.0, 55.0 ],
-					"text" : "6. Each nth input is dumped as prompt "
+					"patching_rect" : [ 36.0, 1004.0, 203.0, 48.0 ],
+					"text" : "6. Each nth input is dumped as prompt.\nNow we can move to the rule side ==>>"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 0.98,
+					"bubbleside" : 2,
 					"fontsize" : 10.0,
 					"id" : "obj-32",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 661.5, 95.0, 66.0 ],
-					"text" : "5. This number is the nth input sequence. Change it to test predictions"
+					"patching_rect" : [ 29.0, 654.5, 115.0, 59.0 ],
+					"text" : "5. nth input sequence. Change it to test predictions"
 				}
 
 			}
@@ -954,12 +921,12 @@
 					"bubblepoint" : 0.0,
 					"fontsize" : 10.0,
 					"id" : "obj-27",
-					"linecount" : 2,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 601.0, 118.0, 33.0 ],
-					"text" : "4. choose LR and epochs. Then train"
+					"patching_rect" : [ 112.0, 601.0, 118.0, 66.0 ],
+					"text" : "4. choose LR and epochs. Then train and wait until it's done ('train finished' in Max console)"
 				}
 
 			}
@@ -984,11 +951,11 @@
 					"bubbletextmargin" : 6,
 					"fontsize" : 10.0,
 					"id" : "obj-23",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 406.0, 424.0, 107.0, 91.0 ],
+					"patching_rect" : [ 406.0, 424.0, 149.0, 57.0 ],
 					"text" : "2. confirm the attributes of the nn. For now, maybe just play with the hidden layers (nr and size)"
 				}
 
@@ -1014,26 +981,25 @@
 					"bubblepoint" : 1.0,
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.5, 317.0, 115.0, 44.0 ],
-					"text" : "1. choose domain (for this example choose intervals)"
+					"patching_rect" : [ 161.5, 325.0, 239.0, 33.0 ],
+					"text" : "1. choose domain (for this example choose mod-oct). then DUMP the dataset."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 0.2,
 					"id" : "obj-14",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 14.0, 318.0, 37.0 ],
-					"text" : "start with dumping the roll. EVERY TIME YOU TRAIN A NEW MODEL, YOU NEED TO RE-DUMP!! "
+					"patching_rect" : [ 105.0, 92.0, 318.0, 37.0 ],
+					"text" : "Dump the roll here. For every new model, the dataset needs to be re-dumped. "
 				}
 
 			}
@@ -1053,14 +1019,14 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 655.0, 1886.0, 526.0, 177.333333333333343 ],
+					"patching_rect" : [ 727.0, 1515.0, 526.0, 177.333333333333343 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 0.0, 26.0 ],
-					"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 4, 4, "]", "[", "[", "1/4", 120, "]", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085302784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085533184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085481984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085481984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085533184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085712384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085814784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085814784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085789184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085533184, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085405184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "]", "[", "-3/4", 0, "]", 0, "]", 0, "]" ],
+					"whole_score_data_0000000000" : [ "score", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "singleslotfortiednotes", 1, "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "[", "[", 4, 4, "]", "[", "[", "1/4", 120, "]", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085737984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085712384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085533184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085302784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085353984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085227008, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085481984, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085328384, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085277184, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085227008, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085481984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085430784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085379584, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085635584, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085584384, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085686784, 100, 0, 0, "]", 0, "]", "]", 0, "]", "[", "[", "[", 4, 4, "]", "[", "]", "]", "[", "leveltype", 1, "]", "[", "[", "leveltype", 8, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, 100, 0, 0, "]", 0, "]", "[", "1/16", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, 100, 0, 0, "]", 0, "]", "]", "[", "-3/4", 0, "]", 0, "]", 0, "]" ],
 					"whole_score_data_count" : [ 1 ]
 				}
 
@@ -1072,20 +1038,21 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1099.0, 2078.0, 95.0, 22.0 ],
+					"patching_rect" : [ 1171.0, 1702.0, 95.0, 22.0 ],
 					"text" : "bach.ezmidiplay"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.986251711845398, 0.00723597407341, 0.02742300927639, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 658.0, 309.0, 24.0, 24.0 ]
+					"patching_rect" : [ 726.0, 175.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1105,7 +1072,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 655.0, 1744.0, 205.0, 78.0 ],
+					"patching_rect" : [ 727.0, 1416.0, 205.0, 78.0 ],
 					"varname" : "bp287787304306",
 					"viewvisibility" : 1
 				}
@@ -1127,7 +1094,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 342.0, 233.0, 174.0 ],
+					"patching_rect" : [ 726.0, 208.0, 233.0, 174.0 ],
 					"varname" : "bp285178335606",
 					"viewvisibility" : 1
 				}
@@ -1162,7 +1129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 14.0, 39.0, 22.0 ],
+					"patching_rect" : [ 67.0, 99.0, 39.0, 22.0 ],
 					"text" : "dump"
 				}
 
@@ -1174,7 +1141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 14.0, 33.0, 22.0 ],
+					"patching_rect" : [ 18.0, 99.0, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -1183,9 +1150,16 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"color" : [ 0.985541701316833, 0.009453415870667, 0.999180555343628, 1.0 ],
-					"destination" : [ "obj-11", 2 ],
-					"midpoints" : [ 27.5, 1004.0, 610.0, 1004.0, 610.0, 559.0, 1346.5, 559.0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 27.5, 1004.0, 610.0, 1004.0, 610.0, 423.0, 1203.5, 423.0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-109", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -1219,6 +1193,21 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -1226,8 +1215,54 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.985541701316833, 0.009453415870667, 0.999180555343628, 1.0 ],
+					"destination" : [ "obj-11", 2 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 1183.5, 1154.5, 1371.5, 1154.5 ],
+					"order" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -1248,7 +1283,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 881.5, 297.0, 774.5, 297.0 ],
+					"midpoints" : [ 949.5, 163.0, 842.5, 163.0 ],
 					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
@@ -1264,8 +1299,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -1292,22 +1341,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
+					"destination" : [ "obj-57", 3 ],
+					"hidden" : 1,
 					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -1322,6 +1358,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 632.5, 1408.5, 736.5, 1408.5 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 3 ],
+					"hidden" : 1,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1342,15 +1394,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 906.5, 1876.5, 664.5, 1876.5 ],
+					"midpoints" : [ 966.5, 1503.5, 736.5, 1503.5 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.000065747648478, 0.001801013946533, 0.998228549957275, 1.0 ],
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 1123.5, 1705.5, 664.5, 1705.5 ],
+					"midpoints" : [ 1183.5, 1409.5, 736.5, 1409.5 ],
 					"order" : 1,
 					"source" : [ "obj-53", 0 ]
 				}
@@ -1361,13 +1414,6 @@
 					"destination" : [ "obj-89", 0 ],
 					"order" : 0,
 					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 1 ],
-					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -1387,22 +1433,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-58", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"source" : [ "obj-60", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 2 ],
-					"source" : [ "obj-60", 0 ]
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1410,28 +1442,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-63", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-63", 1 ]
 				}
 
 			}
@@ -1445,6 +1455,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -1452,6 +1463,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -1473,8 +1485,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 578.5, 1732.0, 664.5, 1732.0 ],
+					"midpoints" : [ 470.5, 1408.0, 736.5, 1408.0 ],
 					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -1517,16 +1537,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-79", 1 ]
+					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"order" : 1,
-					"source" : [ "obj-79", 0 ]
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-79", 1 ]
 				}
 
 			}
@@ -1568,6 +1588,7 @@
 			"obj-1::obj-76" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-1::obj-79" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-1::obj-86" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-49::obj-25" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-49::obj-334" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-49::obj-335" : [ "live.numbox[21]", "live.numbox", 0 ],
 			"obj-49::obj-46" : [ "live.tab[6]", "live.tab[1]", 0 ],
@@ -1604,6 +1625,10 @@
 ,
 				"obj-1::obj-72" : 				{
 					"parameter_shortname" : "live.numbox"
+				}
+,
+				"obj-49::obj-25" : 				{
+					"parameter_longname" : "live.numbox[9]"
 				}
 ,
 				"obj-49::obj-334" : 				{
@@ -1662,28 +1687,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "MAE_interv_loop_rule_to_snippet.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MAE_mod-oct_loop_rule_to_snippet.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1694,7 +1719,7 @@
 , 			{
 				"name" : "bach.approx.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1717,14 +1742,14 @@
 , 			{
 				"name" : "bach.belong.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1747,7 +1772,7 @@
 , 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1766,21 +1791,21 @@
 , 			{
 				"name" : "bach.ezmidiplay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1795,7 +1820,7 @@
 , 			{
 				"name" : "bach.gcd.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1812,13 +1837,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.insert.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.interp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1853,7 +1874,7 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1868,14 +1889,14 @@
 , 			{
 				"name" : "bach.maximum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.mean.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1898,14 +1919,14 @@
 , 			{
 				"name" : "bach.pitchpack.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.pitchunpack.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1920,14 +1941,14 @@
 , 			{
 				"name" : "bach.postpend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.prepend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1950,14 +1971,14 @@
 , 			{
 				"name" : "bach.repeat.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.replace.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1968,7 +1989,7 @@
 , 			{
 				"name" : "bach.rminus.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1983,7 +2004,7 @@
 , 			{
 				"name" : "bach.round.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1994,7 +2015,7 @@
 , 			{
 				"name" : "bach.sieve.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2009,7 +2030,7 @@
 , 			{
 				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2020,7 +2041,7 @@
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2047,343 +2068,315 @@
 , 			{
 				"name" : "bach.x2dx.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher-resize-gizmo.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher-resize.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.block&hide-if-null.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.cluster2score.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.collect.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.engine.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.get_doc.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.iter-append-umenu.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.multidomains2score.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.r-index-one-engine.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.r-one-engine.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cluster.r-pmc-one-engine.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.rule_definition2param_umenu.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.typeroute-sym_or_nums.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cluster.voice-domain.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_cluster-engine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "erase.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "extended-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "get_object-coord.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "help.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "key_trigger.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.backquote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.edit.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.expr.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.lambda.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.print.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lisp.quote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_scripting_boxes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mac_or_win.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "make_path_once.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.detect2lisp.antenna.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.init-unless.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.maxverbang.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.mouse-is-inside.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moz.prepend-or-null.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.textfield.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.tosymbol.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moz.update-ui.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiple-model-selection_to_snippet.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "neural.quickeval.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "open-doc-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pmc.rule.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pmc.thinking-engine_UI.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_pmc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pmcyes.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prompt-loop-to-snippet.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pw.backquote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_code_generators_legacy",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_code_generators_legacy",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pw.eval-box.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pw.quote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_code_generators_legacy",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_code_generators_legacy",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_lisp_code_generators_legacy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "save-double.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendback.png",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/media",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/media",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/MOZLib/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -2400,7 +2393,7 @@
 , 			{
 				"name" : "train_to_snippet.maxpat",
 				"bootpath" : "~/GitHub/NeuralConstraints",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}

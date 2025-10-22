@@ -40,12 +40,185 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1631.0, 47.5, 175.0, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1712.0, 123.0, 94.0, 22.0 ],
+					"text" : "combine path to"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1631.0, 71.5, 50.0, 22.0 ],
+					"text" : "path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1631.0, 95.5, 100.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "model 1 (filename)",
+					"id" : "obj-78",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1631.0, 15.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1012.0, 51.0, 175.0, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1093.0, 123.0, 94.0, 22.0 ],
+					"text" : "combine path to"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1012.0, 75.0, 50.0, 22.0 ],
+					"text" : "path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1012.0, 99.0, 100.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "model 1 (filename)",
+					"id" : "obj-73",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1012.0, 19.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 446.0, 48.0, 175.0, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 527.0, 120.0, 94.0, 22.0 ],
+					"text" : "combine path to"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 446.0, 72.0, 50.0, 22.0 ],
+					"text" : "path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 446.0, 96.0, 100.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 173.0, 83.0, 22.0 ],
+					"patching_rect" : [ 1387.0, 255.0, 83.0, 22.0 ],
 					"text" : "moz.tosymbol"
 				}
 
@@ -57,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 173.0, 83.0, 22.0 ],
+					"patching_rect" : [ 789.0, 255.0, 83.0, 22.0 ],
 					"text" : "moz.tosymbol"
 				}
 
@@ -69,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 209.0, 153.0, 22.0 ],
+					"patching_rect" : [ 1387.0, 291.0, 153.0, 22.0 ],
 					"text" : "lisp.expr snn:restore model"
 				}
 
@@ -81,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 209.0, 153.0, 22.0 ],
+					"patching_rect" : [ 789.0, 291.0, 153.0, 22.0 ],
 					"text" : "lisp.expr snn:restore model"
 				}
 
@@ -93,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 200.0, 153.0, 22.0 ],
+					"patching_rect" : [ 233.0, 287.0, 153.0, 22.0 ],
 					"text" : "lisp.expr snn:restore model"
 				}
 
@@ -105,38 +278,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 110.0, 625.0, 113.0, 22.0 ],
+					"patching_rect" : [ 90.0, 703.0, 113.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
 					"text" : "bach.portal @out m"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "model 3 (filename)",
-					"id" : "obj-72",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1236.0, 21.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "model 2 (filename)",
-					"id" : "obj-64",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 849.0, 21.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -149,7 +296,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.5, 25.0, 30.0, 30.0 ]
+					"patching_rect" : [ 446.0, 16.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -160,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 139.333333333333314, 468.0, 58.0, 22.0 ],
+					"patching_rect" : [ 119.0, 546.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -172,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.333333333333314, 503.70987991569109, 35.0, 22.0 ],
+					"patching_rect" : [ 119.0, 582.0, 35.0, 22.0 ],
 					"text" : "2222"
 				}
 
@@ -184,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 139.333333333333314, 319.0, 58.0, 22.0 ],
+					"patching_rect" : [ 119.0, 397.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -196,7 +343,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.333333333333314, 352.0, 35.0, 22.0 ],
+					"patching_rect" : [ 119.0, 430.0, 35.0, 22.0 ],
 					"text" : "2222"
 				}
 
@@ -208,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 138.666666666666686, 180.0, 58.0, 22.0 ],
+					"patching_rect" : [ 119.0, 258.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -220,7 +367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.666666666666686, 213.0, 33.0, 22.0 ],
+					"patching_rect" : [ 119.0, 291.0, 33.0, 22.0 ],
 					"text" : "1111"
 				}
 
@@ -232,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 166.0, 83.0, 22.0 ],
+					"patching_rect" : [ 233.0, 244.0, 83.0, 22.0 ],
 					"text" : "moz.tosymbol"
 				}
 
@@ -256,7 +403,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1319.0, 35.053078689621771, 111.0, 35.0 ],
+					"patching_rect" : [ 1882.0, 117.0, 111.0, 35.0 ],
 					"text" : "press load to import model file 3",
 					"textjustification" : 1
 				}
@@ -281,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 921.0, 35.053078689621771, 107.0, 35.0 ],
+					"patching_rect" : [ 1237.0, 117.0, 107.0, 35.0 ],
 					"text" : "press load to import model file 2",
 					"textjustification" : 1
 				}
@@ -306,7 +453,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 556.0, 35.053078689621771, 110.0, 35.0 ],
+					"patching_rect" : [ 651.0, 116.5, 110.0, 35.0 ],
 					"text" : "press load to import model file 1",
 					"textjustification" : 1
 				}
@@ -319,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 995.0, 137.260873317718506, 128.0, 22.0 ],
+					"patching_rect" : [ 1387.0, 219.0, 128.0, 22.0 ],
 					"text" : "conformpath max boot"
 				}
 
@@ -331,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 1119.0, 73.0, 40.0, 22.0 ],
+					"patching_rect" : [ 1511.0, 155.0, 40.0, 22.0 ],
 					"text" : "t b l l"
 				}
 
@@ -343,7 +490,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1140.0, 127.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1532.0, 209.0, 55.0, 22.0 ],
 					"text" : "strippath"
 				}
 
@@ -355,7 +502,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 1119.0, 41.553078689621771, 67.0, 22.0 ],
+					"patching_rect" : [ 1511.0, 124.0, 67.0, 22.0 ],
 					"text" : "opendialog"
 				}
 
@@ -378,7 +525,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1119.0, 13.0, 33.0, 23.0 ],
+					"patching_rect" : [ 1511.0, 95.0, 33.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.0, 99.846040310859621, 33.0, 23.0 ],
 					"text" : "load"
@@ -403,7 +550,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1149.0, 166.0, 189.0, 22.0 ],
+					"patching_rect" : [ 1712.0, 248.0, 189.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.865261912345886, 99.846040310859621, 326.134738087654114, 22.0 ],
 					"text" : "press load to import model file 3",
@@ -418,7 +565,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 614.0, 137.260873317718506, 128.0, 22.0 ],
+					"patching_rect" : [ 789.0, 219.0, 128.0, 22.0 ],
 					"text" : "conformpath max boot"
 				}
 
@@ -430,7 +577,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 737.0, 73.0, 40.0, 22.0 ],
+					"patching_rect" : [ 912.0, 155.0, 40.0, 22.0 ],
 					"text" : "t b l l"
 				}
 
@@ -442,7 +589,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 758.0, 127.0, 55.0, 22.0 ],
+					"patching_rect" : [ 933.0, 209.0, 55.0, 22.0 ],
 					"text" : "strippath"
 				}
 
@@ -454,7 +601,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 737.0, 41.553078689621771, 67.0, 22.0 ],
+					"patching_rect" : [ 912.0, 124.0, 67.0, 22.0 ],
 					"text" : "opendialog"
 				}
 
@@ -477,7 +624,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 737.0, 13.0, 33.0, 23.0 ],
+					"patching_rect" : [ 912.0, 95.0, 33.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.0, 73.553078689621771, 33.0, 23.0 ],
 					"text" : "load"
@@ -502,7 +649,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 761.0, 166.0, 179.0, 22.0 ],
+					"patching_rect" : [ 1077.0, 248.0, 179.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.865261912345886, 73.553078689621771, 326.134738087654114, 22.0 ],
 					"text" : "press load to import model file 2",
@@ -517,7 +664,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 110.0, 552.408909041904735, 107.0, 22.0 ],
+					"patching_rect" : [ 90.0, 630.0, 107.0, 22.0 ],
 					"text" : "bach.replace 3333"
 				}
 
@@ -529,8 +676,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 585.20987991569109, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "]", "[", "defvar", "nn2", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
+					"patching_rect" : [ 90.0, 663.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Models/new", "models/Bach_interv_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn2", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -548,7 +695,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 110.0, 392.408909041904735, 107.0, 22.0 ],
+					"patching_rect" : [ 90.0, 470.0, 107.0, 22.0 ],
 					"text" : "bach.replace 2222"
 				}
 
@@ -560,8 +707,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 425.20987991569109, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "]", "[", "defvar", "nn2", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
+					"patching_rect" : [ 90.0, 503.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Models/new", "models/Bach_interv_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn2", "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -578,7 +725,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 679.0, 454.70987991569109, 81.0, 20.0 ],
+					"patching_rect" : [ 854.0, 537.0, 81.0, 20.0 ],
 					"text" : "add 3 models"
 				}
 
@@ -589,7 +736,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.0, 660.20987991569109, 227.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 742.0, 227.0, 22.0 ],
 					"text" : "s #0_multiple_model_selection_functions"
 				}
 
@@ -601,7 +748,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 25.0, 225.0, 22.0 ],
+					"patching_rect" : [ 90.0, 103.0, 225.0, 22.0 ],
 					"text" : "r #0_multiple_model_selection_functions"
 				}
 
@@ -623,7 +770,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 866.0, 549.70987991569109, 146.0, 93.0 ],
+					"patching_rect" : [ 1041.0, 632.0, 146.0, 93.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -635,7 +782,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 253.0, 121.0, 128.0, 22.0 ],
+					"patching_rect" : [ 233.0, 199.0, 128.0, 22.0 ],
 					"text" : "conformpath max boot"
 				}
 
@@ -649,7 +796,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 548.059294581413269, 535.118788957595825, 68.0, 33.0 ],
+					"patching_rect" : [ 723.0, 617.0, 68.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.291510999202728, 128.73856694996357, 90.0, 15.0 ],
 					"text" : "to Cluster-Engine",
@@ -665,7 +812,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 707.0, 30.0, 30.0 ]
+					"patching_rect" : [ 90.0, 785.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -676,7 +823,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 375.0, 73.0, 40.0, 22.0 ],
+					"patching_rect" : [ 355.0, 151.0, 40.0, 22.0 ],
 					"text" : "t b l l"
 				}
 
@@ -688,7 +835,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 396.0, 127.0, 55.0, 22.0 ],
+					"patching_rect" : [ 376.0, 199.0, 55.0, 22.0 ],
 					"text" : "strippath"
 				}
 
@@ -700,7 +847,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 375.0, 41.553078689621771, 67.0, 22.0 ],
+					"patching_rect" : [ 355.0, 120.0, 67.0, 22.0 ],
 					"text" : "opendialog"
 				}
 
@@ -712,7 +859,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 147.260873317718506, 117.0, 22.0 ],
+					"patching_rect" : [ 90.0, 225.0, 117.0, 22.0 ],
 					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", 1111, "]", "[", "defvar", "nn2", 2222, "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
@@ -731,7 +878,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 110.0, 250.408909041904735, 105.0, 22.0 ],
+					"patching_rect" : [ 90.0, 328.0, 105.0, 22.0 ],
 					"text" : "bach.replace 1111"
 				}
 
@@ -743,8 +890,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 283.20987991569109, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "]", "[", "defvar", "nn2", 2222, "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
+					"patching_rect" : [ 90.0, 361.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "progn", "[", "ce::preferences", "t", 200000000, ":self", ":other", ":other", ":rhythm", ":rhythm", ":self", ":rhythm", ":self", ":next-pitch", ":next", "]", "[", "defvar", "nn1", "[", "snn:restore", "\"/Users/juanvassallo/GitHub/NeuralConstraints/Models/new", "models/Bach_interv_6-4-3-2-1_001_100000_b32_m95\"", "]", "]", "[", "defvar", "nn2", 2222, "]", "[", "defvar", "nn3", 3333, "]", "#|", "Compute", "the", "weight", "from", "mean", "absolute", "error", "|#", "[", "defun", "weight-from-mae", "[", "mae", "]", "[", "/", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "[", "+", "[", "log", "[", "+", "mae", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "]", "_x_x_x_x_bach_float64_x_x_x_x_", 2696277389, 1051772663, "]", "]", "]", "#|", "normalization/denormalization", "|#", "[", "defun", "normalize-binary", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "if", "[", "=", "x", 1, "]", "1.0d0", "-1.0d0", "]", "]", "input", "]", "]", "[", "defun", "denormalize-binary", "[", "output", "]", "[", "map", "'list", "[", "lambda", "[", "x", "]", "[", "if", "[", "plusp", "x", "]", 1, 0, "]", "]", "output", "]", "]", "[", "defun", "normalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "coerce", "[", "-", "[", "/", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "'double-float", "]", "]", "input", "]", "]", "[", "defun", "denormalize-float", "[", "input", "]", "[", "map", "'vector", "[", "lambda", "[", "x", "]", "[", "*", "[", "+", "x", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "]", "input", "]", "]", "#|", "==>>", "encoding", "of", "intervals", "|#", "[", "defun", "calculate-intervals", "[", "lst", "]", "[", "loop", "for", "a", "on", "lst", "while", "[", "cdr", "a", "]", "collect", "[", "-", "[", "second", "a", "]", "[", "first", "a", "]", "]", "]", "]", "[", "defun", "integer-to-6bit-binary", "[", "input", "]", "[", "let", "[", "[", "offset-input", "[", "+", "input", 24, "]", "]", "]", "[", "loop", "for", "i", "from", 5, "downto", 0, "collect", "[", "logand", "[", "ash", "offset-input", "[", "-", "i", "]", "]", 1, "]", "]", "]", "]", "#|", "Main", "wrapper", "of", "encoding", "of", "intervals", "|#", "[", "defun", "interv-to-binary", "[", "input", "]", "[", "let", "[", "[", "sequences", "[", "if", "[", "and", "[", "listp", "input", "]", "[", "every", "#'listp", "input", "]", "]", "input", "[", "list", "input", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "mapcan", "#'integer-to-6bit-binary", "[", "calculate-intervals", "lst", "]", "]", "]", "sequences", "]", "]", "]", "#|", "<<==", "decoding", "of", "intervals", "|#", "[", "defun", "binary-to-interv", "[", "binary-list", "]", "[", "if", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 6, "collect", "[", "6bit-binary-to-integer", "[", "subseq", "binary-list", "i", "[", "+", "i", 6, "]", "]", "]", "]", "[", "format", "t", "Error: Input must be a list of binary digits~%", "]", "]", "]", "[", "defun", "6bit-binary-to-integer", "[", "binary-list", "]", "[", "if", "[", "and", "[", "=", "[", "length", "binary-list", "]", 6, "]", "[", "every", "[", "lambda", "[", "digit", "]", "[", "and", "[", "integerp", "digit", "]", "[", "<=", 0, "digit", 1, "]", "]", "]", "binary-list", "]", "]", "[", "let", "[", "[", "offset-num", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-list", "]", "]", "]", "[", "-", "offset-num", 24, "]", "]", "[", "format", "t", "Input must be a list of 6 binary digits 0 or 1~%", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-octave", "|#", "[", "defun", "midi-note-to-8bit-binary", "[", "midi-note", "]", "[", "let", "[", "[", "result", "[", "midi-to-pitch-class-and-octave", "midi-note", "]", "]", "]", "[", "if", "result", "[", "let", "[", "[", "pitch-class", "[", "first", "result", "]", "]", "[", "octave", "[", "second", "result", "]", "]", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "]", "[", "progn", "[", "format", "t", "Invalid MIDI note: ~a~%", "midi-note", "]", "[", "]", "]", "]", "]", "]", "[", "defun", "midi-to-pitch-class-and-octave", "[", "midi-note", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "MIDI note ~a is out of range~%", "midi-note", "]", "[", "]", "]", "[", "list", "[", "mod", "midi-note", 12, "]", "[", "floor", "midi-note", 12, "]", "]", "]", "]", "[", "defun", "to-4bit-binary", "[", "num", "]", "[", "let", "[", "[", "binary", "[", "make-list", 4, ":initial-element", 0, "]", "]", "]", "[", "loop", "for", "i", "from", 3, "downto", 0, "for", "idx", "from", 0, "to", 3, "do", "[", "setf", "[", "nth", "idx", "binary", "]", "[", "logand", "[", "ash", "num", "[", "-", "i", "]", "]", 1, "]", "]", "]", "binary", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave", "|#", "[", "defun", "midi-notes-to-flat-binary", "[", "notes-or-lists", "]", "[", "let", "[", "[", "groups", "[", "if", "[", "and", "[", "listp", "notes-or-lists", "]", "[", "every", "#'listp", "notes-or-lists", "]", "]", "notes-or-lists", "[", "list", "notes-or-lists", "]", "]", "]", "]", "[", "mapcar", "[", "lambda", "[", "note-list", "]", "[", "mapcan", "#'midi-note-to-8bit-binary", "note-list", "]", "]", "groups", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "flat-binary-to-midi-notes", "[", "flat-binary-list", "]", "[", "unless", "[", "=", "[", "mod", "[", "length", "flat-binary-list", "]", 8, "]", 0, "]", "[", "error", "flat-binary-to-midi-notes: input length is ~a must be divisible by 8.", "[", "length", "flat-binary-list", "]", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "flat-binary-list", "]", "by", 8, "for", "note-binary", "=", "[", "subseq", "flat-binary-list", "i", "[", "+", "i", 8, "]", "]", "for", "pitch-class-octave", "=", "[", "binary-to-pitch-class-and-octave", "note-binary", "]", "collect", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave", "]", "]", "]", "#|", "Main", "wrapper", "for", "decoding", "mod-octave", "[", "takes", "either", "a", "list", "or", "a", "list", "of", "lists", "]", "|#", "[", "defun", "binary-to-midi", "[", "binary-or-list", "]", "[", "let", "[", "[", "lol", "[", "if", "[", "and", "[", "listp", "binary-or-list", "]", "[", "every", "#'listp", "binary-or-list", "]", "]", "binary-or-list", "[", "list", "binary-or-list", "]", "]", "]", "]", "[", "mapcan", "#'flat-binary-to-midi-notes", "lol", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-midi", "'", "[", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 1, 0, 1, 0, 1, "]", "]", "]", "|#", "#|", "==>>", "encoding", "of", "rhythm", "|#", "[", "defun", "rational-to-10bit-representation", "[", "fraction", "]", "[", "let*", "[", "[", "numerator", "[", "numerator", "fraction", "]", "]", "[", "denominator", "[", "denominator", "fraction", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "sign-bit", "[", "if", "[", "minusp", "numerator", "]", 1, 0, "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "to-binary-list-with-padding", "[", "logand", "abs-numerator", "#x1f", "]", 5, "]", "]", "[", "binary-den", "[", "if", "denominator-index", "[", "to-binary-list-with-padding", "denominator-index", 4, "]", "[", "error", "Invalid denominator value", "]", "]", "]", "[", "binary-representation", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "]", "binary-representation", "]", "]", "[", "defun", "to-binary-list-with-padding", "[", "number", "target-length", "]", "[", "let", "[", "[", "binary-list", "[", "reverse", "[", "integer-to-binary-list", "number", "]", "]", "]", "]", "[", "append", "[", "make-list", "[", "-", "target-length", "[", "length", "binary-list", "]", "]", ":initial-element", 0, "]", "binary-list", "]", "]", "]", "[", "defun", "integer-to-binary-list", "[", "number", "]", "[", "if", "[", "=", "number", 0, "]", "'", "[", 0, "]", "[", "labels", "[", "[", "to-list", "[", "n", "]", "[", "if", "[", "=", "n", 0, "]", "'", "[", "]", "[", "cons", "[", "mod", "n", 2, "]", "[", "to-list", "[", "floor", "n", 2, "]", "]", "]", "]", "]", "]", "[", "let", "[", "[", "binary-list", "[", "to-list", "number", "]", "]", "]", "binary-list", "]", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "of", "rhythm", "|#", "[", "defun", "rhythm-to-binary", "[", "input", "]", "[", "labels", "[", "[", "rational-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'rationalp", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'rational-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "seq", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "seq", "]", "]", "]", "input", "]", "]", "[", "[", "rational-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rational-to-10bit-representation", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-10bit-to-rational", "[", "bits", "]", "Convert a 10-bit binary list into rational rhythm.", "[", "let*", "[", "[", "sign-bit", "[", "first", "bits", "]", "]", "[", "num-bits", "[", "subseq", "bits", 1, 6, "]", "]", "[", "den-bits", "[", "subseq", "bits", 6, 10, "]", "]", "[", "numerator", "[", "binary-to-integer", "num-bits", "]", "]", "[", "denominator-index", "[", "binary-to-integer", "den-bits", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator", "[", "nth", "denominator-index", "denominator-values", "]", "]", "]", "[", "unless", "denominator", "[", "error", "binary-10bit-to-rational: Invalid denominator index ~a", "denominator-index", "]", "]", "[", "if", "[", "=", "denominator", 0, "]", "[", "error", "binary-10bit-to-rational: Denominator = 0 index ~a", "denominator-index", "]", "]", "[", "let", "[", "[", "fraction", "[", "/", "numerator", "denominator", "]", "]", "]", "[", "if", "[", "zerop", "sign-bit", "]", "fraction", "[", "-", "fraction", "]", "]", "]", "]", "]", "[", "defun", "binary-to-integer", "[", "binary", "]", "Convert binary list to integer.", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm", "|#", "[", "defun", "binary-to-rhythm", "[", "binary-list", "]", "[", "unless", "[", "zerop", "[", "mod", "[", "length", "binary-list", "]", 10, "]", "]", "[", "error", "binary-to-rhythm: Input length must be divisible by 10.", "]", "]", "[", "loop", "for", "i", "from", 0, "below", "[", "length", "binary-list", "]", "by", 10, "collect", "[", "binary-10bit-to-rational", "[", "subseq", "binary-list", "i", "[", "+", "i", 10, "]", "]", "]", "]", "]", "#|", "==>>", "encoding", "of", "mod-oct-rhythm", "[", "uses", "to-4bit-binary", "from", "mod-oct", "encoding", "]", "|#", "[", "defun", "rhythm-pitch-to-18-bit-binary", "[", "input", "]", "[", "let*", "[", "#|", "1st", "step", "|#", "[", "rhythm", "[", "first", "input", "]", "]", "[", "midi-note", "[", "second", "input", "]", "]", "[", "numerator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "numerator", "rhythm", "]", "rhythm", "]", "]", "[", "denominator", "[", "if", "[", "rationalp", "rhythm", "]", "[", "denominator", "rhythm", "]", 1, "]", "]", "#|", "2nd", "step", "|#", "[", "pitch-class", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "mod", "midi-note", 12, "]", "[", "]", "]", "]", "[", "octave", "[", "if", "[", "and", "[", "not", "[", "<", "numerator", 0, "]", "]", "midi-note", "]", "[", "floor", "midi-note", 12, "]", "[", "]", "]", "]", "[", "sign-bit", "[", "if", "[", "<", "numerator", 0, "]", 1, 0, "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "position", "denominator", "denominator-values", "]", "]", "[", "abs-numerator", "[", "abs", "numerator", "]", "]", "[", "binary-num", "[", "loop", "for", "i", "from", 4, "downto", 0, "collect", "[", "if", "[", "logbitp", "i", "abs-numerator", "]", 1, 0, "]", "]", "]", "[", "binary-den", "[", "loop", "for", "i", "from", 3, "downto", 0, "collect", "[", "if", "[", "and", "denominator-index", "[", "logbitp", "i", "denominator-index", "]", "]", 1, 0, "]", "]", "]", "[", "binary-rhythm", "[", "append", "[", "list", "sign-bit", "]", "binary-num", "binary-den", "]", "]", "[", "pitch-binary", "[", "if", "[", "and", "pitch-class", "octave", "]", "[", "append", "[", "to-4bit-binary", "pitch-class", "]", "[", "to-4bit-binary", "octave", "]", "]", "[", "list", 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "]", "[", "append", "binary-rhythm", "pitch-binary", "]", "]", "]", "#|", "Main", "wrapper", "for", "encoding", "mod-octave-rhythm", "|#", "[", "defun", "rhythm-pitch-to-binary", "[", "input", "]", "[", "labels", "[", "[", "pair-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "[", "lambda", "[", "x", "]", "[", "and", "[", "listp", "x", "]", "[", "=", "[", "length", "x", "]", 2, "]", "]", "]", "lst", "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'pair-list-p", "input", "]", "]", "[", "mapcar", "[", "lambda", "[", "lst", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "lst", "]", "]", "]", "input", "]", "]", "[", "[", "pair-list-p", "input", "]", "[", "patch-work::flat", "[", "mapcar", "#'rhythm-pitch-to-18-bit-binary", "input", "]", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "<<==", "decoding", "of", "mod-octave-rhythm", "[", "uses", "the", "functions", "'from-4bit-binary',", "'binary-to-pitch-class-and-octave'", "and", "'pitch-class-and-octave-to-midi'", "from", "decoding", "mod-oct", "]", "|#", "[", "defun", "from-4bit-binary", "[", "binary-4bits", "]", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "binary-4bits", "]", "]", "[", "defun", "binary-to-pitch-class-and-octave", "[", "binary-list", "]", "[", "let*", "[", "[", "pitch-class-bits", "[", "subseq", "binary-list", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "binary-list", 4, 8, "]", "]", "[", "pitch-class", "[", "from-4bit-binary", "pitch-class-bits", "]", "]", "[", "octave", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "list", "pitch-class", "octave", "]", "]", "]", "[", "defun", "pitch-class-and-octave-to-midi", "[", "pitch-class-octave-list", "]", "[", "let*", "[", "[", "pitch-class", "[", "first", "pitch-class-octave-list", "]", "]", "[", "octave", "[", "second", "pitch-class-octave-list", "]", "]", "[", "midi-note", "[", "+", "[", "*", "octave", 12, "]", "pitch-class", "]", "]", "]", "[", "if", "[", "or", "[", "<", "midi-note", 0, "]", "[", ">", "midi-note", 127, "]", "]", "[", "progn", "[", "format", "t", "Resulting MIDI note ~a is out of range.~%", "midi-note", "]", "[", "]", "]", "midi-note", "]", "]", "]", "[", "defun", "binary-to-rhythm-midi", "[", "binary-input", "]", "[", "let*", "[", "[", "sign-bit", "[", "first", "binary-input", "]", "]", "[", "numerator-bits", "[", "subseq", "binary-input", 1, 6, "]", "]", "[", "denominator-bits", "[", "subseq", "binary-input", 6, 10, "]", "]", "[", "pitch-bits", "[", "subseq", "binary-input", 10, 18, "]", "]", "[", "numerator", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "numerator-bits", "]", "]", "[", "numerator", "[", "if", "[", "zerop", "sign-bit", "]", "numerator", "[", "-", "numerator", "]", "]", "]", "[", "denominator-values", "'", "[", 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 24, 32, "]", "]", "[", "denominator-index", "[", "reduce", "[", "lambda", "[", "acc", "bit", "]", "[", "+", "[", "*", "acc", 2, "]", "bit", "]", "]", "denominator-bits", "]", "]", "[", "denominator", "[", "if", "[", "<", "denominator-index", "[", "length", "denominator-values", "]", "]", "[", "nth", "denominator-index", "denominator-values", "]", "[", "]", "]", "]", "[", "pitch-class-bits", "[", "subseq", "pitch-bits", 0, 4, "]", "]", "[", "octave-bits", "[", "subseq", "pitch-bits", 4, 8, "]", "]", "[", "pitch-class-octave-list", "[", "list", "[", "from-4bit-binary", "pitch-class-bits", "]", "[", "from-4bit-binary", "octave-bits", "]", "]", "]", "[", "pitch", "[", "if", "[", "zerop", "sign-bit", "]", "[", "pitch-class-and-octave-to-midi", "pitch-class-octave-list", "]", "'NIL", "]", "]", "[", "rhythm", "[", "if", "[", "and", "numerator", "denominator", "]", "[", "/", "numerator", "denominator", "]", "[", "]", "]", "]", "]", "[", "progn", "#|", "[", "format", "t", "Sign Bit: ~a~%", "sign-bit", "]", "[", "format", "t", "Numerator Bits: ~a, Computed Numerator: ~a~%", "numerator-bits", "numerator", "]", "[", "format", "t", "Denominator Bits: ~a, Index: ~a, Denominator: ~a~%", "denominator-bits", "denominator-index", "denominator", "]", "[", "format", "t", "Pitch class + octave list: ~a~%", "pitch-class-octave-list", "]", "[", "format", "t", "MIDI Note: ~a~%", "pitch", "]", "[", "format", "t", "Rhythm: ~a, Pitch: ~a~%", "rhythm", "pitch", "]", "|#", "[", "list", "rhythm", "pitch", "]", "]", "]", "]", "#|", "main", "wrapper", "for", "decoding", "of", "rhythm-mod-oct", "|#", "[", "defun", "binary-to-rhythm-pitch", "[", "input", "]", "[", "labels", "[", "[", "flat-binary-list-p", "[", "lst", "]", "[", "and", "[", "listp", "lst", "]", "[", "every", "#'numberp", "lst", "]", "[", "=", "[", "length", "lst", "]", 18, "]", "]", "]", "]", "[", "cond", "[", "[", "and", "[", "listp", "input", "]", "[", "every", "#'flat-binary-list-p", "input", "]", "]", "[", "mapcar", "#'binary-to-rhythm-midi", "input", "]", "]", "[", "[", "flat-binary-list-p", "input", "]", "[", "binary-to-rhythm-midi", "input", "]", "]", "[", "t", "[", "error", "Invalid input: ~S", "input", "]", "]", "]", "]", "]", "#|", "test", "line:", "[", "binary-to-rhythm-pitch", "'", "[", "[", 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, "]", "[", 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, "]", "[", 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, "]", "]", "]", "|#", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -762,7 +909,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 658.0, 127.0, 22.0 ],
+					"patching_rect" : [ 90.0, 736.0, 127.0, 22.0 ],
 					"text" : "prepend code_snippet"
 				}
 
@@ -776,7 +923,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 625.0, 528.118788957595825, 98.0, 47.0 ],
+					"patching_rect" : [ 800.0, 610.0, 98.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.866383224725723, 17.846040310859621, 167.0, 20.0 ],
 					"text" : "Select multiple models",
@@ -792,7 +939,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 548.059294581413269, 496.052167296409607, 193.0, 27.0 ],
+					"patching_rect" : [ 723.0, 578.0, 193.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.866383224725723, 0.559644058346748, 205.0, 27.0 ],
 					"text" : "NeuralConstraints",
@@ -810,7 +957,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 827.0, 491.20987991569109, 52.0, 47.0 ],
+					"patching_rect" : [ 1002.0, 573.0, 52.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.865261912345886, 22.846040310859621, 137.0, 20.0 ],
 					"text" : "Model (file name)"
@@ -835,7 +982,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 13.0, 33.0, 23.0 ],
+					"patching_rect" : [ 355.0, 91.0, 33.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 347.0, 46.846040310859621, 33.0, 23.0 ],
 					"text" : "load"
@@ -860,7 +1007,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 166.0, 179.0, 22.0 ],
+					"patching_rect" : [ 491.0, 241.5, 179.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.865261912345886, 47.846040310859621, 326.134738087654114, 22.0 ],
 					"text" : "press load to import model file 1",
@@ -879,7 +1026,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 547.559294581413269, 587.70987991569109, 266.577639751552852, 167.0 ],
+					"patching_rect" : [ 723.0, 670.0, 266.577639751552852, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.291510999202728, 0.559644058346748, 392.574872225522995, 143.178922891616821 ],
 					"proportion" : 0.5
@@ -911,15 +1058,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 2 ],
-					"midpoints" : [ 262.5, 242.834891179811621, 176.833333333333343, 242.834891179811621 ],
+					"midpoints" : [ 242.5, 321.334891179811621, 156.833333333333343, 321.334891179811621 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 480.0, 69.5, 384.5, 69.5 ],
+					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -927,7 +1073,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 119.5, 418.703343629837036, 119.5, 418.703343629837036 ],
+					"midpoints" : [ 99.5, 497.203343629837036, 99.5, 497.203343629837036 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -956,7 +1102,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 2 ],
-					"midpoints" : [ 623.5, 385.235376616704798, 178.166666666666657, 385.235376616704798 ],
+					"midpoints" : [ 798.5, 463.735376616704798, 158.166666666666657, 463.735376616704798 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -964,7 +1110,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 119.5, 578.703343629837036, 119.5, 578.703343629837036 ],
+					"midpoints" : [ 99.5, 657.203343629837036, 99.5, 657.203343629837036 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -972,7 +1118,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 2 ],
-					"midpoints" : [ 1004.5, 535.834891179811621, 178.166666666666657, 535.834891179811621 ],
+					"midpoints" : [ 1396.5, 614.334891179811621, 158.166666666666657, 614.334891179811621 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -994,7 +1140,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 746.5, 100.630436658859253, 119.5, 100.630436658859253 ],
+					"midpoints" : [ 921.5, 179.130436658859253, 99.5, 179.130436658859253 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1002,7 +1148,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 757.0, 115.480993865763253, 623.5, 115.480993865763253 ],
+					"midpoints" : [ 932.0, 197.927915176141482, 798.5, 197.927915176141482 ],
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -1017,7 +1163,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 767.5, 158.5, 930.5, 158.5 ],
+					"midpoints" : [ 942.5, 240.946921310378229, 1246.5, 240.946921310378229 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1053,7 +1199,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 1128.5, 102.630436658859253, 119.5, 102.630436658859253 ],
+					"midpoints" : [ 1520.5, 181.130436658859253, 99.5, 181.130436658859253 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1061,7 +1207,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 1139.0, 109.480993865763253, 1004.5, 109.480993865763253 ],
+					"midpoints" : [ 1531.0, 191.927915176141482, 1396.5, 191.927915176141482 ],
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -1076,7 +1222,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
-					"midpoints" : [ 1149.5, 157.5, 1328.5, 157.5 ],
+					"midpoints" : [ 1541.5, 239.946921310378229, 1891.5, 239.946921310378229 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1119,7 +1265,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 405.5, 157.5, 565.5, 157.5 ],
+					"midpoints" : [ 385.5, 229.0, 660.5, 229.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1147,8 +1293,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-47", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 384.5, 106.130436658859253, 119.5, 106.130436658859253 ],
+					"midpoints" : [ 364.5, 184.630436658859253, 99.5, 184.630436658859253 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1163,7 +1323,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 395.0, 115.480993865763253, 262.5, 115.480993865763253 ],
+					"midpoints" : [ 375.0, 193.980993865763253, 242.5, 193.980993865763253 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -1178,7 +1338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 119.5, 276.703343629837036, 119.5, 276.703343629837036 ],
+					"midpoints" : [ 99.5, 355.203343629837036, 99.5, 355.203343629837036 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -1227,9 +1387,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 536.5, 147.0, 364.5, 147.0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 1 ],
+					"source" : [ "obj-67", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 1 ],
+					"source" : [ "obj-68", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"midpoints" : [ 858.5, 68.5, 746.5, 68.5 ],
-					"source" : [ "obj-64", 0 ]
+					"midpoints" : [ 1102.5, 150.75, 921.5, 150.75 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -1242,9 +1438,65 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-71", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 1 ],
+					"source" : [ "obj-74", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 1245.5, 68.5, 1128.5, 68.5 ],
-					"source" : [ "obj-72", 0 ]
+					"midpoints" : [ 1721.5, 149.5, 1520.5, 149.5 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-77", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
@@ -1375,6 +1627,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "get_object-coord.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lisp.edit.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/pw4m_modules",
@@ -1396,7 +1655,35 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "moz.detect2lisp.antenna.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.maxverbang.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.mouse-is-inside.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "moz.tosymbol.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moz.update-ui.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/MOZLib/patchers/utilities",
 				"type" : "JSON",

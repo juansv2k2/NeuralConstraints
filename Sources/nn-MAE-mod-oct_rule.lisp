@@ -1,7 +1,7 @@
 (lambda lst
   (let* (
           (mean-absolute-error
-           (snn:mean-absolute-error nn1
+           (snn:mean-absolute-error nn
              (list
                (normalize-binary
                  (apply #'vector

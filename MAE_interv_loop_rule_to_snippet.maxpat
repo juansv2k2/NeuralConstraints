@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2799.5, 70.0, 85.0, 20.0 ],
+					"text" : "model number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "model number (int)",
+					"id" : "obj-21",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2804.0, 95.500000953674316, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -450,7 +474,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "inputs/targets (two-int list)",
+					"comment" : "targets (int)",
 					"id" : "obj-388",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1014,7 +1038,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "inputs/targets (two-int list)",
+					"comment" : "nr of inputs (int)",
 					"id" : "obj-78",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1907,6 +1931,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}

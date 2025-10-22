@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 94.0, 1332.0, 989.0 ],
+		"rect" : [ 898.0, 94.0, 468.0, 989.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,178 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2795.0, 80.0, 85.0, 20.0 ],
+					"text" : "model number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "model number (int)",
+					"id" : "obj-34",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2799.0, 106.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2631.97197724382022, 225.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2617.0, 269.0, 117.0, 22.0 ],
+					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
+					"reg_data_count" : [ 1 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.reg @embed 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2799.0, 290.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2799.0, 202.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2799.0, 258.0, 71.0, 22.0 ],
+					"text" : "sprintf nn%i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 2799.0, 232.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 99.68726634979248, 16.23856694996357, 52.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.numbox[5]",
+							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
+					"varname" : "live.numbox[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2686.0, 384.0, 29.5, 22.0 ],
+					"text" : "nn1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "bang" ],
+					"patching_rect" : [ 2617.0, 301.000001311302185, 87.943954487641633, 22.0 ],
+					"text" : "t l b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2651.0, 384.0, 29.5, 22.0 ],
+					"text" : "nn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2617.0, 419.0, 123.200001835823059, 22.0 ],
+					"text" : "bach.replace"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"linecount" : 2,
@@ -76,7 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2504.600035667419434, 1504.0, 83.399964332580566, 22.0 ],
-					"text" : "a b c d e"
+					"text" : "a b c d e f g"
 				}
 
 			}
@@ -269,7 +441,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "inputs/targets (two-int list)",
+					"comment" : "targets (int)",
 					"id" : "obj-388",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -450,7 +622,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2522.400037586688995, 651.200009703636169, 79.0, 20.0 ],
+					"patching_rect" : [ 2618.0, 2.000001311302185, 79.0, 20.0 ],
 					"text" : "load LISP file"
 				}
 
@@ -870,7 +1042,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2468.800036787986755, 1062.400015830993652, 29.5, 22.0 ],
-					"text" : "e"
+					"text" : "g"
 				}
 
 			}
@@ -922,7 +1094,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2460.800036668777466, 1192.800017774105072, 66.0, 22.0 ],
-					"text" : "a b c d"
+					"text" : "a b c d e f"
 				}
 
 			}
@@ -967,7 +1139,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "inputs/targets (two-int list)",
+					"comment" : "inputs (int)",
 					"id" : "obj-78",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -1531,7 +1703,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2520.800037562847137, 674.400010049343109, 146.0, 93.0 ],
+					"patching_rect" : [ 2617.0, 25.000001311302185, 146.0, 93.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1543,7 +1715,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2521.0, 801.0, 117.0, 22.0 ],
+					"patching_rect" : [ 2617.0, 801.0, 117.0, 22.0 ],
 					"reg_data_0000000000" : [ "[", "lambda", "lst", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "input", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "target", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
@@ -1652,7 +1824,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2129.399999976158142, 1877.0, 117.0, 22.0 ],
-					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "a", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "b", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "c", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "a", "b", "c", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "g", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
+					"reg_data_0000000000" : [ "[", "lambda", "[", "a", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "a", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "b", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "c", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "d", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "[", "random", 127, "]", "a", "b", "c", "d", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "e", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "[", "random", 127, "]", "a", "b", "c", "d", "e", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "f", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]", "[", "lambda", "[", "a", "b", "c", "d", "e", "f", "g", "]", "[", "let*", "[", "[", "mean-absolute-error", "[", "snn:mean-absolute-error", "nn1", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "a", "b", "c", "d", "e", "f", "]", "]", "]", "]", "]", "]", "[", "list", "[", "normalize-binary", "[", "apply", "#'vector", "[", "patch-work::flat", "[", "midi-notes-to-flat-binary", "[", "list", "g", "]", "]", "]", "]", "]", "]", "]", "]", "[", "weight1", "[", "weight-from-mae", "mean-absolute-error", "]", "]", "]", "[", "print", "weight1", "]", "]", "]" ],
 					"reg_data_count" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
@@ -1739,7 +1911,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-361", 1 ],
-					"midpoints" : [ 2530.5, 838.400006324052811, 2403.200035810470581, 838.400006324052811 ],
+					"midpoints" : [ 2626.5, 838.400006324052811, 2403.200035810470581, 838.400006324052811 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1813,8 +1985,41 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 2808.5, 358.000001311302185, 2758.0, 358.000001311302185, 2758.0, 262.000001311302185, 2626.5, 262.000001311302185 ],
+					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"midpoints" : [ 2819.0, 371.171684771776199, 2706.0, 371.171684771776199 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-335", 0 ],
+					"midpoints" : [ 2808.5, 364.000000655651093, 2242.5, 364.000000655651093 ],
+					"order" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1837,6 +2042,27 @@
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 2451.100035667419434, 1486.25, 2514.100035667419434, 1486.25 ],
 					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1867,6 +2093,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 2 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1874,8 +2114,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-29", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -2004,6 +2279,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-341", 0 ],
 					"source" : [ "obj-339", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -2205,7 +2487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 2384.900035679340363, 785.20000559091568, 2530.5, 785.20000559091568 ],
+					"midpoints" : [ 2384.900035679340363, 785.20000559091568, 2626.5, 785.20000559091568 ],
 					"source" : [ "obj-376", 2 ]
 				}
 
@@ -2332,7 +2614,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2743,6 +3025,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-25" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-334" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-335" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-46" : [ "live.tab[4]", "live.tab[1]", 0 ],
