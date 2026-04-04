@@ -1,3 +1,4 @@
+# Lisp compiled files
 *.FASL
 *.fasl
 *.lisp-temp
@@ -15,14 +16,69 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
-.DS_Store
-
-# Tmp files
-*~
-
-# Compiled files
 *.clufasl
 
 # System files
 .DS_Store
-.DS_Store
+*~
+
+# Datasets and large files - exclude but keep archived folders
+Datasets/
+Models/
+*.mid
+*.midi
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated dataset files
+*-jazz-dataset.lisp
+*-jazz-dataset.json
+*-enhanced-*.lisp
+*-enhanced-*.json
+full-*.lisp
+full-*.json
+complete_jazz_dataset.json
+comprehensive_jazz_dataset.json
+
+# Large processed files
+*.json
+!README.json
+!package.json
+!*_small.json
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+dataset-summary.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep these archived folders for future reference
+# JS files (deprecated)/
+# Tests OLD/ 
+# Patchers OLD/

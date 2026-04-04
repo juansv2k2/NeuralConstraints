@@ -9,6 +9,26 @@ NeuralConstraints is a suite of computer-assisted composition tools that integra
 - **Neural Network Integration**: Leverages feedforward neural networks trained on symbolic data for generative tasks in Max.
 - **Constraint-Based Framework**: Provides a rule-based compositional system with advanced backtracking capabilities.
 - **Symbolic Neural Generation**: Facilitates symbolic music generation with enhanced control.
+- **Jazz Dataset Processing**: Enhanced preprocessing pipeline for the Weimar Jazz Database with cluster-engine compatibility.
+
+## Key Files
+
+- **jazz_preprocessor.py**: Enhanced Python preprocessor for the Weimar Jazz Database
+- **jazz-harmony-converter.lisp**: Jazz chord symbol to scale degree converter
+- **full-enhanced-jazz-dataset.lisp**: Complete processed jazz dataset (cluster-engine format)
+- **full-enhanced-jazz-dataset.json**: Complete processed jazz dataset (JSON format)
+
+## Dataset Processing
+
+The enhanced jazz preprocessing pipeline converts the Weimar Jazz Database into cluster-engine compatible format with the following enhancements:
+
+- **Musical timing**: Proper beat positions instead of arbitrary time stamps
+- **Enhanced mod-octave**: Pitch class + octave number representation
+- **Quantized rhythms**: Standard musical note values (1/4, 1/8, 1/2, etc.)
+- **Harmonic context**: Jazz chord symbols converted to numerical scale degree collections
+- **Metric structure**: Bar and beat positions for constraint satisfaction
+
+Run `python3 jazz_preprocessor.py` to generate enhanced datasets from the jazz database.
 
 ## Dependencies
 
